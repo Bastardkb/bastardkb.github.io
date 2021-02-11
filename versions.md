@@ -79,6 +79,10 @@ V2.0:
 
 - Add per-key RGB
 
+V1.31:
+
+- Silk screen changes
+
 V2.3:
 
 - Small routing fixes
