@@ -79,14 +79,15 @@ V2.0:
 
 - Add per-key RGB
 
-V1.31:
-
-- Silk screen changes
-
 V2.3:
 
 - Small routing fixes
 - Make bottom mousebites stronger
+
+
+V2.41:
+
+- Silk screen changes
 
 ## Flexyl - Dactyl Manuform Mini
 
