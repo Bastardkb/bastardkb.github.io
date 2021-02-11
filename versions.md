@@ -183,3 +183,7 @@ V1.1:
 V1.0
 
 - Initial release
+
+V2.0
+
+- Add per key rgb
