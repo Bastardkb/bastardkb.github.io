@@ -75,6 +75,11 @@ V1.2:
 - Added mousebites for easier break-off
 - Separated 5-wire and 6-wire connectors
 
+
+V1.31:
+
+- Silkscreen work
+
 V2.0:
 
 - Add per-key RGB
