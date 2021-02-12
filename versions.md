@@ -75,6 +75,11 @@ V1.2:
 - Added mousebites for easier break-off
 - Separated 5-wire and 6-wire connectors
 
+
+V1.31:
+
+- Silkscreen work
+
 V2.0:
 
 - Add per-key RGB
@@ -83,6 +88,11 @@ V2.3:
 
 - Small routing fixes
 - Make bottom mousebites stronger
+
+
+V2.41:
+
+- Silk screen changes
 
 ## Flexyl - Dactyl Manuform Mini
 
@@ -173,3 +183,7 @@ V1.1:
 V1.0
 
 - Initial release
+
+V2.0
+
+- Add per key rgb
