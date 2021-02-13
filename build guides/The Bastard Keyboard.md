@@ -1,14 +1,13 @@
 ---
 layout: default
-title: Bastyl (per-key RGB)
+title: Bastard Keyboard
 parent: Build guides
 ---
 
-
-## Bastyl DIY Kit Build guide
+## Bastard Keyboard DIY Kit Build guide
 
 This guide is meant to help you go
-through a quick and easy build of the Bastyl. Feel free to give us feedback.
+through a quick and easy build of the Bastard Keyboard. Feel free to give us feedback.
 
 ## Kit contents
 
@@ -46,14 +45,6 @@ There are 12 screw inserts to install, 6 on each side of the keyboard
 
 ![Figure 2](./images/insert3.PNG)
 
-## Soldering the components on the boards
-
-- Make sure you prepare one "left", and one "right of each PCB
-- All components and cables should be soldered on the same side
-
-
-![Figure 2](./images/compo.JPG)
-
 ## Diodes
 
 **Pay attention to the orientation of the PCBs: you need two "right", and two "left"**
@@ -61,64 +52,12 @@ There are 12 screw inserts to install, 6 on each side of the keyboard
 - Solder all the diodes on the four PCBs (flexyls and thumb clusters)
 - Check the orientation of the diodes: use the indications on the PCB
 
-## RGB Components
-
-First you need to install all the SMD components on the PCBs. Make sure you have one "`left` and one `right` of each one.
-Cut away the supports using the mousebites.
-
-Start by installing the 4 [Resistors](){: .btn .btn-blue} resistors and 4 [Capacitors](){: .btn .btn-green} :
-
-
-![Figure 2](./images/rgb_RC.png)
-
-- Install and solder all the leds
-- Make sure they are face down, and pushed in the hole up until the end
-- Make sure they are aligned properly - the shortest pin should align with the white dot indicator (Gnd)
-- Make sure they're soldered on the same side as the resistors and capacitors
-
-![Figure 2](./images/rgb_led.png)
-
-- Install and solder all the diodes
-- Use the bat54C (with 3 pins) for the main plates
-- Use the sod123 (2 pins) for the thumb clusters
-- Make sure they're soldered on the same side as the leds
-
-Here's a few tips to install the diodes:
-
-- Using a soldering iron, put some soldering tin on one pad
-- Using pliers, install the diode, with one of its pins on top of the pad
-- Melt the soldering tin, while still holding the diode in place. The soldering tin will "melt around" the diode's pin
-- Once the solder melted, remove the soldering iron. Do not let go of the diode until the soldering tin is solid again
-- After the soldering tin has solidified, you can let go of the diode
-- The diode should now not move at all
-- Solder the other pad(s)
-
-
 ## Ribbon cables
 
 Cut the ribbon cables using scissors or a cutter:
 
 - 4 * ribbons of 6 cables
 - 2 * ribbons of 5 cables
-- 2 * ribbons of 3 cables
- 
-Connect the plates:
-
-- Solder a 3-cable ribbon cable on the thumb cluster PCB's bottom RGB pins (with Dout)
-- Solder the other end on the main plate's bottom RGB pins
-- **The cables should come out on the same side as all the other components**
-- Make sure you connect the Flexyl "Right" with the thumb cluster "Right", and the "Left" with the "Left"
-
-![Figure 2](./images/rgb_ribbons.png)
-
-
-Prepare the main plate's cables:
-
-- Solder a black cable to the plate's Gnd
-- Solder a colored cable to the plate's Din
-- **Do not solder the red cable to Vcc**
-
-![Figure 2](./images/rgb5.png)
 
 Install the Thumb cluster:
 
@@ -163,30 +102,6 @@ Install the Flexyl:
 ![Figure 2](./images/IMG_20201020_135029.jpg)
 
 
-Connnect the main plate's cables:
-
-- Solder the other end of the black cable to the MCU's gnd
-- Solder the other end of the colored cable to the MCU's D2 pin
-
-![Figure 2](./images/rgb6.png)
-
-
-## Install the audio jack
-
-- Solder 4 cables to audio jack: 2 red, one black, one colored. Their position is not important, as long as it's the same on both sides. **Do not solder to the MCU yet.**
-- Install the heat shrink wrap and shrink it with a heat gun or a lighter
-- Screw audio jack into case
-- (Optional) add a bit of hot glue to the jack so it holds better. **Only do so in the indicated position**, so it won't interfere with installation of the MCU
-- Solder cables to the MCU (Blinky or Elite-C): black to GND, red to the Vcc of the switch plate, blue to D0
-- Solder the red cable to the main plate's Vcc
-
-![Figure 2](./images/rgb7.png)
-
-![Figure 2](./images/mont3.png)
-
-## Test the RGB
-
-Connect your keyboard to the computer, and check that all the LEDs light up. If some of them don't, they might need resoldering.
 
 ## Install the switches
 
@@ -208,6 +123,43 @@ Connect your keyboard to the computer, and check that all the LEDs light up. If 
 
 
 ![Figure 2](./images/mont1.png)
+
+## Install the RGB Plate
+
+If you have a midplate RGB PCB, follow those instructions. Otherwise, skip to [Install the audio jack](#install-the-audio-jack).
+
+### Preparing the RGB Plate
+
+- Be careful about orientation: there's one left, and one right PCB
+- Solder the resistor (R), and the capacitor (C)
+- On the same side, solder the leds, facing down towards the table. **The white indicators are for the Gnd, and should be aligned with the shorter pin of the leds**
+- Solder 3 cables to each plate: red to Vcc, black to Gnd, green to Din. The cables should come out on the same side that the components are soldered
+
+### Prepare and install the audio jack
+
+The cables need to be soldered in a very specific way. Use the diagram below for help.
+
+- Solder cables to audio jack. Their position is not important, as long as it's the same on both sides. **Do not solder to the MCU yet.**
+- Install the heat shrink wrap and shrink it with a heat gun or a lighter
+- Screw audio jack into case
+- (Optional) add a bit of hot glue to the jack so it holds better. **Only do so in the indicated position** (see picture in [Install the audio jack](#install-the-audio-jack)), so it won't interfere with installation of the MCU
+- Solder cables from the audio jack to the RGB plate: red to Vcc
+- Solder cables from the audio jack to the MCU: black to gnd, blue to D0
+- Solder cables from the RGB plate to the MCU: black for Gnd, red for Vcc, green for Din/D2
+
+![Figure 2](./images/rgb.png)
+
+You can now skip to [Test the keyboard](#test-the-keyboard)
+
+## Install the audio jack
+
+- Solder cables to audio jack. Their position is not important, as long as it's the same on both sides. **Do not solder to the MCU yet.**
+- Install the heat shrink wrap and shrink it with a heat gun or a lighter
+- Screw audio jack into case
+- (Optional) add a bit of hot glue to the jack so it holds better. **Only do so in the indicated position**, so it won't interfere with installation of the MCU
+- Solder cables to the MCU (Blinky or Elite-C): black to GND, red to Vcc, blue to D0
+
+![Figure 2](./images/mont2.png)
 
 ## Test the keyboard
 
@@ -239,5 +191,11 @@ If you're going to flash your own version of QMK, make sure that there's a RESET
 - If necessary, very gently push so the USB-C fits into the hole
 - **Do not overtighten**. Screw in until it feels secure
 - Insert the rest of the screws
+
+If the adapter's USB port does not line up perfectly, try to:
+
+- Unscrew the adapter's 2 screws by one turn
+- Install the plates and align the usb port
+- Screw in completely the adapter
 
 

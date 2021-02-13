@@ -5,7 +5,7 @@ title: Frequently Asked Questions
 
 ## Is your design based on the Dactyl ?
 
-Yes, our Bastyls use the same key placement as the Dactyl.
+Yes, our Bastard Keyboards use the same key placement as the Dactyl.
 
 This way, our PCBs can also be used for Dactyl-like keyboards, if you don't want to get a full Kit.
 
@@ -20,7 +20,7 @@ Check our [Github page](https://github.com/HID-Technologies).
 
 ## Can I buy just the case?
 
-The Bastyl kit is meant as a tight, controlled experience. Selling the case without the PCBs and everything that goes around it doesn't make sense.
+The Bastard Keyboard kit is meant as a tight, controlled experience. Selling the case without the PCBs and everything that goes around it doesn't make sense.
 
 We want all our customers to have a great build experience, and going with handwire is not part of it.
 

@@ -4,7 +4,7 @@ title: Material versions
 nav_order: 1
 ---
 
-## Bastyl Mini
+## TBK Mini
 
 V1.0:
 
@@ -19,7 +19,7 @@ V1.2:
 
 - MCU holder screw holes closer to case wall
 
-## Bastyl 
+## Bastard Keyboard 
 
 V1.0:
 
@@ -52,13 +52,13 @@ V1.33:
 
 - Fix minor print artifacts
 
-## Flexyl - Bastyl Mini 
+## Flexyl - Bastard Keyboard Mini 
 
 V1.1:
 
 - initial release
 
-## Flexyl - Bastyl
+## Flexyl - Bastard Keyboard
 
 V1.0:
 
@@ -98,7 +98,7 @@ V2.41:
 
 V1.0:
 
-- Initial release, same as the Bastyl one
+- Initial release, same as the Bastard Keyboard one
 
 V1.1:
 
@@ -135,7 +135,7 @@ V1.4:
 - Better indications on pcb
 
 
-## Flexyl-Universal
+## Flexyble PCB
 
 V1.0:
 
