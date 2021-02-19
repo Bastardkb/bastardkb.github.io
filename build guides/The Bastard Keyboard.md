@@ -199,3 +199,6 @@ If the adapter's USB port does not line up perfectly, try to:
 - Screw in completely the adapter
 
 
+## Get your serial number
+
+You're all set, congratulations ! Head over to [old.reddit.com/r/bastardkb/](old.reddit.com/r/bastardkb/) and post a picture of your build to get a serial number !

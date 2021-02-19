@@ -241,3 +241,6 @@ If you're going to flash your own version of QMK, make sure that there's a RESET
 - Insert the rest of the screws
 
 
+## Get your serial number
+
+You're all set, congratulations ! Head over to [old.reddit.com/r/bastardkb/](old.reddit.com/r/bastardkb/) and post a picture of your build to get a serial number !
