@@ -206,10 +206,10 @@ Install the Flexyl:
 | MCU  | Flexyl PCB |
 | ------------- | ------------- |
 | C6 | C3  |
-| D7  | R1  |
+| D7  | X  |
 | E6  |  C2 |
 | B4  | C1  |
-| B5  | R2  |
+| B5  | R1  |
 
 
 - Solder a 6-cable ribbon cable to the bottom part of the top connector of the Flexyl (R4 ... R5)
@@ -218,12 +218,12 @@ Install the Flexyl:
 
 | MCU  | Flexyl PCB |
 | ------------- | ------------- |
-| F6 | R4  |
-| F7  | R3  |
+| F6 | R3  |
+| F7  | R2  |
 | B1  |  C4 |
 | B3  | C5  |
 | B2  | C6  |
-| B6  | R5  |
+| B6  | R4  |
 
 
 ![Figure 2](./images/rgb12.jpg)
