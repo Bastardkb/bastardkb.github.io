@@ -270,7 +270,7 @@ If you're going to flash your own version of QMK, make sure that there's a RESET
 - Make sure the USB port and audio jack align. If you followed instructions carefully, they will
 - If they do not, desolder a few pins of the audio jack and move it around
 
-![Figure 2](./images/installfinal.jpg)
+![Figure 2](./images/1234.png)
 
 ## Install the plates
 
