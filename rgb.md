@@ -23,8 +23,8 @@ If you want to modify it, here's a few things you need to modify in your `config
 
 ### TBK
 
-![](./images/keymaps/tbk/1.jpg)
-![](./images/keymaps/tbk/2.jpg)
-![](./images/keymaps/tbk/3.jpg)
+![](./images/keymaps/tbk/1.JPG)
+![](./images/keymaps/tbk/2.JPG)
+![](./images/keymaps/tbk/3.JPG)
 
 
