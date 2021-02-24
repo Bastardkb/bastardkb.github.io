@@ -18,3 +18,13 @@ If you want to modify it, here's a few things you need to modify in your `config
 #define RGBLED_NUM 58
 #define RGBLIGHT_LIMIT_VAL 100
 ```
+
+## Default keymaps
+
+### TBK
+
+![](./images/keymaps/tbk/1.jpg)
+![](./images/keymaps/tbk/2.jpg)
+![](./images/keymaps/tbk/3.jpg)
+
+
