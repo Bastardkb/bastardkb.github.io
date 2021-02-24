@@ -26,16 +26,16 @@ If you want to modify it, you can clone qmk and modify the folder `keyboards/bas
 
 ## Quick links
 
-Website: https://bastardkb.com/
+Website: [https://bastardkb.com/](https://bastardkb.com/)
 
-Discord: https://bastardkb.com/discord
+Discord: [https://bastardkb.com/discord](https://bastardkb.com/discord)
 
-Github: github.com/bastardkb/
+Github: [https://github.com/bastardkb/](https://github.com/bastardkb/)
 
-Youtube channel: https://www.youtube.com/channel/UC2yitP8oH86YBRVU4anycoA
+Youtube channel: [https://www.youtube.com/channel/UC2yitP8oH86YBRVU4anycoA](https://www.youtube.com/channel/UC2yitP8oH86YBRVU4anycoA)
 
-Instagram: https://www.instagram.com/bastardkeyboards
+Instagram: [https://www.instagram.com/bastardkeyboards](https://www.instagram.com/bastardkeyboards)
 
-Twitter: https://twitter.com/bstiqco
+Twitter: [https://twitter.com/bstiqco](https://twitter.com/bstiqco)
 
 
