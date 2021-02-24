@@ -16,3 +16,5 @@ Github: github.com/bastardkb/
 Youtube channel: https://www.youtube.com/channel/UC2yitP8oH86YBRVU4anycoA
 
 Instagram: https://www.instagram.com/bastardkeyboards
+
+Twitter: https://twitter.com/bstiqco
