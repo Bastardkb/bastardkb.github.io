@@ -46,11 +46,16 @@ V1.22:
 
 V1.3:
 
-- Use the new MCU adapter PCB
+- Use the new MCU adapter PCB for prebuilts
 
 V1.33:
 
 - Fix minor print artifacts
+
+V1.34:
+
+- Use the new MCU adapter PCB for kits
+
 
 ## Flexyl - Bastard Keyboard Mini 
 
