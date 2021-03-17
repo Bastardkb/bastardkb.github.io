@@ -56,6 +56,16 @@ V1.34:
 
 - Use the new MCU adapter PCB for kits
 
+V1.4:
+
+- better fit for the audio jack
+- fix a keycap scratching on 3rd column, right side
+- attach MCU adapter inside case on prebuilts (rather than on plate)
+
+V1.44:
+- attach MCU adapter inside case on DIY Kits
+- add one more screw on each side (total 7 screws holding the plate)
+
 
 ## Flexyl - Bastard Keyboard Mini 
 
