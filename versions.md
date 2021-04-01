@@ -66,6 +66,10 @@ V1.44:
 - attach MCU adapter inside case on DIY Kits
 - add one more screw on each side (total 7 screws holding the plate)
 
+V1.45:
+
+- change the type of screw inserts, bigger ones
+
 
 ## Flexyl - Bastard Keyboard Mini 
 
