@@ -47,3 +47,7 @@ callouts:
   warning:
     title: Warning
     color: red
+callouts:
+  note:
+    title: Note
+    color: grey-lt

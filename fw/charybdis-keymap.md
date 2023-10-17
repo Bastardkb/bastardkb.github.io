@@ -87,39 +87,39 @@ The Charybdis firmware comes with a number of custom keycodes related to feature
 
 ## Firmware configuration
 
-> **Note** <br/>
-> This requires a firmware update.
+{: .note }
+This requires a firmware update.
 
 The following section explains how to update the firmware source code to fine-tune your experience. This requires a functional development environment for QMK (https://docs.qmk.fm/#/newbs) and, ideally, some prior experience in computer science and the C programming language.
 
 ### Changing dynamic DPI scaling default and increment values
 
-> **Note** <br/>
-> This requires a firmware update.
+{: .note }
+This requires a firmware update.
 
 ### Auto sniping on layer
 
-> **Note** <br/>
-> This requires a firmware update.
+{: .note }
+This requires a firmware update.
 
 ### Auto pointer layer
 
-> **Note** <br/>
-> This requires a firmware update.
+{: .note }
+This requires a firmware update.
 
 ### X/Y axis inversion
 
-> **Note** <br/>
-> This requires a firmware update.
+{: .note }
+This requires a firmware update.
 
 ### Extended mouse reports
 
-> **Note** <br/>
-> This requires a firmware update.
+{: .note }
+This requires a firmware update.
 
 By default, QMK reports the pointing device movement using numbers between `-127` and `128`.
 
 ### Configuration sync between each half
 
-> **Note** <br/>
-> This requires a firmware update.
+{: .note }
+This requires a firmware update.
