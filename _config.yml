@@ -3,7 +3,6 @@ description: A compilation of all Bastard Keyboards documentations.
 
 markdown: kramdown
 
-# theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
 
 exclude:
@@ -12,9 +11,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - _site/
+  - building-locally.md
 
 plugins:
   - jekyll-default-layout
+  - jekyll-remote-theme
 
 # Aux links for the upper right navigation
 aux_links:
