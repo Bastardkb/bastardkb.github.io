@@ -1,2 +1,38 @@
+title: Bastard Keyboards Documentation
+description: A compilation of all Bastard Keyboards documentations.
+theme: just-the-docs
+
 markdown: kramdown
+
 remote_theme: pmarsceill/just-the-docs
+
+exclude:
+  - .jekyll-cache
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - _site/
+
+plugins:
+  - jekyll-default-layout
+
+# Aux links for the upper right navigation
+aux_links:
+  "Bastard Keyboards on GitHub":
+    - "https://github.com/bastardkb"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# Sort order for navigation links
+# nav_sort: case_insensitive # default, equivalent to nil
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# External navigation links
+nav_external_links:
+  - title: Bastard Keyboards on GitHub
+    url: https://github.com/bastardkb
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"

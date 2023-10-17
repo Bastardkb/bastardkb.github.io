@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Getting Started
+title: Home
 nav_order: 1
+has_children: true
+permalink: /
 ---
 
-* TOC {:toc}
+1. TOC
+{:toc}

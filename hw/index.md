@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Getting Started
-nav_order: 1
+title: Hardware
+nav_order: 2
+has_children: true
 ---
 
-* TOC {:toc}
+1. TOC
+{:toc}

@@ -1,3 +1,13 @@
+---
+layout: default
+title: RP2040 Controllers
+nav_order: 1
+parent: Hardware
+---
+
+1. TOC
+{:toc}
+
 ## BKB standard
 
 The "BKB standard" is a standard pinout that was defined by a committee of designers on the BastardKB Discord server when the first RP2040 were created in 2022.
