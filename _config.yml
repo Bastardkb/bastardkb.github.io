@@ -1,8 +1,10 @@
 title: Bastard Keyboards Documentation
 description: A compilation of all Bastard Keyboards documentations.
-theme: just-the-docs
 
 markdown: kramdown
+
+# theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 exclude:
   - .jekyll-cache
