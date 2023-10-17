@@ -42,3 +42,7 @@ callouts:
   tip:
     title: Tip
     color: blue
+callouts:
+  warning:
+    title: Warning
+    color: red
