@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MAX build guide
-nav_order: 6
+nav_order: 7
 parent: Dilemma Build guides
 ---
 
