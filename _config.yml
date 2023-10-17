@@ -11,6 +11,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - _site/
+  - building-locally.md
 
 plugins:
   - jekyll-default-layout
