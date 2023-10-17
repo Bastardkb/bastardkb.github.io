@@ -4,8 +4,6 @@ theme: just-the-docs
 
 markdown: kramdown
 
-remote_theme: pmarsceill/just-the-docs
-
 exclude:
   - .jekyll-cache
   - gemfiles/
