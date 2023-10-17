@@ -39,6 +39,6 @@ back_to_top_text: "Back to top"
 
 # Nice boxes for visibility
 callouts:
-  warning:
-    title: tip
+  tip:
+    title: Tip
     color: blue
