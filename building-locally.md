@@ -1,4 +1,4 @@
-#Building locally
+# Building locally
 
 To build locally to preview changes, instally ruby and ruby-bundler, change directory into the cloned repository, and ```bundle install``` to fetch all necessary parts.
 
