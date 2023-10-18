@@ -1,1 +1,1 @@
-dilemma v2: revamp rgb part, like charybdis
+dilemma v2: revamp RGB part, like Charybdis

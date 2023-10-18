@@ -9,7 +9,7 @@ Before starting the build, check that you have all the required tools:
 
 - Soldering iron
 - Soldering tin
-- M3 torx screw driver (a flat head will also work)
+- M3 Torx screw driver (a flat head will also work)
 
 Optional:
 
