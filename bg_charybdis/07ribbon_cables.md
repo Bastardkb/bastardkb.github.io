@@ -138,10 +138,6 @@ Identify the bottom ribbon cable: it has 6 cables, that's the one we will connec
 ![](../assets/pics/guides/charybdis/43.jpg)
 
 
-Install the RGB cables
-
-If you are building with RGB, refer to this guide:
-
 # Install the RGB cables
 
 // TODO
