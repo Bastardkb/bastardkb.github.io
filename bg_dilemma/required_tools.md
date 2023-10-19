@@ -2,7 +2,7 @@
 layout: default
 title: Required tools
 nav_order: 2
-parent: Buid guides - Dilemma
+parent: Build guides - Dilemma
 ---
 
 Before starting the build, check that you have all the required tools:

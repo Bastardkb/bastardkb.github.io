@@ -2,7 +2,7 @@
 layout: default
 title: Case installation
 nav_order: 6
-parent: Buid guides - Dilemma
+parent: Build guides - Dilemma
 ---
 
 # Table of contents

@@ -2,7 +2,7 @@
 layout: default
 title: Installing the SMD components
 nav_order: 5
-parent: Buid guides - Charybdis
+parent: Build guides - Charybdis
 ---
 
 # Table of contents

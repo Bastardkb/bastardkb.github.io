@@ -2,7 +2,7 @@
 layout: default
 title: Required tools
 nav_order: 3
-parent: Buid guides - Charybdis
+parent: Build guides - Charybdis
 ---
 
 Before starting the build, check that you have all the required tools:

@@ -2,7 +2,7 @@
 layout: default
 title: Introduction
 nav_order: 2
-parent: Buid guides - Charybdis
+parent: Build guides - Charybdis
 ---
 
 In this section you will find how to build your Charybdis keyboard.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Buid guides - Dilemma
+title: Build guides - Dilemma
 nav_order: 3
 has_children: true
 ---

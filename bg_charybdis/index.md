@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Buid guides - Charybdis
-nav_order: 1
+title: Build guides - Charybdis
+nav_order: 2
 has_children: true
 ---
 
