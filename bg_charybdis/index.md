@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Dilemma Build guides
-nav_order: 3
+title: Buid guides - Charybdis
+nav_order: 1
 has_children: true
 ---
 

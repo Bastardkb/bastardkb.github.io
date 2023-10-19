@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Required tools
-nav_order: 2
-parent: Dilemma Build guides
+nav_order: 3
+parent: Buid guides - Charybdis
 ---
 
 Before starting the build, check that you have all the required tools:
@@ -10,6 +10,7 @@ Before starting the build, check that you have all the required tools:
 - Soldering iron
 - Soldering tin
 - M3 Torx screw driver (a flat head will also work)
+- M4 Torx screw driver (a flat head will also work)
 
 Optional:
 
