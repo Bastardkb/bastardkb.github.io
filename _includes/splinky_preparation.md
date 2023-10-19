@@ -20,7 +20,7 @@ You will need to prepare one "right" shield pcb, and one "left" - use the legend
 We will start with preparing the left side, and after that do the right side
 
 # Left side
-# Left side - Required parts
+## Left side - Required parts
 
 ![](../assets/pics/guides/splinky/1.jpg)
 
