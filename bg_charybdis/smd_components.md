@@ -23,7 +23,7 @@ We will start by installing the diodes, and at the end of this section install t
 
 # Right side - Plate - required parts
 
-![](/guide-media/01H4NST3ENJ1CBEBJD1S7RWSWY)
+![](../assets/pics/guides/charybdis/9.jpg)
 
 **For the following step, please prepare:**
 
@@ -39,7 +39,7 @@ If you have RGB with your kit, you can set the capacitors, resistors and LEDs as
 -   Place the plate PCB on your working surface, and make sure the "RIGHT" label is visible.
 -   Use the picture below for reference.
 
-![](/guide-media/01H4NJHSK7FHVG0X3B9561E3GW)
+![](../assets/pics/guides/charybdis/10.jpg)
 
 
 {: .tip }
@@ -54,25 +54,25 @@ In the following section, we detail some tips on how to install diodes. You can 
 
 -   Using a soldering iron, put some soldering tin on one pad
 
-![](/guide-media/01H4NM7SE9YEPJ0XQ9X9QCB8EZ)
+![](../assets/pics/guides/charybdis/11.jpg)
 
 -   Using tweezers, install the diode, with one of its pins on top of the pad you just tinned
 -   Melt the soldering tin, while still holding the diode in place. The soldering tin will "melt around" the diode's pin
 
-![](/guide-media/01H4NM97K7WPYY6WKDKGS2SH34)
+![](../assets/pics/guides/charybdis/12.jpg)
 
 -   Once the solder melted, remove the soldering iron
 -   **Do not let go of the diode until the soldering tin is solid again**
 -   After the soldering tin has solidified, you can let go of the diode
 -   The diode should now not move at all-   Solder the two other pads
 
-![](/guide-media/01H4NMA1326J9KR2JT7P3BPY9E)
+![](../assets/pics/guides/charybdis/13.jpg)
 
 Do the same for the 12 diodes.
 
 # Right side - thumb cluster - required parts
 
-![](/guide-media/01H4NGT7B9TKW755G7BNX9JT6H)
+![](../assets/pics/guides/charybdis/14.jpg)
 
 **For the following step, please prepare:**
 
@@ -87,7 +87,7 @@ If you are preparing a left-handed Charybdis, use the 5-key thumb cluster PCB in
 -   Place the plate PCB on your working surface, and make sure the "RIGHT" label is visible
 -   Use the picture below for reference.
 
-![](/guide-media/01H4NJFYVZM3AFCZTEK6VD98GK)
+![](../assets/pics/guides/charybdis/15.jpg)
 
 # Right side - thumb cluster - installing the diodes
 
@@ -100,18 +100,18 @@ These diodes need to be installed in a specific way, or they will not work ! **R
 -   This line needs to be aligned with the white markers on the PCBs
 -   **If you do not align them, the keys will not work**
 
-![](/guide-media/01H4NSY3WFGM9JFNBKEGD8E08Z)
+![](../assets/pics/guides/charybdis/16.jpg)
 
 -   Use the same method as previously to install the diodes
 -   Take care to align the line with the marks on the PCB
 
-![](/guide-media/01H4NTGCT8N32MPDN7Y028WM6B)
+![](../assets/pics/guides/charybdis/17.jpg)
 
 # Left side - Plate - required parts
 
 Now that we finished preparing the right side, we will continue and prepare the **left side**.
 
-![](/guide-media/01H4NSRKSM8C933P2SCWC1Q3JR)
+![](../assets/pics/guides/charybdis/18.jpg)
 
 **For the following step, please prepare:**
 
@@ -123,7 +123,7 @@ Now that we finished preparing the right side, we will continue and prepare the 
 -   Place the plate PCB on your working surface, and make sure the "LEFT" label is visible
 -   Use the picture below for reference.
 
-![](/guide-media/01H4NJGTXA93HV42VS0ZGXKC4P)
+![](../assets/pics/guides/charybdis/19.jpg)
 
 From now on, we will refer to this plate as the "Left PCB".
 
@@ -133,7 +133,7 @@ Just like previously, install the 3-legged diodes.
 
 # Left side - thumb cluster - required parts
 
-![](/guide-media/01H4NH0VYJXZQJQ9XDG93J0P2W)
+![](../assets/pics/guides/charybdis/20.jpg)
 
 **For the following step, please prepare:**
 
@@ -148,7 +148,7 @@ If you are preparing a left-handed Charybdis, use the 3-key thumb cluster PCB in
 -   Place the plate PCB on your working surface, and make sure the "LEFT" label is visible
 -   Use the picture below for reference.
 
-![](/guide-media/01H4NJE6M6TP6C5HG44VXRBN2T)
+![](../assets/pics/guides/charybdis/21.jpg)
 
 # Left side - thumb cluster - installing the diodes
 
@@ -159,7 +159,7 @@ Just like previously, install the 2-legged diodes.
 {: .tip }
 In this step, we will install the per-key RGB components. If you don't have any in your kit, skip this step.
 
-![](/guide-media/01H54V8C8RSJD21NMPBFMRHXKY)
+![](../assets/pics/guides/charybdis/22.jpg)
 
 **For the following step, please prepare:**
 
@@ -169,7 +169,7 @@ In this step, we will install the per-key RGB components. If you don't have any 
 
 The resistors and capacitors need to be installed on the 4 PCBs in the same way as we did the diodes previously.
 
-![](/guide-media/01H54VPP69P8F6SZHZFS66B18H)
+![](../assets/pics/guides/charybdis/23.jpg)
 
 On each PCB, there is one **Resistor** (red arrow, left on the picture) and one **Capacitor** (blue arrow, right on the picture) footprint. You can identify them with the R and C letters.
 
@@ -180,13 +180,13 @@ You can use the same soldering technique as we used for the diodes earlier.
 
 Use the below pictures for guidance - note **the resistors and capacitors are installed on the same side as the diodes.**
 
-![](/guide-media/01H54VRC96RWSB7RE59V099GA0)
+![](../assets/pics/guides/charybdis/24.jpg)
 
-![](/guide-media/01H54VS2P8RZV88DTSSXRH3QXT)
+![](../assets/pics/guides/charybdis/25.jpg)
 
 # RGB Components - LEDs (optional)
 
-![](/guide-media/01H557GPNXMP23XWRSJZ8K310W)
+![](../assets/pics/guides/charybdis/26.jpg)
 
 **For the following step, please prepare:**
 
@@ -197,11 +197,11 @@ Use the below pictures for guidance - note **the resistors and capacitors are in
 {: .warning }
 The LEDs need to be installed in a very specific way. Read the following instructions carefully **first**, and then install them. **If you don't, they will not work !** 
 
-![](/guide-media/01H557SEC2R1KFFG7PZTED7EG1)
+![](../assets/pics/guides/charybdis/27.jpg)
 
 Inspect the LED: there is one of the pins that has a slight chamfer in it. The plastic casing also has an indent. This is the GROUND pin. 
 
-![](/guide-media/01H557XA0185D19HKMV395Q0A2)
+![](../assets/pics/guides/charybdis/28.jpg)
 
 Inspect the PCBs: for each LED footprint, there is one pin that has a white line next to it.
 
@@ -211,7 +211,7 @@ Inspect the PCBs: for each LED footprint, there is one pin that has a white line
 {: .warning }
 The LEDs are sensitive to heat. Stay at most 2 seconds on each pad. If that doesn't work, try slowly increasing the temperature of your soldering iron.
 
-![snip.PNG](/guide-media/01H55AAHTNT1APGW3Q62SB1B7M)
+![](../assets/pics/guides/charybdis/29.jpg)
 
 -   Install the LEDs on the same side as the other SMD components
 -   Solder them pad by pad
