@@ -53,3 +53,5 @@ LEDs
 PCB
 PCBs
 Nano
+SMD
+md
