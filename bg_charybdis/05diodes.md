@@ -20,7 +20,8 @@ We will start by installing the diodes. If you have per-key RGB the components f
 There are 2 sides of the keyboard: left, and right. **All the PCBs are reversible, so make sure to follow the steps carefully** to make sure you're installing the components correctly.
 
 
-# Right side - Plate - required parts
+# Right side - Plate
+## Required parts
 
 ![](../assets/pics/guides/charybdis/9.jpg)
 
@@ -29,7 +30,7 @@ There are 2 sides of the keyboard: left, and right. **All the PCBs are reversibl
 -   Plate PCB (x1)
 -   3-leg diode (x12)
 
-# Right side - Plate - placing the PCB
+## Right side - Plate - placing the PCB
 
 -   All the PCBs are reversible, so first let's make sure we install the components on the correct side
 -   Place the plate PCB on your working surface, and make sure the "RIGHT" label is visible.
@@ -41,7 +42,7 @@ There are 2 sides of the keyboard: left, and right. **All the PCBs are reversibl
 {: .tip }
 From now on, we will refer to this plate as the "Right PCB".
 
-# Right side - Plate - installing the diodes
+## Right side - Plate - installing the diodes
 
 On the plate PCB, we need to install a total of 12 diodes. They go on the footprints with 3 pads (see pictures below).
 
@@ -66,7 +67,8 @@ In the following section, we detail some tips on how to install diodes. You can 
 
 Do the same for the 12 diodes.
 
-# Right side - thumb cluster - required parts
+# Right side - thumb cluster
+## Right side - thumb cluster - required parts
 
 ![](../assets/pics/guides/charybdis/14.jpg)
 
@@ -78,14 +80,14 @@ Do the same for the 12 diodes.
 {: .warning }
 If you are preparing a left-handed Charybdis, use the 5-key thumb cluster PCB in this step instead.
 
-# Right side - thumb cluster - placing the PCB
+## Right side - thumb cluster - placing the PCB
 
 -   Place the plate PCB on your working surface, and make sure the "RIGHT" label is visible
 -   Use the picture below for reference.
 
 ![](../assets/pics/guides/charybdis/15.jpg)
 
-# Right side - thumb cluster - installing the diodes
+## Right side - thumb cluster - installing the diodes
 
 On the thumb cluster PCB, we need to install a total of 3 diodes. They go on the footprints with 2 pads (see pictures below).
 
@@ -103,7 +105,8 @@ These diodes need to be installed in a specific way, or they will not work ! **R
 
 ![](../assets/pics/guides/charybdis/17.jpg)
 
-# Left side - Plate - required parts
+# Left side - Plate
+## Left side - Plate - required parts
 
 Now that we finished preparing the right side, we will continue and prepare the **left side**.
 
@@ -114,7 +117,7 @@ Now that we finished preparing the right side, we will continue and prepare the 
 -   Plate PCB (x1)
 -   3-leg diode (x12)
 
-# Left side - Plate - placing the PCB
+## Left side - Plate - placing the PCB
 
 -   Place the plate PCB on your working surface, and make sure the "LEFT" label is visible
 -   Use the picture below for reference.
@@ -123,11 +126,12 @@ Now that we finished preparing the right side, we will continue and prepare the 
 
 From now on, we will refer to this plate as the "Left PCB".
 
-# Left side - Plate - installing the diodes
+## Left side - Plate - installing the diodes
 
 Just like previously, install the 3-legged diodes.
 
-# Left side - thumb cluster - required parts
+# Left side - thumb cluster
+## Left side - thumb cluster - required parts
 
 ![](../assets/pics/guides/charybdis/20.jpg)
 
@@ -139,13 +143,13 @@ Just like previously, install the 3-legged diodes.
 {: .warning }
 If you are preparing a left-handed Charybdis, use the 3-key thumb cluster PCB in this step instead.
 
-# Left side - thumb cluster - placing the PCB
+## Left side - thumb cluster - placing the PCB
 
 -   Place the plate PCB on your working surface, and make sure the "LEFT" label is visible
 -   Use the picture below for reference.
 
 ![](../assets/pics/guides/charybdis/21.jpg)
 
-# Left side - thumb cluster - installing the diodes
+## Left side - thumb cluster - installing the diodes
 
 Just like previously, install the 2-legged diodes.
