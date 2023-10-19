@@ -5,11 +5,11 @@
 
 # Solder the Splinky to the MCU Holder PCB
 
-In your kit, you might get either an Elite-C, or a Splinky/RP2040-compatible board.
+In this section we will prepare the Splinky. The Splinky is an open-source board based on the RP2040 controller, which acts as the "brains" of your keyboard.
+We will install it onto a "shield" PCB, as well as some reset button and audio jacks.
 
-Newer kits ship with the Splinky, but if you have an old you might have an Elite-C.
-
-The installation instructions are the same for both of them, just carefully look at the pictures.
+{: .tip }
+In your kit, you might get either an Elite-C, or a Splinky/RP2040-compatible board. Newer kits ship with the Splinky, but if you have an old you might have an Elite-C. The installation instructions are the same for both of them, just look carefully at the pictures.
 
 **Please read all the instructions first, and then follow them carefully using the pictures.**
 
