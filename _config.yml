@@ -33,6 +33,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 nav_external_links:
   - title: Bastard Keyboards on GitHub
     url: https://github.com/bastardkb
+  - title: Bastard Keyboards website
+    url: https://bastardkb.com
 
 # Back to top link
 back_to_top: true
