@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installing the SMD components
+title: Installing the diodes
 nav_order: 5
 parent: Build guides - Charybdis
 ---
@@ -14,12 +14,11 @@ parent: Build guides - Charybdis
 
 For the keyboard to work, we need to install some components on the PCBs.
 
-In this section, we will install them on the 4 flexible PCBs that are in the kit. 
+{: .tip }
+We will start by installing the diodes. If you have per-key RGB the components for that came in a separate bag - you can set you can them aside, we will install them in the next section.
 
 There are 2 sides of the keyboard: left, and right. **All the PCBs are reversible, so make sure to follow the steps carefully** to make sure you're installing the components correctly.
 
-{: .tip }
-We will start by installing the diodes, and at the end of this section install the RGB components if you have any.
 
 # Right side - Plate - required parts
 
@@ -29,9 +28,6 @@ We will start by installing the diodes, and at the end of this section install t
 
 -   Plate PCB (x1)
 -   3-leg diode (x12)
-
-{: .tip }
-If you have RGB with your kit, you can set the capacitors, resistors and LEDs aside. We will use them later.
 
 # Right side - Plate - placing the PCB
 
@@ -153,66 +149,3 @@ If you are preparing a left-handed Charybdis, use the 3-key thumb cluster PCB in
 # Left side - thumb cluster - installing the diodes
 
 Just like previously, install the 2-legged diodes.
-
-# RGB Components - capacitors and resistors (optional)
-
-{: .tip }
-In this step, we will install the per-key RGB components. If you don't have any in your kit, skip this step.
-
-![](../assets/pics/guides/charybdis/22.jpg)
-
-**For the following step, please prepare:**
-
--   **Resistor** (x4) (red arrow, top)
--   **Capacitor** (x4) (blue arrow, bottom)
--   Flexible PCBs (x4)
-
-The resistors and capacitors need to be installed on the 4 PCBs in the same way as we did the diodes previously.
-
-![](../assets/pics/guides/charybdis/23.jpg)
-
-On each PCB, there is one **Resistor** (red arrow, left on the picture) and one **Capacitor** (blue arrow, right on the picture) footprint. You can identify them with the R and C letters.
-
-On each PCB, install the resistor and capacitor, **on the same side as the diodes.**
-
-{: .tip }
-You can use the same soldering technique as we used for the diodes earlier.
-
-Use the below pictures for guidance - note **the resistors and capacitors are installed on the same side as the diodes.**
-
-![](../assets/pics/guides/charybdis/24.jpg)
-
-![](../assets/pics/guides/charybdis/25.jpg)
-
-# RGB Components - LEDs (optional)
-
-![](../assets/pics/guides/charybdis/26.jpg)
-
-**For the following step, please prepare:**
-
--   LED (x56)
--   Flexible PCBs (x4)
-
-
-{: .warning }
-The LEDs need to be installed in a very specific way. Read the following instructions carefully **first**, and then install them. **If you don't, they will not work !** 
-
-![](../assets/pics/guides/charybdis/27.jpg)
-
-Inspect the LED: there is one of the pins that has a slight chamfer in it. The plastic casing also has an indent. This is the GROUND pin. 
-
-![](../assets/pics/guides/charybdis/28.jpg)
-
-Inspect the PCBs: for each LED footprint, there is one pin that has a white line next to it.
-
-**We need to match the chamfered pin of the LED, with the marked pin on the PCB.**
-
-
-{: .warning }
-The LEDs are sensitive to heat. Stay at most 2 seconds on each pad. If that doesn't work, try slowly increasing the temperature of your soldering iron.
-
-![](../assets/pics/guides/charybdis/29.jpg)
-
--   Install the LEDs on the same side as the other SMD components
--   Solder them pad by pad
--   Go through the LEDs one by one
