@@ -9,7 +9,7 @@ In this section we will prepare the Splinky. The Splinky is an open-source board
 We will install it onto a **shield PCB** (also called **MCU holder**), as well as some reset button and audio jacks.
 
 {: .tip }
-In your kit, you might get either an Elite-C, or a Splinky/RP2040-compatible board. Newer kits ship with the Splinky, but if you have an old you might have an Elite-C. The installation instructions are the same for both of them, just look carefully at the pictures.
+In your kit, you might get either an Elite-C, or a Splinky/RP2040-compatible board. Newer kits ship with the Splinky, but if you have an old kit you might have an Elite-C. The installation instructions are the same for both of them, just look carefully at the pictures.
 
 **Please read all the instructions first, and then follow them carefully using the pictures.**
 
