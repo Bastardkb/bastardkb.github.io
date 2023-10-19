@@ -49,3 +49,5 @@ callouts:
   note:
     title: Note
     color: grey-lt
+
+color_scheme: bkb
