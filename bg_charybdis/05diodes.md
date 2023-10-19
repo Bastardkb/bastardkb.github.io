@@ -21,7 +21,7 @@ There are 2 sides of the keyboard: left, and right. **All the PCBs are reversibl
 
 
 # Right side - Plate
-## Required parts
+## Right side - Plate - Required parts
 
 ![](../assets/pics/guides/charybdis/9.jpg)
 
