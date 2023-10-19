@@ -14,11 +14,11 @@ In your kit, you might get either an Elite-C, or a Splinky/RP2040-compatible boa
 **Please read all the instructions first, and then follow them carefully using the pictures.**
 
 {: .warning }
-> Do not install the audio jack and reset button yet
+> Do not install the audio jack and reset button yet.
 > 
-> You will need to prepare one **"Right"** shield pcb, and one **"Left"** - use the legends on the PCB
+> You will need to prepare one **"Right"** shield pcb, and one **"Left"** - use the legends on the PCB.
 > 
-> We will start with preparing the left side, and after that do the right side
+> We will start with preparing the left side, and after that do the right side.
 
 # Left side
 ## Left side - Required parts
