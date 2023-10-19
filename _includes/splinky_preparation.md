@@ -42,7 +42,7 @@ In the next section, we will install the Splinky onto the shield PCB using the h
 ![](../assets/pics/guides/splinky/2.jpg)
 
 - Install the headers onto the shield PCB
-- Double check against the picture that they are on the correct side
+- **Double check against the picture that they are on the correct side**
 
 ![](../assets/pics/guides/splinky/3.jpg)
 
@@ -50,7 +50,6 @@ In the next section, we will install the Splinky onto the shield PCB using the h
 - Install the splinky on the headers, using normally-closed pliers to hold it
 - **Double check against the picture that it is on the correct side**
 - **The text "install elite-c ... on this side" should be covered by the splinky**
-- Use the image below for reference
 
 ![](../assets/pics/guides/splinky/4.jpg)
 
@@ -129,7 +128,6 @@ In the next section, we will install the Splinky onto the shield PCB using the h
 ## Right side - Installing the components
 - Just like previously, install the splinky, reset button, and audio jack onto the shield
 - **The text "install elite-c ... on this side" should be covered by the splinky**
-- Use the image below for reference
 
 
 ![](../assets/pics/guides/splinky/13.jpg)
