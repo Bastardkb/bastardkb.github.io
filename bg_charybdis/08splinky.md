@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Prepare the Splinky
+title: Preparing the Splinky
 nav_order: 8
 parent: Build guides - Charybdis
 ---
