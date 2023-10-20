@@ -16,7 +16,7 @@ In your kit, you might get either an Elite-C, or a Splinky/RP2040-compatible boa
 {: .warning }
 > Do not install the audio jack and reset button yet.
 > 
-> You will need to prepare one **"Right"** shield pcb, and one **"Left"** - use the legends on the PCB.
+> You will need to prepare one **"Right"** shield PCB, and one **"Left"** - use the legends on the PCB.
 > 
 > We will start with preparing the left side, and after that do the right side.
 
@@ -30,7 +30,7 @@ In your kit, you might get either an Elite-C, or a Splinky/RP2040-compatible boa
 - 12-pin header (x2)
 - 2-pin header
 - shield PCB (left)
-- splinky 
+- Splinky 
 
 {: .warning }
 Make sure to use the "left" shield PCB. Those are not reversible !
@@ -38,7 +38,7 @@ Make sure to use the "left" shield PCB. Those are not reversible !
 {: .warning }
 In the next section, we will install the Splinky onto the shield PCB using the headers. **It is very important to install it on the correct side**, otherwise it will not work. Make sure to look at the pictures carefully ! 
 
-## Left side - Installing the splinky
+## Left side - Installing the Splinky
 
 ![](../assets/pics/guides/splinky/2.jpg)
 
@@ -48,15 +48,15 @@ In the next section, we will install the Splinky onto the shield PCB using the h
 ![](../assets/pics/guides/splinky/3.jpg)
 
 
-- Install the splinky on the headers, using normally-closed pliers to hold it
+- Install the Splinky on the headers, using normally-closed pliers to hold it
 - **Double check against the picture that it is on the correct side**
-- **The text "install elite-c ... on this side" should be covered by the splinky**
+- **The text "install elite-c ... on this side" should be covered by the Splinky**
 
 ![](../assets/pics/guides/splinky/4.jpg)
 
 - **At all times, make sure the Splinky is pressed against the PCB**
 - there should be no gap between the Splinky, the header pins, and the holder PCB
-- Start by soldering the top "5V" and "D0" headers, on the splinky and on the shield (flip the assembly)
+- Start by soldering the top "5V" and "D0" headers, on the Splinky and on the shield (flip the assembly)
 
 ![](../assets/pics/guides/splinky/5.jpg)
 
@@ -65,7 +65,7 @@ In the next section, we will install the Splinky onto the shield PCB using the h
 
 ![](../assets/pics/guides/splinky/6.jpg)
 
-- Solder the 2 bottom "D21" and "D9" headers, on the splinky and the shield (flip the assembly)
+- Solder the 2 bottom "D21" and "D9" headers, on the Splinky and the shield (flip the assembly)
 - Once again, inspect the front of the assembly and make sure that the headers are flush with the Splinky and the shield 
 
 ![](../assets/pics/guides/splinky/7.jpg)
@@ -117,7 +117,7 @@ In this step, we will solder the audio jack. At this point, we will only solder 
 - 12-pin header (x2)
 - 2-pin header
 - shield PCB (right)
-- splinky 
+- Splinky 
 
 
 {: .warning }
@@ -127,8 +127,8 @@ Make sure to use the "right" shield PCB. Those are not reversible !
 In the next section, we will install the Splinky onto the shield PCB using the headers. It is very important to install it on the correct side, otherwise it will not work. Make sure to look at the pictures carefully !
 
 ## Right side - Installing the components
-- Just like previously, install the splinky, reset button, and audio jack onto the shield
-- **The text "install elite-c ... on this side" should be covered by the splinky**
+- Just like previously, install the Splinky, reset button, and audio jack onto the shield
+- **The text "install elite-c ... on this side" should be covered by the Splinky**
 
 
 ![](../assets/pics/guides/splinky/13.jpg)

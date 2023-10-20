@@ -12,7 +12,7 @@ parent: Build guides - Charybdis
 
 # Introduction
 
-In this section, we will connect the PCB plates to the splinky shields using the flexible ribbon cables. This connects the switches to the "brain" of the keyboard, which can then read what you type.
+In this section, we will connect the PCB plates to the Splinky shields using the flexible ribbon cables. This connects the switches to the "brain" of the keyboard, which can then read what you type.
 
 
 

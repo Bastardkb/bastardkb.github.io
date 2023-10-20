@@ -57,3 +57,5 @@ SMD
 md
 TODO
 multimeter
+keypress
+MCU
