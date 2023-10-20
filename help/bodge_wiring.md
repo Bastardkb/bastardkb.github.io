@@ -36,7 +36,7 @@ First, cut a length of wire appropriate to connect both points.
 
 ![](../assets/pics/debug/bodgewire/3.jpg)
 
-Use your wire strippers to remove a small amount of insulation from both ends. The uninsulated tip should be a few milimeters long.
+Use your wire strippers to remove a small amount of insulation from both ends. The uninsulated tip should be a few millimeters long.
 
 ![](../assets/pics/debug/bodgewire/4.jpg)
 
@@ -51,6 +51,8 @@ All that's left is to apply the wire. Solder it to both points and take note of 
 
 You can now plug your keyboard in and test your work. With any luck, the fault will be fixed!
 
-No luck yet? Ask the community on [discord](https://www.bstkbd.com/discord)!
+No luck yet? Ask the community on [discord][discord]!
 
+----
 
+[Discord]: https://www.bstkbd.com/discord
