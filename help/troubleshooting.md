@@ -28,7 +28,7 @@ TODO: more, images
 ## The board turns off immediately when I plug in the USB connection!
 
 wow, such short, very fire
-TODO: explain, mention shorts, leds orientation
+TODO: explain, mention shorts, LEDs orientation
 
 ## One or more LEDs don't work!
 
