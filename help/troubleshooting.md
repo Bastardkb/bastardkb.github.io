@@ -37,3 +37,26 @@ TODO: explain chained nature, add pinout diagram
 ## The LEDs flicker or change color randomly!
 
 TODO: explain chained nature, bad soldering
+
+# Glossary
+
+This section explains some of the terms used while troubleshooting in brief.
+<dl>
+    <dt>Bodge wire</dt>
+    <dd>A wire that is used to bypass a discontinuity fault</dt>
+
+    <dt>(Dis)continuity</dt>
+    <dd>Continuity is the state of two points being electrically connected, such as two ends of a wire, or two pads on a PCB connected by a trace. A discontinuity is the absence of continuity.</dt>
+
+    <dt>Fault</dt>
+    <dd>Any undesired electrical connection or disconnection. ie. there is a connection where there shouldn't be one, or there isn't one where there should be one.</dt>
+    
+    <dt>Short</dt>
+    <dd>An unwanted electrical connection. These may cause overheating and danger of fire on power supply connections, or undesired behavior in data lines, such as the key matrix or the LED data lines.</dd>
+
+    <dt>Trace</dt>
+    <dd>A copper connection within the PCB providing an electrical path. These are wires, just very flat and thin.</dd>
+
+    <dt>Via</dt>
+    <dd>A via is a tiny copper-plated hole in a PCB that is used whenever a trace needs to travel from one side of the board to the other.</dt>
+</dl>
