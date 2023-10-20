@@ -1,6 +1,9 @@
 title: Bastard Keyboards Documentation
 description: A compilation of all Bastard Keyboards documentations.
 
+logo: "/assets/img/bk-1.png"
+favicon_ico: "/assets/img/favicon.ico"
+
 markdown: kramdown
 
 remote_theme: just-the-docs/just-the-docs
