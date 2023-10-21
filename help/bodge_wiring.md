@@ -5,32 +5,42 @@ nav_order: 9
 parent: Help
 ---
 
-# Bodge wiring
+# Introduction
 
-A bodge wire is a connection that was not in the original design and is used to bypass a fault. The following guide will demonstrate how to diagnose a fault and how to apply the bodge.
+A bodge wire is a connection that was not in the original design and is used to bypass a fault. This is typically recommended when a switch, row or column does not work.
 
-## Diagnosing
+The following guide will demonstrate how to diagnose a fault and how to apply the bodge.
 
-{: .note }
-You will need a multimeter for this step.
+# Diagnosing
+
+If you have a switch, row or column not working, the first step is to determine what happened. Usually, this means there is a broken trace in the PCB - this means there's a connection that broke somwhere. 
+
+We give some examples of how to diagnose this in diagnose_broken_trace
+// TODO fix link
+
+Because it's difficult to give generic examples, we will instead provide a few examples of fixes.
+
+# Required tools and hardware
+
+You will need the following tools:
+
+- wire
+- wire stripper
+- soldering iron
+- soldering tin
 
 {: .tip }
-To measure for continuity, your board must be powered OFF!
+We recommend using solid core wire, around 28AWG. You can also use stranded wire, but will need to be careful so the strands don't go everywhere and make a short.
 
-Set your multimeter to continuity mode. Most often a "sound" pictogram represents this mode, and often a diode symbol is placed next to it, because continuity mode often doubles as diode testing mode. Touch the probe tips together to verify you can hear a beep, or observe a change in the multimeter's display, depending on your model.
+# I, O, P switches not working on 4x6 keyboard
 
-Place your probe tips on the two points that you suspect to be faulty. For continuity measurements, the direction of your measurement (which side uses which probe tip) does not matter.
-
-![](../assets/pics/debug/bodgewire/1.jpg)
-
-In this example, the right switch legs of the switches in the C4R2 and C5R2 position are measured to verify a suspected break in the row trace shared by both switches.
-
-No beep can be heard and no change is observed in the multimeter's display, yet the schematic demands these points are connected. The fault is confirmed.
+In this example, we will fix an issue where the `I, O, P` switches stop working either permanently or temporarily. If this is happening to you, make sure to first confirm the diagnosis in diagnosis_broken_trace.
+// TODO fix link
 
 ## Preparing the bodge wire
 
 {: .note }
-Solid core wire of low thickness will work best, but stranded wire can also be used.
+Remember - you should use solid core (stranded will also work  but is not recommended)
 
 First, cut a length of wire appropriate to connect both points.
 
@@ -45,7 +55,9 @@ If you do not have wire strippers, we do NOT recommend using scissors or a knife
 
 ## Soldering
 
-All that's left is to apply the wire. Solder it to both points and take note of the uninsulated length. If it is too short, the insulation will be in the way. If it is too long, the bare wire will be prone to touch another point and cause further issues in the future.
+Solder the wire to both points and take note of the uninsulated length:
+- if it is too short, the insulation will be in the way
+- if it is too long, the bare wire will be prone to touch another point and cause further issues in the future.
 
 ![](../assets/pics/debug/bodgewire/5.jpg)
 
