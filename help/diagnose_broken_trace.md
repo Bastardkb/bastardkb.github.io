@@ -5,11 +5,14 @@ nav_order: 8
 parent: Help
 ---
 
+1. TOC
+{:toc}
+
 # Introduction
 
 In the Bastard Keyboards, we use flexible PCBs to connect all the switches together, and to the Splinky's (the "brain" of the keyboard). Because those are complex systems, it can happen sometimes that something breaks.
 
-For example, a switch can stop working, or even a whole row or column. The RGB may not work, or flicker. Because it's difficult to cover all cases, we will instead here offer a few different examples of diagnosing issues. For each issue, we also offer some steps on how to fix it.
+For example, a switch can stop working, or even a whole row or column. The RGB may not work, or flicker. Because it's difficult to cover all cases, we will instead in this section offer a few different examples of diagnosing **issues related to switches not working**. For each issue, we also offer some steps on how to fix it.
 
 # Required tools and hardware
 
@@ -78,6 +81,12 @@ Now that we confirmed there is a broken trace, and we know where it exactly is, 
 
 For this, follow the steps in bodge wiring.
 // TODO fix link
+
+
+# Single key not working
+
+// TODO
+
 
 ----
 

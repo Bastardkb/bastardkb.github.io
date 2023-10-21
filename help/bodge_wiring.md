@@ -5,6 +5,9 @@ nav_order: 9
 parent: Help
 ---
 
+1. TOC
+{:toc}
+
 # Introduction
 
 A bodge wire is a connection that was not in the original design and is used to bypass a fault. This is typically recommended when a switch, row or column does not work.

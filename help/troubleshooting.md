@@ -12,7 +12,7 @@ parent: Help
 
 This page offers remedies to common problems after completing your build. If your problem is not covered, or the offered solution does not help, please feel free ask the community on Discord: [bstkbd.com/discord][discord]
 
-## One or more keys don't work!
+## One or more keys don't work
 
 A single key not working, which has neighbors that work, is most often caused by either a faulty switch, or diode to column discontinuity. It can often be fixed with a [bodge wire][Bodge wire].
 
@@ -20,13 +20,13 @@ You can either try measuring those with a multimeter, or turn the board on and b
 
 TODO: diode diagram, show how to find a switch's diode
 
-## One or more rows or columns don't work!
+## One or more rows or columns don't work
 
 If an entire row or column, or a large part of it, does not work, the most common cause is a broken row or column trace. They can often be fixed with a [bodge wire][Bodge wire].
 
 TODO: expand, link to diagnosing with KiCad guide
 
-## The board turns off immediately when I plug in the USB connection!
+## The board turns off immediately when I plug in the USB connection
 
 If you plug in the USB connector and the board immediately turns off - Perhaps your PC chimes USB connection immediately followed by USB disconnection - that is most often caused by a short on a power line.
 
@@ -37,7 +37,7 @@ A short on a current-carrying connection is often located either near the TRRS c
 
 If you opted for per-key RGB LEDs, inspect them closely, paying attention to the LED's orientation, referring to the build guide for your model. An LED rotated the wrong way will cause a short.
 
-## One or more LEDs don't work!
+## One or more LEDs don't work
 
 If part of your RGB LEDs do not work, there is most likely a fault in the data line. Since the LEDs are arranged in a chain, inspect the data pins for the first LED that does not work, and for the last one that works. Once you have corrected this fault, the rest of your LEDs might work, or the fault might continue further down the chain.
 
@@ -46,7 +46,7 @@ TODO: add led pinout diagram
 TODO: link to "how to look at schematics in KiCad" guide
 
 
-## The LEDs flicker or change color randomly!
+## The LEDs flicker or change color randomly
 
 If your LEDs are flickering on and off very quickly or very quickly changing colors, the most likely cause is a solder joint that is not quite connected, not being able to carry a signal consistently.
 
