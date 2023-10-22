@@ -21,7 +21,7 @@ While in theory you can install the switches in any order you like, we outline b
 
 
 {: .warning }
-The case is made of plastic, and will melt if you touch it with your soldering iron. Be careful !
+The case is made of plastic, and will melt if you touch it with your soldering iron. Be careful
 
 # Installing the switches
 
