@@ -62,9 +62,6 @@ We will now install the screw inserts that will later hold the controller. There
 
 ![](../assets/pics/guides/cnano/3.jpg)
 
-{: .tip }
-There is **a third inner hole at the bottom** (in blue). If you are building a **left-handed Charybdis**, install a screw insert there. Otherwise, you can ignore it.
-
 Follow the same procedure as previously, except:
 
 -   with the soldering iron, push the insert all the way in-
