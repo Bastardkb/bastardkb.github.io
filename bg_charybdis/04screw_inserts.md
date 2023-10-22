@@ -67,7 +67,8 @@ There is **a third inner hole at the bottom** (in blue). If you are building a *
 
 Follow the same procedure as previously, except:
 
--   with the soldering iron, push the insert all the way in-
--   **be careful not to push the insert too far!**-   this time, you don't need to flip the case.
+-   with the soldering iron, push the insert all the way in
+-   **be careful not to push the insert too far!**
+-   this time, you don't need to flip the case.
 
 ![](../assets/pics/guides/charybdis/8.jpg)
