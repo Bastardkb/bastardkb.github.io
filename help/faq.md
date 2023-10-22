@@ -26,7 +26,7 @@ The global experience with gluing the flexible PCBs with Millmax is: you have to
 # Bluetooth
 
 {: .question }
-Is it possible to build a bluetooth / wireless Bastard ?Keyboard?
+Is it possible to build a bluetooth / wireless Bastard Keyboard?
 
 It is in theory possible, with a few caveats:
 - it is not officially supported by Bastard Keyboards
