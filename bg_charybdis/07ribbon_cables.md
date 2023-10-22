@@ -17,7 +17,7 @@ In this section, we will connect the PCB plates to the Splinky shields using the
 
 
 
-There is the right side and left side, with plate and thumb cluster PCBs. It can get a bit confusing, but not to worry ! We detailed everything, so just read the instructions carefully.
+There is the right side and left side, with plate and thumb cluster PCBs. It can get a bit confusing, but not to worry! We detailed everything, so just read the instructions carefully.
 
 
 {: .tip }

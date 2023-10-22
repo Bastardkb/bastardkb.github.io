@@ -52,7 +52,7 @@ Use the below pictures for guidance - note **the resistors and capacitors are in
 
 
 {: .warning }
-The LEDs need to be installed in a very specific way. Read the following instructions carefully **first**, and then install them. **If you don't, they will not work !** 
+The LEDs need to be installed in a very specific way. Read the following instructions carefully **first**, and then install them. **If you don't, they will not work!** 
 
 ![](../assets/pics/guides/charybdis/27.jpg)
 

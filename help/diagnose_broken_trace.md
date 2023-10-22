@@ -25,7 +25,7 @@ To diagnose a broken connection, you will need the following tools:
 We will use the multimeter to diagnose if / where a broken trace could be, and git / kicad to figure out how to fix it.
 
 {: .warning }
-When doing any kind of measuring or soldering on the keyboard, it is **extremely important** that you unplug it first !
+When doing any kind of measuring or soldering on the keyboard, it is **extremely important** that you unplug it first!
 
 # I, O, P switches not working on 4x6 keyboard
 
@@ -62,7 +62,7 @@ When looking at this, it seems that there might be a broken connection between `
 Now that we have an idea of what could be broken, let's confirm that on the keyboard.
 
 {: .warning }
-Once again - before you do any kind of measuring, it is **extremely important** that you unplug your keyboard first !
+Once again - before you do any kind of measuring, it is **extremely important** that you unplug your keyboard first!
 
 Set your multimeter to continuity mode. Most often a "sound" pictogram represents this mode, and often a diode symbol is placed next to it, because continuity mode often doubles as diode testing mode. Touch the probe tips together to verify you can hear a beep, or observe a change in the multimeter's display, depending on your model.
 

@@ -11,7 +11,7 @@ parent: Help
 # Hotswap
 
 {: .question }
-Is it possible to build a hotswap Bastard Keyboard ?
+Is it possible to build a hotswap Bastard Keyboard?
 
 **On the 3d keyboards (Scylla, Charybdis...):**
 It's not possible to use MX sockets, because they need a specific footprint on the PCB which is not present. It is in theory possible to use Millmax sockets, though not recommended.

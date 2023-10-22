@@ -33,10 +33,10 @@ In your kit, you might get either an Elite-C, or a Splinky/RP2040-compatible boa
 - Splinky 
 
 {: .warning }
-Make sure to use the "left" shield PCB. Those are not reversible !
+Make sure to use the "left" shield PCB. Those are not reversible!
 
 {: .warning }
-In the next section, we will install the Splinky onto the shield PCB using the headers. **It is very important to install it on the correct side**, otherwise it will not work. Make sure to look at the pictures carefully ! 
+In the next section, we will install the Splinky onto the shield PCB using the headers. **It is very important to install it on the correct side**, otherwise it will not work. Make sure to look at the pictures carefully! 
 
 ## Left side - Installing the Splinky
 
@@ -121,10 +121,10 @@ In this step, we will solder the audio jack. At this point, we will only solder 
 
 
 {: .warning }
-Make sure to use the "right" shield PCB. Those are not reversible !
+Make sure to use the "right" shield PCB. Those are not reversible!
 
 {: .warning }
-In the next section, we will install the Splinky onto the shield PCB using the headers. It is very important to install it on the correct side, otherwise it will not work. Make sure to look at the pictures carefully !
+In the next section, we will install the Splinky onto the shield PCB using the headers. It is very important to install it on the correct side, otherwise it will not work. Make sure to look at the pictures carefully!
 
 ## Right side - Installing the components
 - Just like previously, install the Splinky, reset button, and audio jack onto the shield

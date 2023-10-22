@@ -14,7 +14,7 @@ parent: Build guides - Charybdis
 
 Now that we finished preparing the Splinky and the flexible PCBs, it's time to connect all of them together. 
 
-Be careful, because the Splinky shield assemblies are not reversible ! We will start with the left side, and then proceed to the right side.
+Be careful, because the Splinky shield assemblies are not reversible! We will start with the left side, and then proceed to the right side.
 
 # Left side
 

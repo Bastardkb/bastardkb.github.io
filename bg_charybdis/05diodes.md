@@ -92,7 +92,7 @@ If you are preparing a left-handed Charybdis, use the 5-key thumb cluster PCB in
 On the thumb cluster PCB, we need to install a total of 3 diodes. They go on the footprints with 2 pads (see pictures below).
 
 {: .warning }
-These diodes need to be installed in a specific way, or they will not work ! **Read the following carefully.**
+These diodes need to be installed in a specific way, or they will not work! **Read the following carefully.**
 
 -   Inspect the 2-legged diodes: there is a horizontal line on them
 -   This line needs to be aligned with the white markers on the PCBs
