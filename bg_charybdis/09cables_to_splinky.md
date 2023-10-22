@@ -18,10 +18,9 @@ Be careful, because the Splinky shield assemblies are not reversible ! We will s
 
 # Left side
 
-**For the following step, please prepare:**
-
 ![](../assets/pics/guides/charybdis/44.jpg)
 
+**For the following step, please prepare:**
 - Splinky shield assembly (left)
 - flexible plates assembly (left, with 5 keys on the thumb cluster)
 
@@ -35,10 +34,9 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 
 # Right side
 
-**For the following step, please prepare:**
-
 ![](../assets/pics/guides/charybdis/46.jpg)
 
+**For the following step, please prepare:**
 - Splinky shield assembly (right)
 - flexible plates assembly (right, with 3 keys on the thumb cluster)
 
