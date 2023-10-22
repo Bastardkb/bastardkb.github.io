@@ -54,5 +54,8 @@ callouts:
   note:
     title: Note
     color: grey-lt
+  question:
+    title: Question
+    color: yellow
 
 color_scheme: bkb
