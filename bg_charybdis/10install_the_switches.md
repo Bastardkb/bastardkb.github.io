@@ -19,6 +19,10 @@ You may have noticed that we still haven't done anything with the sensor PCB. Th
 
 While in theory you can install the switches in any order you like, we outline below what we found out works best.
 
+
+{: .warning }
+The case is made of plastic, and will melt if you touch it with your soldering iron. Be careful !
+
 # Installing the switches
 
 {: .tip }
