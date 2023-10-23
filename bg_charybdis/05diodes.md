@@ -61,7 +61,8 @@ In the following section, we detail some tips on how to install diodes. You can 
 -   Once the solder melted, remove the soldering iron
 -   **Do not let go of the diode until the soldering tin is solid again**
 -   After the soldering tin has solidified, you can let go of the diode
--   The diode should now not move at all-   Solder the two other pads
+-   The diode should now not move at all
+-   Solder the two other pads
 
 ![](../assets/pics/guides/charybdis/13.jpg)
 

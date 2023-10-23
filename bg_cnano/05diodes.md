@@ -48,8 +48,6 @@ From now on, we will refer to this plate as the "Right PCB".
 
 ## Right side - Plate - installing the diodes
 
-// TODO FIX PICS
-
 On the plate PCB, we need to install a total of 15 diodes. They go on the footprints with 2 pads (see pictures below).
 
 {: .warning }
@@ -65,23 +63,25 @@ These diodes need to be installed in a specific way, or they will not work! **Re
 {: .tip }
 In the following section, we detail some tips on how to install diodes. You can also use this technique to install capacitors and resistors. If you are familiar with it, feel free to install the diodes and skip ahead to the next section. 
 
-// TODO FIX PICS
-
 -   Using a soldering iron, put some soldering tin on one pad
 
-![](../assets/pics/guides/charybdis/11.jpg)
+![](../assets/pics/guides/cnano/15.jpg)
 
 -   Using tweezers, install the diode, with one of its pins on top of the pad you just tinned
 -   Melt the soldering tin, while still holding the diode in place. The soldering tin will "melt around" the diode's pin
 
-![](../assets/pics/guides/charybdis/12.jpg)
+![](../assets/pics/guides/cnano/16.jpg)
 
 -   Once the solder melted, remove the soldering iron
 -   **Do not let go of the diode until the soldering tin is solid again**
 -   After the soldering tin has solidified, you can let go of the diode
--   The diode should now not move at all-   Solder the two other pads
+-   The diode should now not move at all
 
-![](../assets/pics/guides/charybdis/13.jpg)
+![](../assets/pics/guides/cnano/17.jpg)
+
+-   Solder the other pad
+
+![](../assets/pics/guides/cnano/18.jpg)
 
 Do the same for the 15 diodes.
 
