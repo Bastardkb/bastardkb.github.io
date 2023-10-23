@@ -31,7 +31,7 @@ There are 2 sides of the keyboard: left, and right. **All the PCBs are reversibl
 -   Plate PCB (x1)
 -   diode (x15)
 
-{: .tip }
+{: .note }
 Your PCBs might look slightly different than the pictures, depending on when you ordered your kit. The installation procedure is the same.
 
 ## Right side - Plate - placing the PCB

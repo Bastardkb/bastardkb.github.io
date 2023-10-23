@@ -42,7 +42,7 @@ There are 2 sizes of screw inserts in your kit. In this step, we will use the sm
 {: .tip }
 There are 2 sizes of screw inserts in your kit. In this step, we will use the small ones.
 
-{: .tip }
+{: .note }
 Depending on your kit, the bottom housing might look slightly different. The process to prepare it and install it is the same. 
 
 - Install the 2 screw inserts
