@@ -28,7 +28,9 @@ The resistors and capacitors need to be installed on the 4 PCBs in the same way 
 
 ![](../assets/pics/guides/charybdis/23.jpg)
 
-On each PCB, there is one **Resistor** (red arrow, left on the picture) and one **Capacitor** (blue arrow, right on the picture) footprint. You can identify them with the R and C letters.
+On each PCB, there is:
+- one **Resistor** (red arrow, left on the picture) - marked R
+- one **Capacitor** (blue arrow, right on the picture) marked C
 
 On each PCB, install the resistor and capacitor, **on the same side as the diodes.**
 
