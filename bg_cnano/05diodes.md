@@ -60,6 +60,7 @@ These diodes need to be installed in a specific way, or they will not work! **Re
 -   **If you do not align them, the keys will not work**
 
 ![](../assets/pics/guides/charybdis/16.jpg)
+![](../assets/pics/guides/charybdis/17.jpg)
 
 {: .tip }
 In the following section, we detail some tips on how to install diodes. You can also use this technique to install capacitors and resistors. If you are familiar with it, feel free to install the diodes and skip ahead to the next section. 
