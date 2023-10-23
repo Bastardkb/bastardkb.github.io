@@ -14,6 +14,9 @@ parent: Build guides - Charybdis Nano
 
 In this section, we will install the per-key RGB components. If you don't have any in your kit, skip this section.
 
+{: .tip }
+The pictures in this section are for illustration, and may not match your PCB entirely. Read the instructions carefully.
+
 # RGB Components - capacitors and resistors
 
 ![](../assets/pics/guides/charybdis/22.jpg)
@@ -38,9 +41,6 @@ On each PCB, install the resistor and capacitor, **on the same side as the diode
 You can use the same soldering technique as we used for the diodes earlier.
 
 Use the below pictures for guidance - note **the resistors and capacitors are installed on the same side as the diodes.**
-
-{: .note }
-The pictures below are for illustration, and may not match your PCB.
 
 ![](../assets/pics/guides/charybdis/24.jpg)
 
