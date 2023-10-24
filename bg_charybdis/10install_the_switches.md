@@ -25,8 +25,7 @@ The case is made of plastic, and will melt if you touch it with your soldering i
 
 # Installing the switches
 
-{: .tip }
-We will start by detailing a technique to install the switches, and then in which order they should be installed. Please read this whole section first to familiarize yourself, and then proceed to the installation. Otherwise, the process might be more complicated.
+We will start by detailing a technique to install the switches, and then in which order they should be installed. **Please read this whole section first to familiarize yourself, and then proceed to the installation.** Otherwise, the process might be more complicated.
 
 When installing the switches, use the following technique:
 - press the PCB against the case, and try to align it as much as possible
