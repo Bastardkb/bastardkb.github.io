@@ -106,6 +106,16 @@ Depending on your kit, the bottom housing might look slightly different. Install
 
 ![](../assets/pics/guides/charybdis/50.jpg)
 
+# Soldering the sensor PCB to the Splinky Shield
+
+![](../assets/pics/guides/charybdis/63.jpg)
+
+**For the following step, please prepare:**
+- keyboard assembly
+- sensor PCB assembly
+
+// TODO
+
 # Installing the sensor PCB
 
 - Install the sensor PCB on top of the holder, aligning the two holes of the PCB with the two holes of the holder
