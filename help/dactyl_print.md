@@ -26,7 +26,7 @@ Our keyboards are complex models. While we did our best to make them less diffic
 
 # Quality settings
 
-From personal experience, 0.15mm is a good layer height. Going lower than that doesn't show an increase in visual quality and adds a long time to the print.
+From personal experience, **0.15mm** is a good **layer height**. Going lower than that doesn't show an increase in visual quality and adds a long time to the print.
 
 Printing with a **0.4mm nozzle** is recommended over a 0.6, as larger nozzles leave more visible lines on the flat curves of the keyboard. The difference is very visible.
 
