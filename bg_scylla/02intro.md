@@ -1,0 +1,20 @@
+---
+layout: default
+title: Introduction
+nav_order: 2
+parent: Build guide - Scylla
+---
+
+# Introduction
+
+In this online guide you will find how to build your Scylla keyboard.
+
+We recommend you start by reading the **required tools** section.
+
+The Scylla keyboard is amongst the hardest keyboards to build out there, so we recommend carefully reading the instructions before building it.
+
+If you have any issues or questions during the build, you can create a thread in the [discord][discord]'s #help forum.
+
+----
+
+[Discord]: https://www.bstkbd.com/discord
