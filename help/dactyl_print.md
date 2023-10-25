@@ -5,8 +5,12 @@ nav_order: 2
 parent: Help
 ---
 
+# Table of contents
+
 1. TOC
 {:toc}
+
+# Introduction
 
 In this page, we detail how to get a great Dactyl print.
 This information applies to the **Bastard Keyboard designs**, so your mileage may vary for other models.
