@@ -15,7 +15,7 @@ permalink: /
 
 Welcome to the official Bastard Keyboards documentation website.
 
-Just like the rest of BK's work, this wiki is open-source - with the files on github. This wiki is hosted by Github Pages.
+Just like the rest of BK's work, this wiki is open-source - with the files on github. This wiki is hosted by Github Pages. Contributions are welcome !
 
 # What you will find here
 
@@ -24,6 +24,7 @@ Just like the rest of BK's work, this wiki is open-source - with the files on gi
 - detailed troubleshooting tips to help you debug your build
 - answers to frequently asked questions
 - recommendations for 3d printing your own model
+- help on customizing your firmware
 
 *If you are building the TBK Mini, use the Skeletyl build guide. If you are building a Charybdis Mini, use the Charybdis Nano build guide.
 
