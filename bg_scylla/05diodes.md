@@ -17,7 +17,10 @@ For the keyboard to work, we need to install some components on the PCBs.
 {: .tip }
 We will start by installing the diodes. If you have per-key RGB the components for that came in a separate bag - you can set them aside, we will install them in the next section.
 
-There are 2 sides of the keyboard: left, and right. All the PCBs are reversible, so make sure to follow the steps carefully to make sure you're installing the components correctly. **We will detail only the left side, as the right side is exactly the same**.
+There are 2 sides of the keyboard: left, and right. All the PCBs are reversible, so make sure to follow the steps carefully to make sure you're installing the components correctly. 
+
+{: .note }
+We will detail only the left side, as the right side is the same, but symmetric.
 
 
 # Left side - Plate

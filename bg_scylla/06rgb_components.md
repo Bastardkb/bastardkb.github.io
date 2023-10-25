@@ -14,6 +14,10 @@ parent: Build guide - Scylla
 
 In this section, we will install the per-key RGB components. If you don't have any in your kit, skip this section.
 
+
+{: .tip }
+The pictures in this section are for illustration purposes anrd may not exactly match your PCBs.
+
 # RGB Components - capacitors and resistors
 
 ![](../assets/pics/guides/charybdis/22.jpg)
@@ -45,7 +49,7 @@ Use the below pictures for guidance - note **the resistors and capacitors are in
 
 # RGB Components - LEDs
 
-![](../assets/pics/guides/charybdis/26.jpg)
+![](../assets/pics/guides/cnano/14.jpg)
 
 **For the following step, please prepare:**
 
