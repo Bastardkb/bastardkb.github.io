@@ -33,9 +33,6 @@ When installing the switches, use the following technique:
 - make sure the PCB is flush against the switch. If your switch has side pins, you may have to push it a bit harder
 - solder the two pins of the switch
 
-{: .warning }
-Make sure to install the left-side PCB assembly (5 keys on the thumb cluster) into the left case, and the right-side assembly (3 keys on the thumb cluster) into the right case.
-
 ![](../assets/pics/guides/charybdis/48.jpg)
 
 - start with the top two switches (labeled 1, in red on the picture)
