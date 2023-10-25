@@ -86,7 +86,7 @@ Identify the bottom ribbon cable: it has 4 cables, that's the one we will connec
 - Solder the bottom ribbon cable to the thumb cluster PCB just like previously
 - Use the pictures below for reference: **notice both the "LEFT" label and the SMD components are visible on both PCBs when the cables are installed from the top**
   
-![](../assets/pics/guides/charybdis/37.jpg)
+![](../assets/pics/guides/cnano/32.jpg)
 
 # Right side - plate PCB
 
@@ -137,7 +137,7 @@ Identify the bottom ribbon cable: it has 4 cables, that's the one we will connec
 - Use the pictures below for reference: **notice both the "RIGHT" label and the SMD components are visible on both PCBs when the cables are installed from the top**
 
 
-![](../assets/pics/guides/charybdis/43.jpg)
+![](../assets/pics/guides/cnano/31.jpg)
 
 
 # Install the RGB cables
