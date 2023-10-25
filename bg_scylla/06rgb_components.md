@@ -16,7 +16,7 @@ In this section, we will install the per-key RGB components. If you don't have a
 
 
 {: .tip }
-The pictures in this section are for illustration purposes anrd may not exactly match your PCBs.
+The pictures in this section are for illustration purposes and may not exactly match your PCBs.
 
 # RGB Components - capacitors and resistors
 
@@ -53,7 +53,7 @@ Use the below pictures for guidance - note **the resistors and capacitors are in
 
 **For the following step, please prepare:**
 
--   LED (x56)
+-   LED (x58)
 -   Flexible PCBs (x4)
 
 
