@@ -2,7 +2,7 @@
 layout: default
 title: Connecting the ribbon cables to the Splinky
 nav_order: 9
-parent: Build guides - Charybdis
+parent: Build guide - Charybdis
 ---
 
 # Table of contents

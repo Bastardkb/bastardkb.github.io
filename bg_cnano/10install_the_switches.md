@@ -2,7 +2,7 @@
 layout: default
 title: Installing the switches
 nav_order: 10
-parent: Build guides - Charybdis Nano
+parent: Build guide - Charybdis Nano
 ---
 
 # Table of contents

@@ -2,7 +2,7 @@
 layout: default
 title: Installing the plates and tents
 nav_order: 12
-parent: Build guides - Charybdis
+parent: Build guide - Charybdis
 ---
 
 # Table of contents

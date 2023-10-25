@@ -2,7 +2,7 @@
 layout: default
 title: Installing the sensor assembly
 nav_order: 11
-parent: Build guides - Charybdis Nano
+parent: Build guide - Charybdis Nano
 ---
 
 # Table of contents

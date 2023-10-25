@@ -2,7 +2,7 @@
 layout: default
 title: Installing the screw inserts
 nav_order: 4
-parent: Build guides - Charybdis Nano
+parent: Build guide - Charybdis Nano
 ---
 
 # Table of contents

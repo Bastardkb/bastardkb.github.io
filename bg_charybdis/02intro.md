@@ -2,7 +2,7 @@
 layout: default
 title: Introduction
 nav_order: 2
-parent: Build guides - Charybdis
+parent: Build guide - Charybdis
 ---
 
 # Introduction

@@ -2,7 +2,7 @@
 layout: default
 title: Installing the diodes
 nav_order: 5
-parent: Build guides - Charybdis Nano
+parent: Build guide - Charybdis Nano
 ---
 
 # Table of contents

@@ -2,7 +2,7 @@
 layout: default
 title: Installing the sensor assembly
 nav_order: 11
-parent: Build guides - Charybdis
+parent: Build guide - Charybdis
 ---
 
 # Table of contents

@@ -2,7 +2,7 @@
 layout: default
 title: Installing the Ribbon Cables
 nav_order: 7
-parent: Build guides - Charybdis Nano
+parent: Build guide - Charybdis Nano
 ---
 
 # Table of contents
