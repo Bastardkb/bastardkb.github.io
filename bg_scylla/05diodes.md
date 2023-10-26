@@ -43,7 +43,7 @@ We will detail only the left side, as the right side is the same, but symmetric.
 
 
 {: .tip }
-From now on, we will refer to this plate as the "Right PCB".
+From now on, we will refer to this plate as the "Left PCB".
 
 ## Left side - Plate - installing the diodes
 
@@ -78,11 +78,8 @@ Do the same for the 12 diodes.
 
 **For the following step, please prepare:**
 
--   3-key thumb PCB (x1)
--   2-leg diode (x3)
-
-{: .warning }
-If you are preparing a left-handed Charybdis, use the 5-key thumb cluster PCB in this step instead.
+-   5-key thumb PCB (x1)
+-   2-leg diode (x5)
 
 ## Left side - thumb cluster - placing the PCB
 
