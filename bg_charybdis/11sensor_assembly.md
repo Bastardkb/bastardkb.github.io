@@ -17,7 +17,7 @@ parent: Build guide - Charybdis
 
 **For the following step, please prepare:**
 
-- 3d printed bottom housing (x1)
+- 3d printed top housing (x1)
 - M3 screw insert (x3)
 
 {: .tip }
@@ -37,7 +37,7 @@ There are 2 sizes of screw inserts in your kit. In this step, we will use the sm
 **For the following step, please prepare:**
 
 - 3d printed bottom housing (x1)
-- M3 screw insert (x3)
+- M3 screw insert (x2)
 
 {: .tip }
 There are 2 sizes of screw inserts in your kit. In this step, we will use the small ones.
@@ -64,11 +64,11 @@ Depending on your kit, the bottom housing might look slightly different. The pro
 
 **For each of the 3 bearings:**
 
-![](../assets/pics/guides/charybdis/56.jpg)
-
 - Install the bearing in its spot
 - Screw in the M3 torx screw
 - Make sure it can rotate freely. If not, unscrew by half a turn and check again
+
+![](../assets/pics/guides/charybdis/56.jpg)
 
 # Spin the ball
 - If you printed the case yourself, the bearings might scratch a bit against the 3d print and not roll correctly
