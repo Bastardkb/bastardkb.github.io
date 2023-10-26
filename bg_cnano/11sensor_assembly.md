@@ -93,7 +93,7 @@ On the pictures, we use a Splinktegrated - those come with premium kits. The Spl
 
 Inspect the Splinky shield: there is a `SPI` header, that we need to connect to the sensor PCB.
 - you can match the 3v3 with the 5V
-- the rest of the pins will aligh 
+- the rest of the pins will align
 
 ![](../assets/pics/guides/cnano/42.jpg)
 
