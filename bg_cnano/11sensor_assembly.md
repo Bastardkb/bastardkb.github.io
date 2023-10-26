@@ -116,6 +116,14 @@ Reinstall the lens:
 
 # Installing the 3d holder assembly
 
+Slide the left side of the top sensor assembly into the case:
+
+![](../assets/pics/guides/cnano/48.jpg)
+
+Push in the right part:
+
+![](../assets/pics/guides/cnano/49.jpg)
+
 ## Top part
 
 - Insert the top sensor holder assembly into the case
