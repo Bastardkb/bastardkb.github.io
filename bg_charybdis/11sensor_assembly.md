@@ -45,6 +45,12 @@ There are 2 sizes of screw inserts in your kit. In this step, we will use the sm
 {: .note }
 Depending on your kit, the bottom housing might look slightly different. The process to prepare it and install it is the same. 
 
+- Inspect the bottom housing: there are 3 holes with a chamfer, and 2 holes without.
+- For the screw inserts, **we will use the 2 holes without chamfers**
+- Use the picture below for reference
+
+![](../assets/pics/guides/cnano/50.jpg)
+
 - Install the 2 screw inserts
 - Use the same method as for the case
 - Let gravity do the work
