@@ -122,6 +122,14 @@ Reinstall the lens:
 
 # Installing the 3d holder assembly
 
+
+## Top part
+
+![](../assets/pics/guides/cnano/52.jpg)
+
+**For the following step, please prepare:**
+- top sensor assembly
+
 Slide the left side of the top sensor assembly into the case:
 
 ![](../assets/pics/guides/cnano/48.jpg)
@@ -130,34 +138,40 @@ Push in the right part:
 
 ![](../assets/pics/guides/cnano/49.jpg)
 
-## Top part
-
-- Insert the top sensor holder assembly into the case
-- The top sensor holder assembly has a specific way of being inserted
-- Locate the side with a cut part
-- Install it from the top of the keyboard, by pushing in the opposite side first. Use the picture below to check correct insertion
-
-![](../assets/pics/guides/charybdis/57.jpg)
-
-Push in the other side. It will scrap a little bit against the case.
-
-![](../assets/pics/guides/charybdis/58.jpg)
-
 
 ## Bottom part
 
 {: .tip }
 Depending on your kit, the bottom housing might look slightly different. Install the screws to match the picture below.
 
-- Insert the bottom part of the assembly from under the case
+![](../assets/pics/guides/cnano/55.jpg)
+
+**For the following step, please prepare:**
+- right keyboard assembly
+- bottom sensor assembly
+- m3 screw (x2)
+
+Install the bottom sensor assembly:
 - Screw in the 3 screws
+- **Make sure the the part is oriented towards the keyboard.** Use the picture below for reference
 - Make sure it's tight, but do not overtighten - you might damage the print
 - The whole assembly should not move at all
 
-![](../assets/pics/guides/charybdis/50.jpg)
+![](../assets/pics/guides/cnano/51.jpg)
 
 
-# Installing the sensor PCB
+# Installing the sensor PCB and protective cover    
+
+In this final step, we will screw in the sensor PCB and its protective cover.
+
+![](../assets/pics/guides/cnano/56.jpg)
+
+**For the following step, please prepare:**
+- right keyboard assembly
+- sensor cover
+- m3 screw (x2)
+
+Install the sensor PCB and cover:
 
 - Install the sensor PCB on top of the holder, aligning the two holes of the PCB with the two holes of the holder
 - Screw in the sensor PCB using 2 M3 torx screws
