@@ -95,7 +95,7 @@ Depending on your kit, the bottom housing might look slightly different. The pro
 
 
 {: .note }
-On the pictures, we use a Splinktegrated - those come with premium kits. The Splinky + Shield work exactly the same, so inspect the pictures carefully.
+On the pictures, we use a Splinktegrated - those come with premium kits. The Splinky + Shield works exactly the same, so inspect the pictures carefully.
 
 Inspect the Splinky shield: there is a `SPI` header, that we need to connect to the sensor PCB.
 - you can match the 3v3 with the 5V
@@ -111,6 +111,9 @@ Install the cable and solder it just like the other ones. Make sure to match the
 
 Remove the lens:
 ![](../assets/pics/guides/cnano/44.jpg)
+
+{: .note }
+You may choose to remove the kapton tape, or leave it on. It doesn't make a difference during use of the trackball.
 
 Guide the sensor through the hole in the 3d print:
 
