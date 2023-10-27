@@ -28,7 +28,7 @@ Solder the audio jack:
 
 ![](../assets/pics/guides/cnano/58.jpg)
 
-Do this for both sides
+Do this for both sides.
 
 # Installing the plates
 
