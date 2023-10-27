@@ -180,4 +180,4 @@ Install the sensor PCB and cover:
 - Screw in the sensor PCB using 2 M3 torx screws
 - Use the picture below for reference
 
-![](../assets/pics/guides/charybdis/49.jpg)
+![](../assets/pics/guides/cnano/53.jpg)
