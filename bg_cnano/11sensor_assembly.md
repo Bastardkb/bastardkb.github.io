@@ -152,7 +152,7 @@ Depending on your kit, the bottom housing might look slightly different. Install
 **For the following step, please prepare:**
 - right keyboard assembly
 - bottom sensor assembly
-- m3 screw (x2)
+- m3 screw (x3)
 
 Install the bottom sensor assembly:
 - Screw in the 3 screws
