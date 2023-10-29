@@ -12,12 +12,6 @@ This documentation is also open-sourced on Github, so if you wish to help or giv
 
 No luck yet with your issue? Ask the community on [discord][discord]!
 
-# Content
-
-1. TOC
-{:toc}
-
-
 ----
 
 [Discord]: https://www.bstkbd.com/discord
