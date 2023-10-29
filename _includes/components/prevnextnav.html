@@ -1,0 +1,41 @@
+{% assign siblings = "" | split: "" %}
+{% if page.parent %}
+    {% for pg in site.pages %}
+        {% if pg.parent == page.parent %}
+            {% assign siblings = siblings | push: pg %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
+{% assign siblings = siblings | sort: "nav_order" %}
+{% for sibling in siblings %}
+    {% if sibling.url == page.url %}
+        {% assign this_i = forloop.index0 %}
+        {% assign num_of_pages = forloop.length %}
+        {% assign last_i = forloop.length | minus: 1 %}
+        {% assign next_i = forloop.index0 | plus: 1 %}
+        {% assign prev_i = forloop.index0 | minus: 1 %}
+    {% endif %}
+{% endfor %}
+
+{% if prev_i >= 0 %}
+    {% assign prev_page = siblings[prev_i] %}
+{% endif %}
+{% if next_i <= last_i %}
+    {% assign next_page = siblings[next_i] %}
+{% endif %}
+
+<div class="pagination">
+{% if prev_page %}
+    <a href="{{ prev_page.url }}" class="previous">Previous: {{ prev_page.title }}</a>
+{% else %}
+    Previous
+{% endif %}
+&nbsp; | &nbsp;
+{% if next_page %}
+    <a href="{{ next_page.url }}" class="next">Next: {{ next_page.title }}</a>
+{% else %}
+    Next
+{% endif %}
+</div>

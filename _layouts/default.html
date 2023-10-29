@@ -21,12 +21,12 @@ layout: table_wrappers
           {% else %}
             {{ content }}
           {% endif %}
-          
-          {% include post-nav.html footer=true %}
 
           {% if page.has_children == true and page.has_toc != false %}
             {% include components/children_nav.html %}
           {% endif %}
+
+          {% include components/prevnextnav.html %}
         </main>
         {% include components/footer.html %}
       </div>
