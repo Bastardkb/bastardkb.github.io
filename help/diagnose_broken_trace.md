@@ -44,7 +44,7 @@ Once you've confirmed that those switches don't work when you press them, it's t
 
 ## Inspect the schematics
 
-- we will inspect the 4x6 PCB: clone it with git from https://github.com/Bastardkb/Scylla-PCB-Plate
+- we will inspect the 4x6 PCB: clone it with git from the [Scylla PCB Plate](https://github.com/Bastardkb/Scylla-PCB-Plate) repository
 - open the schematics file with kicad
 
 If you look at your keyboard, you will see that the `U` key is labeled `C4R2`, while the `I` is labeled `C5R2`. 

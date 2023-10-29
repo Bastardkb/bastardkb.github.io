@@ -18,7 +18,7 @@ If you still wish to build one of the Charybdis or Dactyl keyboards, in this pag
 
 Before beginning, make sure you have some **good understanding of electronics and firmware**. Read the whole page before comitting.
 
-There is a video overview here made by EIGA: https://www.youtube.com/watch?v=Mks7QDxFreY
+There is a video overview here made by EIGA: [youtube link](https://www.youtube.com/watch?v=Mks7QDxFreY)
 
 # Caveats
 
@@ -55,7 +55,7 @@ If you are building a Charybdis, you will need a custom sensor PCB. If you are b
 
 The sensor used in the regular Charybdis is a PMW3360, for a wireless build we will use instead a **PMW3610**.
 
-There is a PCB here: https://github.com/Bastardkb/charybdis-pmw3610-breakout
+There is a PCB here: [PMW3610 breakout](https://github.com/Bastardkb/charybdis-pmw3610-breakout)
 
 You will need to order the PCB factory-assembled, the release section contains the gerbers, BOM and POS files.
 
@@ -67,7 +67,7 @@ If you are building a Dactyl, you can use the regular shield PCB.
 
 If you are building a Charybdis, you will need a different shield PCB as the nice!nano does not have the bottom row of pins.
 
-You can find it here: https://github.com/victorlucachi/Elite-C-holder
+You can find it here: [Nice!Nano holder](https://github.com/victorlucachi/Elite-C-holder)
 
 ## Additional hardware
 
@@ -80,4 +80,4 @@ Here is a non-exhaustive list of additional required hardware (on top of a norma
 
 At the moment, ZMK does not support input devices.
 
-There is an example of configuration here, which pulls from forks: https://github.com/bstiq/zmk-config
+There is an example of configuration here, which pulls from forks: [Miryoku config](https://github.com/bstiq/zmk-config)

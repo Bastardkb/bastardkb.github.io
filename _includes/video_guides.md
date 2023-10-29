@@ -11,10 +11,10 @@ Please note, the hardware from the kit changes with time, so some details might 
 
 # Links
 
-Charybdis: https://www.youtube.com/watch?v=cGCYxeZLDmM
+- [Charybdis](https://www.youtube.com/watch?v=cGCYxeZLDmM)
 
-Charybdis Nano: https://www.youtube.com/watch?v=MmBHnL5KuHo
+- [Charybdis Nano](https://www.youtube.com/watch?v=MmBHnL5KuHo)
 
-Dilemma MAX: https://www.youtube.com/watch?v=SbnM5BGCNxM
+- [Dilemma MAX](https://www.youtube.com/watch?v=SbnM5BGCNxM)
 
 If you are building a Skeletyl, Scylla or Dilemma, the process is overall the same. Just adjust number of keys and skip the trackball sensor installation.
