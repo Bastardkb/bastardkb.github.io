@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hardware
-nav_order: 2
+nav_order: 8
 has_children: true
 ---
 
