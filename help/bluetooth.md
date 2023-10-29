@@ -5,6 +5,8 @@ nav_order: 14
 parent: Help
 ---
 
+# Table of contents
+
 1. TOC
 {:toc}
 
