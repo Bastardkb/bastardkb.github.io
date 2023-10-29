@@ -2,7 +2,7 @@
 layout: default
 title: Introduction
 nav_order: 1
-parent: Build guides - Dilemma
+parent: Build guide - Dilemma
 ---
 
 In this section you will find how to build your Dilemma keyboard.

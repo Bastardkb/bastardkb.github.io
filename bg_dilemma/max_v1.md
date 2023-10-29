@@ -2,7 +2,7 @@
 layout: default
 title: MAX build guide
 nav_order: 7
-parent: Build guides - Dilemma
+parent: Build guide - Dilemma
 ---
 
 1. TOC
