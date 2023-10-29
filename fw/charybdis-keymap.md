@@ -5,6 +5,8 @@ nav_order: 1
 parent: Firmware
 ---
 
+# Table of contents
+
 1. TOC
 {:toc}
 

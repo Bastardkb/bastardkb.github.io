@@ -5,10 +5,12 @@ nav_order: 1
 parent: Hardware
 ---
 
+# Table of contents
+
 1. TOC
 {:toc}
 
-## BKB standard
+# BKB standard
 
 The "BKB standard" is a standard pinout that was defined by a committee of designers on the BastardKB Discord server when the first RP2040 were created in 2022.
 
@@ -18,7 +20,7 @@ These boards are designed to be a drop-in replacement for keyboards wanting an u
 
 They are using the [RP2040 microcontroller chip](https://www.raspberrypi.com/products/rp2040/) designed by [Raspberry Pi](https://www.raspberrypi.com/), which features dual M0+ processors at up to 133MHz
 
-## Pinout compatibility
+# Pinout compatibility
 
 Controller | Pin-compatible | Flash size | Vbus detection | Notes
 ---------- | -------------- | ---------- | -------------- | -----
@@ -32,15 +34,15 @@ Controller | Pin-compatible | Flash size | Vbus detection | Notes
 [Adafruit KB2040 - RP2040 Kee Boar Driver](https://www.adafruit.com/product/5302) | No | 8MB | No | Different pinout, no bottom row. <br />USB-C receptacle is top-mounted. |
 [Blok](https://peg.software/docs/blok) | No | 16MB | Unspecified | Different i2c pins, no bottom row. |
 
-## Firmware compatibility
+# Firmware compatibility
 
 All controllers above marked as pin-compatible, and using the QMK default `W25Q080` second-stage bootloader, should be compatible out-of-the-box with the [Bastard Keyboard firmwares](https://github.com/bastardkb/bastardkb-qmk/releases) targeting the Splinky v3, _ie._ `splinky_3` firmwares.
 
-### Bootloader
+## Bootloader
 
 See [QMK's RP2040 second stage bootloader selection](https://qmk.github.io/qmk_docs_devel/#/platformdev_rp2040?id=rp2040-second-stage-bootloader-selection) documentation.
 
-## USB-C port compatibility
+# USB-C port compatibility
 
 For the USB-C port to align perfectly in the Bastard Keyboard cases, the controller needs to use a USB-C connector of specific dimensions, otherwise it might be slightly offset on the Z axis.
 
