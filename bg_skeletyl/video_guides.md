@@ -8,3 +8,4 @@ parent: Build guide - Skeletyl
 1. TOC
 {:toc}
 
+{% include video_guides.md %}

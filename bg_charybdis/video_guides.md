@@ -5,6 +5,5 @@ nav_order: 3
 parent: Build guide - Charybdis
 ---
 
-1. TOC
-{:toc}
 
+{% include video_guides.md %}

@@ -8,3 +8,4 @@ parent: Build guides - Dilemma
 1. TOC
 {:toc}
 
+{% include video_guides.md %}

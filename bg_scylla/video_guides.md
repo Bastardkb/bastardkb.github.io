@@ -8,3 +8,4 @@ parent: Build guide - Scylla
 1. TOC
 {:toc}
 
+{% include video_guides.md %}

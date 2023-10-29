@@ -8,3 +8,4 @@ parent: Build guide - Charybdis Nano
 1. TOC
 {:toc}
 
+{% include video_guides.md %}
