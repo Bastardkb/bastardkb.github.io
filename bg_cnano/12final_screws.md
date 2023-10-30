@@ -32,5 +32,62 @@ Do this for both sides.
 
 # Installing the plates
 
+{: .note }
+If you have tents, skip to the next section "Installing the tents".
+
+## Screws
+
+![](../assets/pics/guides/cnano/59.jpg)
+
+**For the following step, please prepare:**
+- keyboard assembly (x2)
+- M4 screw (x8)
+- plates (x2)
+
+Secure the plates on the keyboard using the screws:
+
+![](../assets/pics/guides/cnano/60.jpg)
+
+## Anti-slip pads
+
+![](../assets/pics/guides/cnano/62.jpg)
+
+**For the following step, please prepare:**
+- anti-slip pads (x10)
+
+Install the anti-slip pads:
+
+![](../assets/pics/guides/cnano/61.jpg)
 
 # Installing the tents
+
+{: .note }
+This step is optional, if you have tents.
+
+## Screws
+
+![](../assets/pics/guides/cnano/63.jpg)
+
+**For the following step, please prepare:**
+- keyboard assembly (x2)
+- M4 screw (x8)
+- plates (x2)
+- tents (x2)
+
+Secure the plates on the keyboard using one screw at the bottom:
+
+![](../assets/pics/guides/cnano/65.jpg)
+
+Install the tents with the rest of the screws:
+![](../assets/pics/guides/cnano/66.jpg)
+
+## Anti-slip pads
+
+![](../assets/pics/guides/cnano/62.jpg)
+
+**For the following step, please prepare:**
+- anti-slip pads (x10)
+
+Install the anti-slip pads:
+
+![](../assets/pics/guides/cnano/67.jpg)
