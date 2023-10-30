@@ -28,12 +28,9 @@
 
 <div class="pagination">
 {% if prev_page %}
-    <a href="{{ prev_page.url }}" class="previous">Previous: {{ prev_page.title }}</a>
-{% endif %}
-{% if prev_page and next_page %}
-&nbsp; | &nbsp;
+    <a class=".btn .btn-blue .mr-4" href="{{ prev_page.url }}" class="previous">Previous: {{ prev_page.title }}</a>
 {% endif %}
 {% if next_page %}
-    <a href="{{ next_page.url }}" class="next">Next: {{ next_page.title }}</a>
+    <a class=".btn .btn-blue .mr-4" href="{{ next_page.url }}" class="next">Next: {{ next_page.title }}</a>
 {% endif %}
 </div>
