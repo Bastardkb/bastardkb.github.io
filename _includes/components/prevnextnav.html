@@ -29,13 +29,11 @@
 <div class="pagination">
 {% if prev_page %}
     <a href="{{ prev_page.url }}" class="previous">Previous: {{ prev_page.title }}</a>
-{% else %}
-    Previous
 {% endif %}
+{% if prev_page and next_page %}
 &nbsp; | &nbsp;
+{% endif %}
 {% if next_page %}
     <a href="{{ next_page.url }}" class="next">Next: {{ next_page.title }}</a>
-{% else %}
-    Next
 {% endif %}
 </div>
