@@ -16,7 +16,7 @@ Wireless bluetooth capabilities are not supported officially on Bastard Keyboard
 
 If you still wish to build one of the Charybdis or Dactyl keyboards, in this page is detailed a basic outline of the work needed.
 
-Before beginning, make sure you have some **good understanding of electronics and firmware**. Read the whole page before comitting.
+Before beginning, make sure you have some **good understanding of electronics and firmware**. Read the whole page before committing.
 
 There is a video overview here made by EIGA: [youtube link](https://www.youtube.com/watch?v=Mks7QDxFreY)
 

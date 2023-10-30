@@ -53,7 +53,7 @@ Once the schematics open, let's look for those switches:
 
 ![](../assets/pics/debug/bodgewire/6.jpg)
 
-If you highlight the right pin of the `C4R2` pin with your mouse and toggle `Net highlightning` (in the left toolbar), you will notice all the switches of that row are connected together:
+If you highlight the right pin of the `C4R2` pin with your mouse and toggle `Net highlighting` (in the left toolbar), you will notice all the switches of that row are connected together:
 
 ![](../assets/pics/debug/bodgewire/7.jpg)
 

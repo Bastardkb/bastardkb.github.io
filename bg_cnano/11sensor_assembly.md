@@ -113,7 +113,7 @@ Remove the lens:
 ![](../assets/pics/guides/cnano/44.jpg)
 
 {: .note }
-You may choose to remove the kapton tape, or leave it on. It doesn't make a difference during use of the trackball.
+You may choose to remove the Kapton tape, or leave it on. It doesn't make a difference during use of the trackball.
 
 Guide the sensor through the hole in the 3d print:
 
