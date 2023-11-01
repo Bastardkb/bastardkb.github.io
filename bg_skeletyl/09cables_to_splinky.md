@@ -39,6 +39,11 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 ![](../assets/pics/guides/cnano/37.jpg)
 ![](../assets/pics/guides/cnano/38.jpg)
 
+## Left side - RGB
+
+This step is optional, if you have per-key RGB.
+
+Solder the long ribbon cable coming from the plate to the `RGB` header on the Shield PCB.
 
 # Right side
 

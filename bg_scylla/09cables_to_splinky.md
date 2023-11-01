@@ -40,6 +40,13 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 ![](../assets/pics/guides/charybdis/59.jpg)
 ![](../assets/pics/guides/charybdis/62.jpg)
 
+
+## Left side - RGB
+
+This step is optional, if you have per-key RGB.
+
+Solder the long ribbon cable coming from the plate to the `RGB` header on the Shield PCB.
+
 # Right side
 
 Proceed to do the same thing for the right side.
