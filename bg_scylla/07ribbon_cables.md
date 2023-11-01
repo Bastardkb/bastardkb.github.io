@@ -153,7 +153,6 @@ On the left side PCB assembly,
 
 Solder the **long** ribbon cable to this connectors, just like we did with the previous ones.
 
-
 # Right side
 
 Repeat the previous steps, for the right side
