@@ -38,7 +38,7 @@ This will depend on your printer - if you have experience with it and are sure t
 
 If your print does not stick, here are a few pointers:
 - Add a brim, of 5 or 6 mm
-- Use glue - paper glue or wood glue dilluted with water works well
+- Use glue - paper glue or wood glue diluted with water works well
 - Disable the parts fan for the first layer
 - Make sure your bed is leveled correctly
 

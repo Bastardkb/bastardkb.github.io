@@ -18,7 +18,7 @@ The following guide will demonstrate how to diagnose a fault and how to apply th
 
 # Diagnosing
 
-If you have a switch, row or column not working, the first step is to determine what happened. Usually, this means there is a broken trace in the PCB - this means there's a connection that broke somwhere. 
+If you have a switch, row or column not working, the first step is to determine what happened. Usually, this means there is a broken trace in the PCB - this means there's a connection that broke somewhere. 
 
 We give some examples of how to diagnose this in diagnose_broken_trace
 // TODO fix link

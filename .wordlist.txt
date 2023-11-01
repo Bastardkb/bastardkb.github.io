@@ -18,6 +18,7 @@ trackpad
 chamfer
 chamfered
 desolder
+desoldering
 bstkbd
 vias
 FPC
@@ -62,3 +63,19 @@ MCU
 !dilemma
 TRRS
 KiCad
+Millmax
+Splinktegrated
+Skeletyl
+EIGA
+XIAO
+handwire
+gerbers
+mikoto
+Prusament
+Fillamentum
+PrusaSlicer
+hotswap
+underglow
+Extrafill
+overtighten
+Kapton
