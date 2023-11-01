@@ -92,17 +92,73 @@ Identify the bottom ribbon cable: it has 6 cables, that's the one we will connec
   
 ![](../assets/pics/guides/charybdis/37.jpg)
 
-# Right side - plate PCB
 
-Do the same thing, but for the right side.
+# Installing the RGB cables
 
-
-# Install the RGB cables
-
-// TODO
+This step is optional, if you have per-key RGB.
 
 
-# Trim the cables
+{: .tip }
+In this section, we will use pictures without the LEDs, **for illustration purposes**. **Make sure you installed the LEDs before going forward !**
+
+
+## Preparing the cables
+
+![](../assets/pics/guides/generic/1.jpg)
+
+**For the following step, please prepare:**
+
+- 6-wires ribbon cable (x1)
+- 6-wires long ribbon cable (x1)
+
+Cut the ribbon cables into pieces of 3-wires:
+![](../assets/pics/guides/generic/2.jpg)
+
+## Soldering the thumb cluster cables - Left side
+
+**For the following step, please prepare:**
+
+- 3-wires short ribbon cable (x1)
+- Left-side PCB assembly
+
+{: .warning }
+Use the **short** cable for this step.
+
+On the left side PCB assembly, identify the 3-pin connectors, there are:
+- one at the bottom of the plate
+- one on the thumb cluster PCB
+- they are labeled VCC, GND, and Din/Dout
+- use the picture below for reference
+
+
+![](../assets/pics/guides/charybdis/64.jpg)
+
+Solder the **short** ribbon cable to those 2 connectors, just like we did with the previous ones.
+
+## Soldering the plate cables - Left side
+
+**For the following step, please prepare:**
+
+- 3-wires long ribbon cable (x1)
+- Left-side PCB assembly
+
+{: .warning }
+Use the **long** cable for this step.
+
+On the left side PCB assembly, 
+- identify the 3-pin connector at the top
+- use the picture below for reference
+
+![](../assets/pics/guides/charybdis/66.jpg)
+
+Solder the **long** ribbon cable to this connectors, just like we did with the previous ones.
+
+
+# Right side
+
+Repeat the previous steps, for the right side
+
+# Trimming the cables
 
 - Locate the other side of the PCB (the one opposite of the components)
 - Locate the ribbon cables going out, they are protruding a bit

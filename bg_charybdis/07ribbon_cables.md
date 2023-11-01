@@ -240,7 +240,7 @@ On the left side PCB assembly,
 
 Solder the **long** ribbon cable to this connectors, just like we did with the previous ones.
 
-# Trim the cables
+# Trimming the cables
 
 - Locate the other side of the PCB (the one opposite of the components)
 - Locate the ribbon cables going out, they are protruding a bit
