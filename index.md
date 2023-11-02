@@ -15,7 +15,7 @@ permalink: /
 
 Welcome to the official Bastard Keyboards documentation website.
 
-Just like the rest of BK's work, this wiki is open-source - with the files on github. This wiki is hosted by Github Pages. Contributions are welcome !
+Just like the rest of BK's work, this wiki is open-source - with the files on github. This wiki is hosted by Github Pages. Contributions are welcome!
 
 # What you will find here
 

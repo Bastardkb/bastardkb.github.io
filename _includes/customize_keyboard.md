@@ -5,7 +5,7 @@
 
 # Introduction
 
-Congratulations on successfully building your keyboard !
+Congratulations on successfully building your keyboard!
 
 The Bastard Keyboards come with a range of features, and it's also easy to customize them. On this page you will find additional information on how to use them and make them your own.
 
@@ -19,7 +19,7 @@ On it, you will find a lot of useful features.
 
 ![](../assets/pics/guides/generic/5.jpg)
 
-The most important ones are on the thumb cluster - it transforms into mouse buttons !
+The most important ones are on the thumb cluster - it transforms into mouse buttons!
 
 - `mouse + BTN1`: Left click
 - `mouse + BTN2`: Right click
@@ -42,7 +42,7 @@ You can find the latest **default images** for all Bastard Keyboards in the rele
 
 ## Using VIA
 
-All Bastard Keyboards come flashed with VIA. You can open the [VIA Web Interface through use.via.app](https://usevia.app/). At the moment, only WEBHID-enabled browsers work (eg. Chrome).
+All Bastard Keyboards come flashed with VIA. You can open the [VIA Web Interface through use.via.app](https://usevia.app/). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
 
 ![](../assets/pics/guides/generic/6.jpg)
 

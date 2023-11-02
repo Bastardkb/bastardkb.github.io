@@ -96,7 +96,7 @@ This step is optional, if you have per-key RGB.
 
 
 {: .tip }
-In this section, we will use pictures without the LEDs, **for illustration purposes**. **Make sure you installed the LEDs before going forward !**
+In this section, we will use pictures without the LEDs, **for illustration purposes**. **Make sure you installed the LEDs before going forward!**
 
 
 ## Preparing the cables
