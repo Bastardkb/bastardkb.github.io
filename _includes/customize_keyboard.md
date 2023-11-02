@@ -53,4 +53,10 @@ Through VIA, you can customize:
 
 ## Using QMK
 
-For more details on what's possible on how to flash your keyboard, take a look at the [readme on the BKB QMK Fork](https://github.com/Bastardkb/bastardkb-qmk).
+For how to flash your keyboard, take a look at the [readme on the BKB QMK Fork](https://github.com/Bastardkb/bastardkb-qmk).
+
+For **advanced customization of the Charybdis and Charybdis Nano**, take a look at the [customize page][customize].
+
+---
+
+[customize]: {{site.baseurl}}/fw/charybdis_keymap.html
