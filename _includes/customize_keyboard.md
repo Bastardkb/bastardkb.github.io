@@ -59,4 +59,4 @@ For **advanced customization of the Charybdis and Charybdis Nano**, take a look 
 
 ---
 
-[customize]: {{site.baseurl}}/fw/charybdis_keymap.html
+[customize]: {{site.baseurl}}/fw/charybdis-keymap.html
