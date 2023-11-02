@@ -9,7 +9,6 @@ parent: Build guide - Charybdis Nano
 
 1. TOC
 {:toc}
-// TODO
 
 
 # Introduction

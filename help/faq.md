@@ -38,5 +38,8 @@ It is in theory possible, with a few caveats:
 
 If you still wish to go ahead, **make sure you have a good understanding of electronics and firmware**.
 
-There are more details in the bluetooth build section. 
-// TODO link
+There are more details on the [bluetooth build][bluetooth] page.
+
+---
+
+[bluetooth]: {{site.baseurl}}/help/bluetooth.html

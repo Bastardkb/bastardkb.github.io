@@ -20,8 +20,7 @@ The following guide will demonstrate how to diagnose a fault and how to apply th
 
 If you have a switch, row or column not working, the first step is to determine what happened. Usually, this means there is a broken trace in the PCB - this means there's a connection that broke somewhere. 
 
-We give some examples of how to diagnose this in diagnose_broken_trace
-// TODO fix link
+We give some examples of how to diagnose this in the [diagnose a broken trace][broken] page.
 
 Because it's difficult to give generic examples, we will instead provide a few examples of fixes.
 
@@ -39,8 +38,7 @@ We recommend using solid core wire, around 28AWG. You can also use stranded wire
 
 # I, O, P switches not working on 4x6 keyboard
 
-In this example, we will fix an issue where the `I, O, P` switches stop working either permanently or temporarily. If this is happening to you, make sure to first confirm the diagnosis in diagnosis_broken_trace.
-// TODO fix link
+In this example, we will fix an issue where the `I, O, P` switches stop working either permanently or temporarily. If this is happening to you, make sure to first confirm the diagnosis in the [diagnose a broken trace][broken] page.
 
 ## Preparing the bodge wire
 
@@ -73,3 +71,4 @@ No luck yet? Ask the community on [discord][discord]!
 ----
 
 [Discord]: https://www.bstkbd.com/discord
+[broken]: {{site.baseurl}}/help/diagnose_broken_trace.html

@@ -81,8 +81,7 @@ No beep can be heard and no change is observed in the multimeter's display, yet 
 
 Now that we confirmed there is a broken trace, and we know where it exactly is, the next step is to fix it.
 
-For this, follow the steps in bodge wiring.
-// TODO fix link
+For this, follow the steps in the [bodge wiring][bodge] page.
 
 
 # Single key not working
@@ -93,3 +92,4 @@ For this, follow the steps in bodge wiring.
 ----
 
 [Discord]: https://www.bstkbd.com/discord
+[bodge]: {{site.baseurl}}/help/bodge_wiring.html

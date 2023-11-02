@@ -14,9 +14,6 @@ parent: Hardware
 
 On this page you will find various resources regarding the Dilemma MAX.
 
-// TODO
-print advice // in help section, merge with dactyls ? or keep this page just for technical details
-
 # RGB wiring diagram
 
 If you have issues with per-key RGB, the following diagram illustrates the connection order of all LEDs (including underglow, and per-key). This is for the Right side, and the Left side is symmetric. 
