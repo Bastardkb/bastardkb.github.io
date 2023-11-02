@@ -1,15 +1,8 @@
-# Table of contents
-
-1. TOC
-{:toc}
-
-# Introduction
+# Video build guides
 
 If following a video guide is more convenient for you, you will find build guides on the youtube channel.
 
 Please note, the hardware from the kit changes with time, so some details might not fit exactly.
-
-# Links
 
 - [Charybdis](https://www.youtube.com/watch?v=cGCYxeZLDmM)
 
