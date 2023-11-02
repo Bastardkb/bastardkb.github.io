@@ -40,7 +40,9 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 
 This step is optional, if you have per-key RGB.
 
-Solder the long ribbon cable coming from the plate to the `RGB` header on the Shield PCB.
+Solder the long ribbon cable coming from the plate to the `RGB` header on the Shield PCB. Use the picture below for reference.
+
+![](../assets/pics/guides/generic/4.jpg)
 
 # Right side
 
@@ -68,4 +70,6 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 
 This step is optional, if you have per-key RGB.
 
-Solder the long ribbon cable coming from the plate to the `RGB` header on the Shield PCB.
+Solder the long ribbon cable coming from the plate to the `RGB` header on the Shield PCB. Use the picture below for reference.
+
+![](../assets/pics/guides/generic/3.jpg)

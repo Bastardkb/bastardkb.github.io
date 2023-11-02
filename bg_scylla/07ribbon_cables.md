@@ -93,7 +93,7 @@ Identify the bottom ribbon cable: it has 6 cables, that's the one we will connec
 ![](../assets/pics/guides/charybdis/37.jpg)
 
 
-# Installing the RGB cables
+# Installing the RGB cables (optional)
 
 This step is optional, if you have per-key RGB.
 

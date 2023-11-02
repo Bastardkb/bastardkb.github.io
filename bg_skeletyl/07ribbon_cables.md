@@ -91,7 +91,7 @@ Identify the bottom ribbon cable: it has 4 cables, that's the one we will connec
   
 ![](../assets/pics/guides/cnano/32.jpg)
 
-# Installing the RGB cables
+# Installing the RGB cables (optional)
 
 This step is optional, if you have per-key RGB.
 
