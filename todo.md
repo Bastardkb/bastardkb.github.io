@@ -4,4 +4,4 @@ Troubleshooting: Add dedicated page about inspecting schematics in KiCad
 Guides: install plates + tents for 4x6
 charybdis: better sensor pic
 Dilemma max hardware page: 
-- print advice // in help section, merge with dactyls ? or keep this page just for technical details
+- print advice // in help section, merge with dactyls? or keep this page just for technical details

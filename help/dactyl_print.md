@@ -34,7 +34,7 @@ Printing with a **0.4mm nozzle** is recommended over a 0.6, as larger nozzles le
 
 Dactyls take a long time to print, so it's important to ensure good bed adhesion.
 
-This will depend on your printer - if you have experience with it and are sure that it'll adhere properly, go ahead. It's still recommended to **stick around for the first few layers**, to check that the print is not warping. If the print warps, it will be visible during the final build, or may even (for plates and tents) prevent installation completely !
+This will depend on your printer - if you have experience with it and are sure that it'll adhere properly, go ahead. It's still recommended to **stick around for the first few layers**, to check that the print is not warping. If the print warps, it will be visible during the final build, or may even (for plates and tents) prevent installation completely!
 
 If your print does not stick, here are a few pointers:
 - Add a brim, of 5 or 6 mm

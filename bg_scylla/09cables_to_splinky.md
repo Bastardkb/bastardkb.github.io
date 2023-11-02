@@ -33,7 +33,7 @@ Inspect the shield assembly: there is a `MATRIX` label, with a 5-pin and a 6-pin
 ![](../assets/pics/guides/charybdis/45.jpg)
 
 {: .warning }
-The cables need to be soldered on a specific side of the shield - otherwise, they will be difficult to route properly. Make sure to inspect the pictures carefully before soldering !
+The cables need to be soldered on a specific side of the shield - otherwise, they will be difficult to route properly. Make sure to inspect the pictures carefully before soldering!
 
 Install the cables coming out of the flexible PCB assembly into those connectors, and solder them:
 
