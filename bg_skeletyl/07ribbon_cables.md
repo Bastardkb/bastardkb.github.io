@@ -9,7 +9,6 @@ parent: Build guide - Skeletyl
 
 1. TOC
 {:toc}
-// TODO
 
 
 # Introduction
