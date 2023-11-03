@@ -22,7 +22,7 @@ p.tip {
     background: rgba(44, 132, 250, 0.2);
 }
 p.tip::before {
-    color: #6981c9;
+    color: #6189ff;
 }
 
 p.warning {
@@ -44,4 +44,12 @@ p.question {
 }
 p.question::before {
     color: #e7af06;
+}
+
+#main-content img {
+    border-radius: 2em;
+}
+
+.site-logo {
+    background-image: url("{{ '/assets/img/bk-1-light.png' | relative-url }}");
 }
