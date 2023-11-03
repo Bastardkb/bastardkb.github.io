@@ -1,3 +1,32 @@
 --- 
 --- 
 {% include css/just-the-docs.scss.liquid color_scheme="bkb-dark" %}
+
+
+p.tip {
+    background: rgba(44, 132, 250, 0.2);
+}
+p.tip::before {
+    color: #183385;
+}
+
+p.warning {
+    background: rgba(220, 100, 100, 0.2);
+}
+p.warning::before {
+    color: #bb4444;
+}
+
+p.note {
+    background: rgba(245, 246, 250, 0.2);
+}
+p.note::before {
+    color: #e6e1e8;
+}
+
+p.question {
+    color: rgba(255, 235, 130, 0.2);
+}
+p.question::before {
+    color: #e7af06;
+}
