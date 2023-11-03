@@ -51,5 +51,5 @@ p.question::before {
 }
 
 .site-logo {
-    background-image: url("{{ '/assets/img/bk-1-light.png' | relative-url }}");
+    background-image: url("{{ site.baseurl | append: '/assets/img/bk-1-light.png' | relative-url }}");
 }
