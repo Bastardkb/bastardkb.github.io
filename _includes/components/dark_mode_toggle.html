@@ -1,4 +1,4 @@
-<button class="btn js-toggle-dark-mode"></button>
+<a class="js-toggle-dark-mode" title="Toggle light and dark mode" href="#"></a>
 
 <script>
     if(localStorage.getItem("color-scheme") === null) {
@@ -7,14 +7,14 @@
         jtd.setTheme('bkb-' + newColorScheme);
         localStorage.setItem("color-scheme",newColorScheme);
         localStorage.setItem("text-scheme",newTextScheme);
-        window.addEventListener('load', function () {
+        /*window.addEventListener('load', function () {
             toggleDarkMode.textContent = newTextScheme; 
-        });
+        });*/
     } else {
         jtd.setTheme('bkb-' + localStorage.getItem("color-scheme"));
-        window.addEventListener('load', function () {
+        /*window.addEventListener('load', function () {
             toggleDarkMode.textContent = localStorage.getItem("text-scheme"); 
-        });
+        });*/
     }
 
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
@@ -22,7 +22,7 @@
             const newColorScheme = event.matches ? "dark" : "light";
             const newTextScheme = event.matches ? "Light mode" : "Dark mode";
             jtd.setTheme('bkb-' + newColorScheme);
-            toggleDarkMode.textContent = newTextScheme; 
+            /*toggleDarkMode.textContent = newTextScheme;*/
             localStorage.setItem("color-scheme",newColorScheme);
             localStorage.setItem("text-scheme",newTextScheme);
         }
@@ -34,7 +34,7 @@
         const newColorScheme = jtd.getTheme() !== 'dark' ? "dark" : "light";
         const newTextScheme = jtd.getTheme() !== 'dark' ? "Light mode" : "Dark mode";
         jtd.setTheme('bkb-' + newColorScheme);
-        toggleDarkMode.textContent = newTextScheme; 
+        /*toggleDarkMode.textContent = newTextScheme;*/
         localStorage.setItem("color-scheme",newColorScheme);
         localStorage.setItem("text-scheme",newTextScheme);
     });
