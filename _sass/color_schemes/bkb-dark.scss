@@ -1,0 +1,12 @@
+@import "./color_schemes/dark";
+
+$btn-primary-color: #181818;
+$link-color: #2986cc;
+//$link-color: #ff0000;
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url(/assets/fonts/TitilliumWeb-Regular.ttf) format('truetype')
+}
+
+$body-font-family: 'Titillium Web', $body-font-family;
