@@ -26,6 +26,9 @@ In this section, we will install the per-key RGB components. If you don't have a
 
 The resistors and capacitors need to be installed on the 4 PCBs in the same way as we did the diodes previously.
 
+{: .tip }
+The resistors and capacitors can be installed in any orientation.
+
 ![](../assets/pics/guides/charybdis/23.jpg)
 
 On each PCB, there is:

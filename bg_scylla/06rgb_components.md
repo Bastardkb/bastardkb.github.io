@@ -30,6 +30,9 @@ The pictures in this section are for illustration purposes and may not exactly m
 
 The resistors and capacitors need to be installed on the 4 PCBs in the same way as we did the diodes previously.
 
+{: .tip }
+The resistors and capacitors can be installed in any orientation.
+
 ![](../assets/pics/guides/charybdis/23.jpg)
 
 On each PCB, there is:
