@@ -2,8 +2,8 @@ Before starting the build, check that you have all the required tools:
 
 - Soldering iron
 - Soldering tin
-- M3 Torx screw driver (a flat head will also work)
-- M4 Torx screw driver (a flat head will also work)
+- TX10 (M3) Torx screw driver (a flat head will also work)
+- TX15 (M4) Torx screw driver (a flat head will also work)
 - Cutting pliers
 - Tweezers (normally closed recommended)
 
