@@ -40,6 +40,20 @@ If you still wish to go ahead, **make sure you have a good understanding of elec
 
 There are more details on the [bluetooth build][bluetooth] page.
 
+# Keycaps
+
+{: .question }
+Which keycaps should I use?
+
+Keycaps, just like switches, are a very personal choice. After gathering feedback from the community, a few profiles came out:
+- MT3
+- DES
+
+**MT3 profile**: those are sculpted keycaps, and there exist a large range of kits. This means you will probably find something that suits your aesthetic. We recommend getting an "ortho" kit, as it will contain everything necessary for a Bastard Keyboard.
+
+
+**DES profile**: those are keycaps designed by [Pseudoku at Asymplex](https://www.asymplex.xyz/), and are generally regarded as the most comfortable keycaps available. You can either get them from their website and support their open-source work, or generate the keycaps from [the github repository](https://github.com/pseudoku/PseudoMakeMeKeyCapProfiles) to order them resin printed. There is a set of thumb keys made specifically for the Skeletyl / Charybdis Nano.
+
 ---
 
 [bluetooth]: {{site.baseurl}}/help/bluetooth.html
