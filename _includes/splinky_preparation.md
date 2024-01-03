@@ -11,6 +11,10 @@ We will install it onto a **shield PCB** (also called **MCU holder**), as well a
 {: .tip }
 In your kit, you might get either an Elite-C, or a Splinky/RP2040-compatible board. Newer kits ship with the Splinky, but if you have an old kit you might have an Elite-C. The installation instructions are the same for both of them, just look carefully at the pictures.
 
+
+{: .tip }
+In your kit, you might get either a Splinky with shield PCB, or a Splinktegrated. If you have a Splinktegrated, refer to the Splinktegrated guide.
+
 **Please read all the instructions first, and then follow them carefully using the pictures.**
 
 {: .warning }
