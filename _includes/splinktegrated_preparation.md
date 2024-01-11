@@ -48,6 +48,10 @@ In the next section, we will prepare the first Splinktegrated by installing the 
 
 ## Left side - Installing the daughterboard
 
+
+{: .warning }
+In this section, we will solder headers to the PCB. **They will be close to some of the components, so be careful not to damage or add solder to them!**
+
 - Install the headers onto the motherboard
 - Install the daughterboard on top
 - **Double check against the picture that it is on the correct side**
