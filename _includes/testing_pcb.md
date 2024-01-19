@@ -19,7 +19,7 @@ If you don't have any per-key RGB installed, you can skip to the next section.
 
 Does everything look fine? Great, go ahead with testing the switches. 
 
-If not, reflowing the pads of the LEDs not working should do the trick.
+If not, reflowing the pads of the LEDs not working should do the trick. Please see [Troubleshooting]({{site.baseurl}}/help/troubleshooting.html#one-or-more-leds-dont-work) for details.
 
 ## Testing the switches
 
