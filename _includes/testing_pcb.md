@@ -9,7 +9,7 @@ The TRRS connection will not work yet, as only ony one leg of the jack is connec
 
 ## Testing the LEDs
 
-If you have intalled per-key LEDs, let's start with testing those.
+If you have installed per-key LEDs, let's start with testing those.
 If you don't have any per-key RGB installed, you can skip to the next section.
 
 - connect one half to your PC via USB, and observe the LEDs:
