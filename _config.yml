@@ -15,6 +15,7 @@ exclude:
   - Gemfile.lock
   - _site/
   - building-locally.md
+  - cspell.config.yaml
 
 plugins:
   - jekyll-default-layout

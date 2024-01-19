@@ -10,6 +10,8 @@ parent: Build guide - Charybdis
 1. TOC
 {:toc}
 
+{% include testing_pcb.md %}
+
 # Introduction
 
 Now that everything is connected together, the next step is to install the switches and the PCBs into the case. The process is exactly the same for both sides, so we will detail only the Scylla side (without trackball).
