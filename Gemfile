@@ -9,3 +9,5 @@ gem "just-the-docs", "0.7.0" # pinned to the current release
 gem "jekyll-remote-theme"
 
 gem "jekyll-default-layout"
+
+gem "json" # work around upstream bug (?)
