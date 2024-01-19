@@ -81,3 +81,7 @@ overtighten
 Kapton
 Din
 Dout
+Keycaps
+Pseudoku
+Asymplex
+daughterboard

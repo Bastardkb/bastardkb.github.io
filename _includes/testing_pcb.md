@@ -7,7 +7,7 @@ The TRRS connection will not work yet, as only ony one leg of the jack is connec
 
 To begin, connect one half to your PC via USB. If you have RGB, observe the LEDs. Do they all light up? Are the colors correct, and can you see a rainbow animation play?
 
-To test the switches, open [VIA](https://usevia.app/). After connecting to your device, switch to the key tester page using the stethoscope pictogram, then ativate the "Test Matrix" option. Now, you can connect each pair of switch pads in turn, using your tweezers, a wire, or a short length of solder.
+To test the switches, open [VIA](https://usevia.app/). After connecting to your device, switch to the key tester page using the stethoscope pictogram, then activate the "Test Matrix" option. Now, you can connect each pair of switch pads in turn, using your tweezers, a wire, or a short length of solder.
 
 ![]({{site.baseurl}}/assets/pics/guides/generic/via-test-matrix.png)
 

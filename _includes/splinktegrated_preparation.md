@@ -65,7 +65,7 @@ In this section, we will solder headers to the PCB. **They will be close to some
 ![](../assets/pics/guides/splinktegrated/7.jpg)
 
 - Inspect the front of the assembly: 
-- Make sure that the headers are flush with the motherboard and daugtherboard
+- Make sure that the headers are flush with the motherboard and daughterboard
 - Solder the top headers, then the bottom headers
 - Finally, cut the headers to make them flush using pliers
 
@@ -151,7 +151,7 @@ In the next section, we will prepare the first Splinktegrated by installing the 
 ![](../assets/pics/guides/splinktegrated/8.jpg)
 
 - Inspect the front of the assembly: 
-- Make sure that the headers are flush with the motherboard and daugtherboard
+- Make sure that the headers are flush with the motherboard and daughterboard
 - Solder the top headers, then the bottom headers
 - Finally, cut the headers to make them flush using pliers
 
