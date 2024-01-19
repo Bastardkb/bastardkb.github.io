@@ -10,6 +10,7 @@ parent: Build guide - Skeletyl
 1. TOC
 {:toc}
 
+{% include testing_pcb.md %}
 
 # Introduction
 
