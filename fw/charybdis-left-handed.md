@@ -99,6 +99,7 @@ With your firmware flashed, there are a number of things to do in the VIA interf
 
 - TODO 4x6 info.json
 - TODO 4x6 draft definition
+- RGB information
 
 # Charybdis 3x5 Nano draft file
 
