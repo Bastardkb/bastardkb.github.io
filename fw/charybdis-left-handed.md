@@ -23,7 +23,7 @@ You will need to do the following modifications. **Old code is commented out**.
 
 **charybdis/config.h:**
 
-```h
+```c
 // #define POINTING_DEVICE_RIGHT
 // Pointing device is on the left split.
 #undef POINTING_DEVICE_RIGHT
@@ -39,14 +39,14 @@ For the following modifications, modify the files in the **4x6** folder if you a
 
 **charybdis/3x5/config.h:**
 
-```h
+```c
 // #define ROTATIONAL_TRANSFORM_ANGLE -25
 #define ROTATIONAL_TRANSFORM_ANGLE 40
 ```
 
 **charybdis/3x5/v2/splinky_3/config.h:**
 
-```h
+```c
 // #define MASTER_RIGHT
 #undef MASTER_RIGHT
 ```
