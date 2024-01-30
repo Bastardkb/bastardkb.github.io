@@ -36,6 +36,8 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 ![](../assets/pics/guides/cnano/37.jpg)
 ![](../assets/pics/guides/cnano/38.jpg)
 
+{: .note }
+The row labels will not match and be offset by one. Make sure that the column labels match.
 
 ## Left side - RGB (optional)
 
@@ -67,6 +69,9 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 
 ![](../assets/pics/guides/cnano/35.jpg)
 ![](../assets/pics/guides/cnano/36.jpg)
+
+{: .note }
+The row labels will not match and be offset by one. Make sure that the column labels match.
 
 
 ## Right side - RGB (optional)
