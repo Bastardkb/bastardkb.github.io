@@ -1,0 +1,51 @@
+layout: {qmk_keyboard: bastardkb/charybdis/3x6, qmk_layout: LAYOUT_split_3x6_3}
+draw_config:
+  svg_extra_style: |
+    rect.key { fill: #f6f8fa; stroke: #c9cccf; stroke-width: 1;}
+    rect.held, rect.combo.held { fill: #fdd;}
+    rect.ghost, rect.combo.ghost { fill: #303030; stroke-dasharray: none; stroke-width: 0;}
+    svg.keymap { background-color: #303030;}
+    text.label { stroke: none; fill: #e0f0f0;}
+layers:
+  Base:
+  - ['', Q, W, E, R, T, Y, U, I, O, P, '']
+  - ['', {t: A, h: LGUI}, {t: S, h: LALT}, {t: D, h: LCTL}, {t: F, h: LSFT}, G, H, {t: J, h: LSFT}, {t: K, h: LCTL}, {t: L, h: LALT}, {t: '''', h: LGUI}, '']
+  - ['', {t: Z, h: MOUSE}, X, C, V, B, N, M, ',', ., {t: '/', h: MOUSE}, '']
+  - [{t: ESC, h: MEDIA}, {t: SPC, h: NAV}, {t: TAB, h: FUN}]
+  - [{t: ENT, h: SYM}, {t: BSPC, h: NUM}]
+  Nav:
+  - ['', '', '', '', '', '', '', '', '', '', '', '']
+  - ['', ⊞ LGUI, ⌥ LALT, ⎈ LCTL, ⇧ LSFT, '', CAPS LOCK, 🡄 LEFT, 🡇 DOWN, 🡅 UP, 🡆 RiGHT, '']
+  - ['', '', '', '', '', '', INS, ⤒ HOME, ⇟ PGDN, ⇞ PGUP, ⤓ END, '']
+  - ['', {t: ▽, type: held}, '']
+  - [⮠ ENT, ⌫ BSPC]
+  Mouse:
+  - ['', QK BOOT, EE CLR, '', DPI, Snipe DPI, Snipe DPI, DPI, '', EE CLR, QK BOOT, '']
+  - ['', ⊞ LGUI, ⌥ LALT, ⎈ LCTL, ⇧ LSFT, '', '', ⇧ LSFT, ⎈ LCTL, ⌥ LALT, ⊞ LGUI, '']
+  - ['', {t: ▽, type: held}, DRAG SCROLL, SNIPE, MOUSE 3, '', '', MOUSE 3, SNIPE, DRAG SCROLL, {t: ▽, type: held}, '']
+  - [MOUSE 3, MOUSE 2, MOUSE 1]
+  - [MOUSE 1, MOUSE 2]
+  Media:
+  - ['', '', RGB RMOD, RGB TOG, RGB MOD, '', '', RGB RMOD, RGB TOG, RGB MOD, '', '']
+  - ['', MEDIA PRV, VOL DOWN, MUTE, VOL UP, MEDIA NEXT, MEDIA PRV, VOL DOWN, MUTE, VOL UP, MEDIA NEXT, '']
+  - ['', '', '', '', EE CLR, QK BOOT, QK BOOT, EE CLR, '', '', '', '']
+  - [{t: ▽, type: held}, PLAY PAUSE, MEDIA STEP]
+  - [MEDIA STEP, PLAY PAUSE]
+  Num:
+  - ['', '[', '7', '8', '9', ']', '', '', '', '', '', '']
+  - ['', ;, '4', '5', '6', '=', '', ⇧ LSFT, ⎈ LCTL, ⌥ LALT, ⊞ LGUI, '']
+  - ['', '`', '1', '2', '3', \, '', '', '', '', '', '']
+  - [., '0', '-']
+  - ['', {t: ▽, type: held}]
+  Sym:
+  - ['', '{', '&', '*', (, '}', '', '', '', '', '', '']
+  - ['', ':', $, '%', ^, +, '', ⇧ LSFT, ⎈ LCTL, ⌥ LALT, ⊞ LGUI, '']
+  - ['', '~', '!', '@', '#', '|', '', '', '', '', '', '']
+  - [(, ')', _]
+  - [{t: ▽, type: held}, '']
+  Fun:
+  - ['', '', '', '', '', '', PRINT SCREEN, F7, F8, F9, F12, '']
+  - ['', ⊞ LGUI, ⌥ LALT, ⎈ LCTL, ⇧ LSFT, '', SCROLL LOCK, F4, F5, F6, F11, '']
+  - ['', '', '', '', '', '', PAUSE, F1, F2, F3, F10, '']
+  - ['', '', {t: ▽, type: held}]
+  - ['', '']
