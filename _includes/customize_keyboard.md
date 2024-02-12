@@ -44,7 +44,8 @@ You can find the latest **default images** for all Bastard Keyboards in the rele
 
 All Bastard Keyboards come flashed with VIA. You can open the [VIA Web Interface through use.via.app](https://usevia.app/). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
 
-![](../assets/pics/guides/generic/6.jpg)
+You can check the following tutorial on how to use it:
+{% include youtube.html id="cYICAlliJfU" %}
 
 Through VIA, you can customize:
 - the keymap
