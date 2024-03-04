@@ -33,6 +33,10 @@ Before we can connect everything together, we need to cut the cables to the righ
 
 - 30-wire Ribbon cables (x1)
 
+
+{: .tip }
+If your kit came with 3 pieces of 12-wire ribbon cable, cut the pieces to match the picture and instructions below.
+
 Cut the ribbon cable into:
 - 5-ribbon cable (x2)
 - 6-ribbon cable (x2)

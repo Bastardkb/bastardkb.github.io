@@ -39,8 +39,12 @@ Before we can connect everything together, we need to cut the cables to the righ
 If your kit came with a 10-wire ribbon cable instead of 2 pieces of 5-wire, cut the 10-wire into 2 pieces of 5-wire
 
 
+{: .tip }
+If your kit came with 3 pieces of 12-wire ribbon cable, cut the pieces to match the picture and instructions below.
+
 - Cut the 24-wires ribbon cable into 4 pieces of 6-wire ribbon cables
 - Use the picture below for reference
+- You should now have 4 pieces of 6-wire, and 2 pieces of 5-wire ribbon cables.
 
 ![](../assets/pics/guides/charybdis/31.jpg)
 
