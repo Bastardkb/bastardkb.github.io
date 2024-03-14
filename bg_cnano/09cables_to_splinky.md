@@ -26,6 +26,9 @@ Be careful, because the Splinky shield assemblies are not reversible! We will st
 
 Inspect the shield assembly: there is a `MATRIX` label, with a 5-pin and a 6-pin connector. We will connect it to the cables of the flexible PCB assembly.
 
+{: .note }
+The row labels will not match between the splinktegrated and the plate PCB and be offset by one. Make sure that the column labels match.
+
 ![](../assets/pics/guides/charybdis/45.jpg)
 
 {: .warning }
@@ -35,9 +38,6 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 
 ![](../assets/pics/guides/cnano/37.jpg)
 ![](../assets/pics/guides/cnano/38.jpg)
-
-{: .note }
-The row labels will not match and be offset by one. Make sure that the column labels match.
 
 ## Left side - RGB (optional)
 
