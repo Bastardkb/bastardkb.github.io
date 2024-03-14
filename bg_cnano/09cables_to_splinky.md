@@ -58,6 +58,9 @@ Solder the long ribbon cable coming from the plate to the `RGB` header on the Sh
 
 Inspect the shield assembly: there is a `MATRIX` label, with a 5-pin and a 6-pin connector. We will connect it to the cables of the flexible PCB assembly.
 
+{: .warning }
+The row labels will not match between the splinktegrated and the plate PCB and be offset by one. Make sure that the column labels match.
+
 ![](../assets/pics/guides/charybdis/47.jpg)
 
 Install the cables coming out of the flexible PCB assembly into those connectors, and solder them:
@@ -69,9 +72,6 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 
 ![](../assets/pics/guides/cnano/35.jpg)
 ![](../assets/pics/guides/cnano/36.jpg)
-
-{: .note }
-The row labels will not match and be offset by one. Make sure that the column labels match.
 
 
 ## Right side - RGB (optional)
