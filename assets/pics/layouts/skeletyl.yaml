@@ -1,0 +1,14 @@
+layout: {qmk_keyboard: bastardkb/skeletyl, qmk_layout: LAYOUT_split_3x5_3}
+draw_config:
+  svg_extra_style: |
+    rect.key { fill: #f6f8fa; stroke: #c9cccf; stroke-width: 1;}
+    rect.held, rect.combo.held { fill: #fdd;}
+    rect.ghost, rect.combo.ghost { fill: #303030; stroke-dasharray: none; stroke-width: 0;}
+    svg.keymap { background-color: #303030;}
+    text.label { stroke: none; fill: #e0f0f0;}
+layers:
+  Base:
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - [{t: A, h: LGUI}, {t: S, h: LALT}, {t: D, h: LCTL}, {t: F, h: LSFT}, G, H, {t: J, h: LSFT}, {t: K, h: LCTL}, {t: L, h: LALT}, {t: '''', h: LGUI}]
+  - [{t: Z, h: MOUSE}, X, C, V, B, N, M, ',', ., {t: '/', h: MOUSE}]
+  - [a,b,c,d,e,f]

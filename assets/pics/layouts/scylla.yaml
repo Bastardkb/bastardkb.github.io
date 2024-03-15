@@ -1,0 +1,16 @@
+layout: {qmk_keyboard: bastardkb/scylla, qmk_layout: LAYOUT_split_4x6_5}
+draw_config:
+  svg_extra_style: |
+    rect.key { fill: #f6f8fa; stroke: #c9cccf; stroke-width: 1;}
+    rect.held, rect.combo.held { fill: #fdd;}
+    rect.ghost, rect.combo.ghost { fill: #303030; stroke-dasharray: none; stroke-width: 0;}
+    svg.keymap { background-color: #303030;}
+    text.label { stroke: none; fill: #e0f0f0;}
+layers:
+  Base:
+  - [⎋ ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-']
+  - [↹ TAB, Q, W, E, R, T, Y, U, I, O, P, \]
+  - [⇧ LSFT, A, S, D, F, G, H, J, K, L, ;, '''']
+  - [⎈ LCTL, {t: Z, h: Mouse}, X, C, V, B, N, M, ',', ., {t: '/', h: Mouse}, ⌥ LALT]
+  -  [a, b, c, d, e, f]
+  -  [1, 2, 3, 4]
