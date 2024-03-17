@@ -315,46 +315,48 @@ text.label { stroke: none; fill: #e0f0f0;}
 <g transform="translate(308, 269)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">⌥</tspan><tspan x="0" dy="1.2em">LALT</tspan>
+<tspan x="0" dy="-0.6em">⊞</tspan><tspan x="0" dy="1.2em">LGUI</tspan>
 </text>
 </g>
 <g transform="translate(370, 274) rotate(10.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">⌫</tspan><tspan x="0" dy="1.2em">BSPC</tspan>
+<tspan x="0" dy="-0.6em">␣</tspan><tspan x="0" dy="1.2em">SPC</tspan>
 </text>
 </g>
 <g transform="translate(431, 290) rotate(20.0)" class="key keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">␣</tspan><tspan x="0" dy="1.2em">SPC</tspan>
-</text>
-</g>
-<g transform="translate(521, 290) rotate(-20.0)" class="key keypos-51">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LOWER</text>
 <text x="0" y="24" class="key hold">MO</text>
 </g>
-<g transform="translate(582, 274) rotate(-10.0)" class="key keypos-52">
+<g transform="translate(521, 290) rotate(-20.0)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RAISE</text>
 <text x="0" y="24" class="key hold">MO</text>
 </g>
-<g transform="translate(361, 329) rotate(10.0)" class="key keypos-53">
+<g transform="translate(582, 274) rotate(-10.0)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">⮠</tspan><tspan x="0" dy="1.2em">ENTER</tspan>
 </text>
 </g>
+<g transform="translate(361, 329) rotate(10.0)" class="key keypos-53">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⌥</tspan><tspan x="0" dy="1.2em">LALT</tspan>
+</text>
+</g>
 <g transform="translate(419, 346) rotate(20.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">⌦</tspan><tspan x="0" dy="1.2em">DEL</tspan>
+<tspan x="0" dy="-0.6em">⌫</tspan><tspan x="0" dy="1.2em">BSPC</tspan>
 </text>
 </g>
 <g transform="translate(533, 346) rotate(-20.0)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">MUTE</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⌦</tspan><tspan x="0" dy="1.2em">DEL</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -593,13 +595,14 @@ text.label { stroke: none; fill: #e0f0f0;}
 </g>
 <g transform="translate(431, 290) rotate(20.0)" class="key keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">▽</text>
 </g>
-<g transform="translate(521, 290) rotate(-20.0)" class="key held keypos-51">
+<g transform="translate(521, 290) rotate(-20.0)" class="key keypos-51">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+</g>
+<g transform="translate(582, 274) rotate(-10.0)" class="key held keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 <text x="0" y="0" class="key held tap">▽</text>
-</g>
-<g transform="translate(582, 274) rotate(-10.0)" class="key keypos-52">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(361, 329) rotate(10.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -609,6 +612,9 @@ text.label { stroke: none; fill: #e0f0f0;}
 </g>
 <g transform="translate(533, 346) rotate(-20.0)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">KP</tspan><tspan x="0" dy="1.2em">0</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -666,7 +672,7 @@ text.label { stroke: none; fill: #e0f0f0;}
 <g transform="translate(28, 134)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">MEDIA</tspan><tspan x="0" dy="1.2em">NEXT</tspan>
+<tspan x="0" dy="-0.6em">⏭️</tspan><tspan x="0" dy="1.2em">NEXT</tspan>
 </text>
 </g>
 <g transform="translate(84, 134)" class="key keypos-13">
@@ -702,13 +708,15 @@ text.label { stroke: none; fill: #e0f0f0;}
 <g transform="translate(924, 134)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">VOL</tspan><tspan x="0" dy="1.2em">UP</tspan>
+<tspan x="0" dy="-1.2em">🔊</tspan><tspan x="0" dy="1.2em">VOL</tspan>
+<tspan x="0" dy="1.2em">UP</tspan>
 </text>
 </g>
 <g transform="translate(28, 190)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PLAY</tspan><tspan x="0" dy="1.2em">PAUSE</tspan>
+<tspan x="0" dy="-1.2em">⏯️</tspan><tspan x="0" dy="1.2em">PLAY</tspan>
+<tspan x="0" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
 <g transform="translate(84, 190)" class="key keypos-25">
@@ -767,12 +775,14 @@ text.label { stroke: none; fill: #e0f0f0;}
 </g>
 <g transform="translate(924, 190)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">MUTE</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">🔇</tspan><tspan x="0" dy="1.2em">MUTE</tspan>
+</text>
 </g>
 <g transform="translate(28, 246)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">MEDIA</tspan><tspan x="0" dy="1.2em">PREV</tspan>
+<tspan x="0" dy="-0.6em">⏮️</tspan><tspan x="0" dy="1.2em">PREV</tspan>
 </text>
 </g>
 <g transform="translate(84, 246)" class="key keypos-37">
@@ -820,7 +830,8 @@ text.label { stroke: none; fill: #e0f0f0;}
 <g transform="translate(924, 246)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">VOL</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
+<tspan x="0" dy="-1.2em">🔉</tspan><tspan x="0" dy="1.2em">VOL</tspan>
+<tspan x="0" dy="1.2em">DOWN</tspan>
 </text>
 </g>
 <g transform="translate(308, 269)" class="key keypos-48">
@@ -1053,17 +1064,20 @@ text.label { stroke: none; fill: #e0f0f0;}
 </g>
 <g transform="translate(308, 269)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">MOUSE</tspan><tspan x="0" dy="1.2em">2</tspan>
+</text>
 </g>
 <g transform="translate(370, 274) rotate(10.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">MOUSE</tspan><tspan x="0" dy="1.2em">2</tspan>
+<tspan x="0" dy="-0.6em">MOUSE</tspan><tspan x="0" dy="1.2em">1</tspan>
 </text>
 </g>
 <g transform="translate(431, 290) rotate(20.0)" class="key keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">MOUSE</tspan><tspan x="0" dy="1.2em">1</tspan>
+<tspan x="0" dy="-0.6em">MOUSE</tspan><tspan x="0" dy="1.2em">3</tspan>
 </text>
 </g>
 <g transform="translate(521, 290) rotate(-20.0)" class="key keypos-51">
@@ -1075,14 +1089,11 @@ text.label { stroke: none; fill: #e0f0f0;}
 <g transform="translate(582, 274) rotate(-10.0)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">MOUSE</tspan><tspan x="0" dy="1.2em">3</tspan>
+<tspan x="0" dy="-0.6em">MOUSE</tspan><tspan x="0" dy="1.2em">1</tspan>
 </text>
 </g>
 <g transform="translate(361, 329) rotate(10.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">MOUSE</tspan><tspan x="0" dy="1.2em">1</tspan>
-</text>
 </g>
 <g transform="translate(419, 346) rotate(20.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1092,6 +1103,9 @@ text.label { stroke: none; fill: #e0f0f0;}
 </g>
 <g transform="translate(533, 346) rotate(-20.0)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">MOUSE</tspan><tspan x="0" dy="1.2em">2</tspan>
+</text>
 </g>
 </g>
 </g>
