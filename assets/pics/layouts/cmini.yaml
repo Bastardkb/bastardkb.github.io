@@ -8,11 +8,11 @@ draw_config:
     text.label { stroke: none; fill: #e0f0f0;}
 layers:
   Base:
-  - ['', Q, W, E, R, T, Y, U, I, O, P, '']
-  - ['', {t: A, h: LGUI}, {t: S, h: LALT}, {t: D, h: LCTL}, {t: F, h: LSFT}, G, H, {t: J, h: LSFT}, {t: K, h: LCTL}, {t: L, h: LALT}, {t: '''', h: LGUI}, '']
-  - ['', {t: Z, h: MOUSE}, X, C, V, B, N, M, ',', ., {t: '/', h: MOUSE}, '']
-  - [{t: ESC, h: MEDIA}, {t: SPC, h: NAV}, {t: TAB, h: FUN}]
-  - [{t: ENT, h: SYM}, {t: BSPC, h: NUM}]
+  - ['⊞ LGUI', Q, W, E, R, T, Y, U, I, O, P, '⊞ RGUI']
+  - ['⎈ LCTL', A, S, D, F, G, H, J, K, L, '''', '⎈ RCTL']
+  - ['⇧ LSFT', {t: Z, h: MOUSE}, X, C, V, B, N, M, ',', ., {t: '/', h: MOUSE}, '⇧ RSFT']
+  - [⌫ BSPC, SPC, LOWER]
+  - [RAISE, ⮠ ENT]
   Nav:
   - ['', '', '', '', '', '', '', '', '', '', '', '']
   - ['', ⊞ LGUI, ⌥ LALT, ⎈ LCTL, ⇧ LSFT, '', CAPS LOCK, 🡄 LEFT, 🡇 DOWN, 🡅 UP, 🡆 RiGHT, '']

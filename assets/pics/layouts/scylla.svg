@@ -103,10 +103,6 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
-rect.key { fill: #f6f8fa; stroke: #c9cccf; stroke-width: 1;}
-rect.held, rect.combo.held { fill: #fdd;}
-rect.ghost, rect.combo.ghost { fill: #303030; stroke-dasharray: none; stroke-width: 0;}
-svg.keymap { background-color: #303030;}
 text.label { stroke: none; fill: #e0f0f0;}
 </style>
 <g transform="translate(30, 0)" class="layer-Base">
