@@ -25,7 +25,7 @@ If not, reflowing the pads of the LEDs not working should do the trick. Please s
 To test the switches, we are going to use the VIA interface. All Bastard Keyboards come pre-flashed with VIA, so you don't have to flash anything.
 
 {: .warning }
-The default firmware requires the USB cable be connected to the right side of the keyboard. This means that when connecting the left side, the keys will be reversed.
+The default firmware requires the USB cable be connected to the right side of the keyboard. This means that when testing the left side, the keys will be reversed.
 
 Open [VIA](https://usevia.app/) - please note this only works on chromium-based browsers like chromium, edge, chrome.
 
