@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting
+title: Assembly and Usage Instructions
 nav_order: 99999
 parent: Help
 ---
