@@ -4,7 +4,22 @@ draw_config:
     text.label { stroke: none; fill: #e0f0f0;}
 layers:
   Base:
-  - ['', Q, W, E, R, T, Y, U, I, O, P, '']
-  - ['', {t: A, h: LGUI}, {t: S, h: LALT}, {t: D, h: LCTL}, {t: F, h: LSFT}, G, H, {t: J, h: LSFT}, {t: K, h: LCTL}, {t: L, h: LALT}, {t: '''', h: LGUI}, '']
-  - ['', {t: Z, h: MOUSE}, X, C, V, B, N, M, ',', ., {t: '/', h: MOUSE}, '']
-  - [a, b, c, d ,e ,f]
+  - [↹ TAB, Q, W, E, R, T, Y, U, I, O, P, ⌫ BSPC]
+  - [⎈ LCTL, A, S, D, F, G, H, J, K, L, ;, '"']
+  - [⇧ LSFT, Z, X, C, V, B, N, M, ',', ., /, ⎋ ESC]
+  - [⊞ LGUI, ␣ SPC, {t: NUM, h: MO}, {t: SYM, h: MO}, ⮠ ENTER, ⌥ RALT]
+  Num:
+  - [↹ TAB, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, ⌫ BSPC]
+  - [⎈ LCTL, '', '', '', '', '', 🡄 LEFT, 🡇 DOWN, 🡅 UP, 🡆 RIGHT,'','']
+  - [⇧ LSFT, '', '', '', '', '', '', '', '', '', '', '']
+  - [⊞ LGUI, ␣ SPC, {t: ▽, type: held}, {t: EXTRA, h: MO}, ⮠ ENTER, ⌥ RALT]
+  Sym:
+  - [↹ TAB, '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', ⌫ BSPC]
+  - [⎈ LCTL, '', '', '', '', '', '-', '=', '[', ']', '\', '`']
+  - [⇧ LSFT, '', '', '', '', '', '_', '+', '{', '}', '|', '~']
+  - [⊞ LGUI, ␣ SPC, {t: EXTRA, h: MO}, {t: ▽, type: held}, ⮠ ENTER, ⌥ RALT]
+  Extra:
+  - [QK BOOT, '', '', '', '', '', '', '', '', '', '', '']
+  - [RGB TOG, RGB HUI, RGB SAI, RGB VAI, '', '', '', '', '', '', '', '']
+  - [RGB MOD, RGB HUD, RGB SAD, RGB VAD, '', '', '', '', '', '', '', '']
+  - [⊞ LGUI, ␣ SPC, {t: ▽, type: held}, {t: ▽, type: held}, ⮠ ENTER, ⌥ RALT]
