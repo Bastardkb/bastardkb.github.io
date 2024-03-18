@@ -20,23 +20,32 @@ Refer to the appropriate build guide for instructions.
 
 ## 3. Safe Usage Guidelines
 
+Keep the keyboard away from children and pets. Use the keyboard only as specified in the instructions.
+
 ### - Electrical Safety
 
 Do not use the keyboard near water or moisture.
 Avoid exposing the keyboard to extreme temperatures or direct sunlight.
 Unplug the keyboard during electrical storms or when not in use for an extended period.
 
+Keep the keyboard away from fire and heat sources.
+Use this product only with cables that follow the appropriate EU regulations
+
 ### - Ergonomic Considerations
 
 Position the keyboard at a comfortable height and angle to prevent strain on your wrists and arms.
 Take regular breaks during extended typing sessions to prevent fatigue.
+
+Stay aware of any pain that might be caused by the keyboard, and stop usage immediately if that's the case. This keyboard is not a medical device.
 
 ### - Maintenance
 
 Clean the keyboard regularly with a soft, dry cloth to remove dust and debris.
 Avoid using harsh chemicals or abrasive materials that may damage the keyboard's finish.
 
-### - Warranty Information: c
+Do not make unauthorized alterations to this product.
+
+### - Warranty Information
 
 Our Keyboard Kit is covered by a limited warranty. Please refer to the terms and conditions for details.
 
