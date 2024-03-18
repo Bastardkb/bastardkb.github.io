@@ -1,3 +1,9 @@
+---
+title: Troubleshooting
+nav_order: 99999
+parent: Help
+---
+
 # Assembly and Usage Instructions for Keyboard Kit
 
 ## Important Safety Information
