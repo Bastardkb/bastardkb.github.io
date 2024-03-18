@@ -5,6 +5,21 @@ draw_config:
 layers:
   Base:
   - [Q, W, E, R, T, Y, U, I, O, P]
-  - [{t: A, h: LGUI}, {t: S, h: LALT}, {t: D, h: LCTL}, {t: F, h: LSFT}, G, H, {t: J, h: LSFT}, {t: K, h: LCTL}, {t: L, h: LALT}, {t: '''', h: LGUI}]
-  - [{t: Z, h: MOUSE}, X, C, V, B, N, M, ',', ., {t: '/', h: MOUSE}]
-  - [a,b,c,d,e,f]
+  - [A, S, D, F, G, H, J, K, L, ;]
+  - [Z, X, C, V, B, N, M, ',', ., /]
+  - [⊞ LGUI, ␣ SPC, {t: NUM, h: MO}, {t: SYM, h: MO}, ⮠ ENTER, ⌥ RALT]
+  Num:
+  - [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+  - ['','','','','', 🡄 LEFT, 🡅 UP, 🡇 DOWN, 🡆 RIGHT,'']
+  - ['','','','','','','','','','']
+  - [⊞ LGUI, ␣ SPC, {t: ▽, type: held}, {t: EXTRA, h: MO}, ⮠ ENTER, ⌥ RALT]
+  Sym:
+  - ['!', '@', '#', $, '%', ^, '&', '*', '(', ')']
+  - ['','','','','','-','=','[',']', \]
+  - ['','','','','',_,+,'{','}','|']
+  - [⊞ LGUI, ␣ SPC, {t: EXTRA, h: MO}, {t: ▽, type: held}, ⮠ ENTER, ⌥ RALT]
+  Extra:
+  - ['','','','','','','','','','']
+  - [RGB HUI,RGB SAI,RGB VAI,'','','','','','','']
+  - [RGB HUD,RGB SAD,RGB VAD,'','','','','','','']
+  - [⊞ LGUI, ␣ SPC, {t: ▽, type: held}, {t: ▽, type: held}, ⮠ ENTER, ⌥ RALT]
