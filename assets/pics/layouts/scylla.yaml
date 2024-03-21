@@ -4,9 +4,21 @@ draw_config:
     text.label { stroke: none; fill: #e0f0f0;}
 layers:
   Base:
-  - [⎋ ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-']
-  - [↹ TAB, Q, W, E, R, T, Y, U, I, O, P, \]
-  - [⇧ LSFT, A, S, D, F, G, H, J, K, L, ;, '''']
-  - [⎈ LCTL, {t: Z, h: Mouse}, X, C, V, B, N, M, ',', ., {t: '/', h: Mouse}, ⌥ LALT]
-  -  [a, b, c, d, e, f]
-  -  [1, 2, 3, 4]
+  - [⎋ ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ⌫ BSPC]
+  - [↹ TAB, Q, W, E, R, T, Y, U, I, O, P, '-']
+  - [⇧ LSFT, A, S, D, F, G, H, J, K, L, ;, '"']
+  - [⎈ LCTL, Z, X, C, V, B, N, M, ',', ., '/', '\']
+  - [⎈ LCTL, ␣ SPC, {t: NavSym, h: MO}, {t: Extra, h: MO}, ⮠ ENTER, ⊞ RGUI]
+  - [⤒ HOME, ⌫ BSPC, ⌦ DEL, ⌥ RALT]
+  Nav/Sym:
+  - ['~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', ⌦ DEL]
+  - [QK BOOT, ▽, ▽, ▽, ▽, '[', ']', KP 7, KP 8, KP 9, ▽, +]
+  - [▽, ⤒ HOME, ⇞ PGUP, ⇟ PGDN, ⤓ END, '(', ')', KP 4, KP 5, KP 6, '-', '|']
+  - [▽, ▽, ▽, ▽, ▽, ▽, ▽, KP 1, KP 2, KP 3, '=', '_']
+  - [⎈ LCTL, ⤒ HOME, {t: ▽, type: held}, ▽, ⌥ RALT, ⊞ RGUI, ␣ SPC, ⌫ BSPC, ⎈ RCTL, ⮠ ENTER]
+  Extra:
+  - [F12, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11]
+  - [▽, ▽, RGB RMOD, RGB TOG, RGB MOD, '[', ']', ▽, NUM LOCK, INS, SCROLL LOCK, 🔇 MUTE]
+  - [▽, 🡄 LEFT, 🡅 UP, 🡇 DOWN, 🡆 RIGHT, '(', ')', ⏮️ PREV, ⏯️ PLAY PAUSE, ⏭️ NEXT, ▽, 🔊 VOL UP]
+  - [▽, ▽, ▽, ▽, ▽, ▽, ▽, ▽, ▽, ▽, ▽, 🔉 VOL DOWN]
+  - [⎈ LCTL, ⤒ HOME, ▽, {t: ▽, type: held}, ⌥ RALT, QK BOOT, ␣ SPC, ⌫ BSPC, ⎈ RCTL, ⮠ ENTER]
