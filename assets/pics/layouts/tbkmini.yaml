@@ -1,0 +1,25 @@
+layout: {qmk_keyboard: bastardkb/tbkmini, qmk_layout: LAYOUT_split_3x6_3}
+draw_config:
+  svg_extra_style: |
+    text.label { stroke: none; fill: #e0f0f0;}
+layers:
+  Base:
+  - [↹ TAB, Q, W, E, R, T, Y, U, I, O, P, ⌫ BSPC]
+  - [⎈ LCTL, A, S, D, F, G, H, J, K, L, ;, '"']
+  - [⇧ LSFT, Z, X, C, V, B, N, M, ',', ., /, ⎋ ESC]
+  - [⊞ LGUI, ␣ SPC, {t: NUM, h: MO}, {t: SYM, h: MO}, ⮠ ENTER, ⌥ RALT]
+  Num:
+  - [↹ TAB, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, ⌫ BSPC]
+  - [⎈ LCTL, '', '', '', '', '', 🡄 LEFT, 🡇 DOWN, 🡅 UP, 🡆 RIGHT,'','']
+  - [⇧ LSFT, '', '', '', '', '', '', '', '', '', '', '']
+  - [⊞ LGUI, ␣ SPC, {t: ▽, type: held}, {t: EXTRA, h: MO}, ⮠ ENTER, ⌥ RALT]
+  Sym:
+  - [↹ TAB, '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', ⌫ BSPC]
+  - [⎈ LCTL, '', '', '', '', '', '-', '=', '[', ']', '\', '`']
+  - [⇧ LSFT, '', '', '', '', '', '_', '+', '{', '}', '|', '~']
+  - [⊞ LGUI, ␣ SPC, {t: EXTRA, h: MO}, {t: ▽, type: held}, ⮠ ENTER, ⌥ RALT]
+  Extra:
+  - [QK BOOT, '', '', '', '', '', '', '', '', '', '', '']
+  - [RGB TOG, RGB HUI, RGB SAI, RGB VAI, '', '', '', '', '', '', '', '']
+  - [RGB MOD, RGB HUD, RGB SAD, RGB VAD, '', '', '', '', '', '', '', '']
+  - [⊞ LGUI, ␣ SPC, {t: ▽, type: held}, {t: ▽, type: held}, ⮠ ENTER, ⌥ RALT]

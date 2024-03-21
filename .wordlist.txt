@@ -85,3 +85,7 @@ Keycaps
 Pseudoku
 Asymplex
 daughterboard
+
+cnano
+cmini
+tbkmini
