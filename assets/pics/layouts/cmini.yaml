@@ -1,0 +1,29 @@
+layout: {qmk_keyboard: bastardkb/charybdis/3x6, qmk_layout: LAYOUT}
+draw_config:
+  svg_extra_style: |
+    text.label { stroke: none; fill: #e0f0f0;}
+layers:
+  Base:
+  - ['⊞ LGUI', Q, W, E, R, T, Y, U, I, O, P, '⊞ RGUI']
+  - ['⎈ LCTL', A, S, D, F, G, H, J, K, L, '''', '⎈ RCTL']
+  - ['⇧ LSFT', {t: Z, h: MOUSE}, X, C, V, B, N, M, ',', ., {t: '/', h: MOUSE}, '⇧ RSFT']
+  - [⌫ BSPC, ␣ SPC, {t: LOWER, h: MO}]
+  - [{t: RAISE, h: MO}, ⮠ ENT]
+  Lower:
+  - ['', RGB TOG, ⏭️ NEXT, ⏯️ PLAY PAUSE, ⏮️ PREV, '', '[', 7, 8, 9, ']', '']
+  - ['', ⊞ LGUI, ⌥ LALT, ⎈ LCTL, ⇧ LSFT, '', KP +, 4, 5, 6, KP -, '']
+  - ['', '', '', '', EE CLR, QK BOOT, KP *, 1, 2, 3, KP /, '']
+  - ['', '', {t: ▽, type: held}]
+  - [⮠ ENT, ⌫ BSPC]
+  Raise:
+  - ['','','','','','','', 🔊 VOL UP, 🔇 MUTE, 🔉 VOL DOWN, '', '']
+  - ['', 🡄 LEFT, 🡇 DOWN, 🡅 UP, 🡆 RIGHT, '', '', ⇧ RSFT, ⎈ RCTL, ⌥ RALT, ⊞ RGUI, '']
+  - ['', ⤒ HOME, ⇟ PGDN, ⇞ PGUP, ⤓ END, '', QK BOOT, EE CLR, '','','','']
+  - [▽, ▽, '']
+  - [{t: ▽, type: held}, '']
+  Mouse:
+  - ['', '', '', '', DPI, Snipe DPI, Snipe DPI, DPI, '', '', '', '']
+  - ['', ⊞ LGUI, ⌥ LALT, ⎈ LCTL, ⇧ LSFT, '', '', ⇧ RSFT, ⎈ RCTL, ⌥ RALT, ⊞ RGUI, '']
+  - ['', {t: ▽, type: held}, DRAG SCROLL, SNIPE, EE CLR, QK BOOT, QK BOOT, EE CLR, SNIPE, DRAG SCROLL, {t: ▽, type: held}, '']
+  - [MOUSE 2, MOUSE 1, MOUSE 3]
+  - [MOUSE 3, MOUSE 2]

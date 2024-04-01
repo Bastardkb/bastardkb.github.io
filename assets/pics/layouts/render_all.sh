@@ -1,0 +1,6 @@
+#/bin/bash
+
+echo Rendering full board images...
+./render_full_boards.sh
+echo Rendering single layer images...
+./render_single_layers.sh
