@@ -10,6 +10,13 @@ Congratulations on successfully building your keyboard!
 The Bastard Keyboards come with a range of features, and it's also easy to customize them. On this page you will find additional information on how to use them and make them your own.
 
 # Daily use
+
+## Default keymap
+
+You can find pictures of the default keymaps on the [default keymaps page][keymaps].
+
+Alternatively, you can also plug in your keyboard and visualize the keymap using VIA (see VIA section).
+
 ## Using the trackball / trackpad
 
 If you prefer a video, how to use your trackball/trackpad keyboard is detailed here: [video](https://www.youtube.com/watch?v=XjFAvW-78bE).
@@ -60,4 +67,5 @@ For **advanced customization of the Charybdis and Charybdis Nano**, take a look 
 
 ---
 
-[customize]: {{site.baseurl}}/fw/charybdis-keymap.html
+[customize]: {{site.baseurl}}/fw/charybdis-features.html
+[keymaps]: {{site.baseurl}}/fw/default-keymaps.html

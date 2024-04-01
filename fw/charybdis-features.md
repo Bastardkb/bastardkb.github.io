@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Charybdis Keymap
+title: Charybdis Features
 nav_order: 1
 parent: Firmware
 ---
