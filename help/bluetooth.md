@@ -81,7 +81,7 @@ Here is a non-exhaustive list of additional required hardware (on top of a norma
 At the moment, ZMK does not support input devices.
 
 There are some examples of configuration:
-- https://github.com/ykz89/zmk-config
-- https://github.com/0xcharly/zmk-config
-- https://github.com/bstiq/zmk-config
-- https://github.com/grassfedreeve/Charybdis-ZMK-Config
+- [https://github.com/ykz89/zmk-config](https://github.com/ykz89/zmk-config)
+- [https://github.com/0xcharly/zmk-config](https://github.com/0xcharly/zmk-config)
+- [https://github.com/bstiq/zmk-config](https://github.com/bstiq/zmk-config)
+- [https://github.com/grassfedreeve/Charybdis-ZMK-Config](https://github.com/grassfedreeve/Charybdis-ZMK-Config)
