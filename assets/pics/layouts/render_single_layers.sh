@@ -9,7 +9,7 @@ ensure_exists_in_path tr
 ensure_exists_in_path keymap
 ensure_exists_in_path convert
 
-for board in cnano cmini charybdis skeletyl tbkmini scylla dilemma; do
+for board in cnano cmini charybdis skeletyl tbkmini scylla dilemma dilemma_max; do
     echo $board
     rm -r $board
     mkdir -p $board

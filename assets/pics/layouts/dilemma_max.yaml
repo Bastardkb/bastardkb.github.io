@@ -1,0 +1,33 @@
+layout: {qmk_keyboard: bastardkb/dilemma/4x6_4, qmk_layout: LAYOUT}
+draw_config:
+  svg_extra_style: |
+    text.label { stroke: none; fill: #e0f0f0;}
+layers:
+  Base:
+  - [⎋ ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-']
+  - [↹ TAB, Q, W, E, R, T, Y, U, I, O, P, \]
+  - [⇧ LSFT, A, S, D, F, G, H, J, K, L, ;, '''']
+  - [⎈ LCTL, {t: Z, h: Mouse}, X, C, V, B, N, M, ',', ., {t: '/', h: Mouse}, ⌥ LALT]
+  - [⌥ LALT, ⌫ BSPC, ␣ SPC, {t: LOWER, h: MO}]
+  - [{t: RAISE, h: MO}, ⮠ ENTER, ⌦ DEL, 🔇 MUTE]
+  Lower:
+  - ['~',  '!',  '@',  '#',  $,  '%',  ^,  '&',  '*',  (,  ),  _]
+  - [RGB MOD,  '',  '',  '',  '',  '',  '[',  KP 7,  KP 8,  KP 9,  ']',  '']
+  - [RGB TOG,  ⊞ LGUI,  ⌥ LALT,  ⎈ LCTL,  ⇧ LSFT,  '',  KP +,  KP 4,  KP 5,  KP 6,  KP -,  KP =]
+  - [RGB RMOD,  '',  '',  '',  '',  '',  KP *,  KP 1,  KP 2,  KP 3,  KP /,  KP .]
+  - ['',  '', '',  {t: ▽, type: held}]
+  - ['',  ▽,  '', '']
+  Raise:
+  - [F12,  F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10,  F11]
+  - [⏭️ NEXT,  '',  '',  '',  '',  '',  '',  '',  '',  '',  '', 🔊 VOL UP]
+  - [⏯️ PLAY PAUSE, 🡄 LEFT, 🡅 UP, 🡇 DOWN, 🡆 RIGHT,  '',  '',  ⇧ RSFT,  ⎈ RCTL,  ⌥ RALT,  ⊞ RGUI, 🔇 MUTE]
+  - [⏮️ PREV,  ⤒ HOME,  ⇞ PGUP,  ⇟ PGDN,  ⤓ END,  '',  '',  '',  '',  '',  '',  🔉 VOL DOWN]
+  - ['', ▽,  ▽,  '']
+  - [{t: ▽, type: held}, '', '', '']
+  Mouse:
+  - ['',  '',  '',  '',  '',  '',  '',  '',  '',  '',  '',  '']
+  - ['',  '',  '',  '',  DPI,  Snipe DPI,  Snipe DPI,  DPI,  '',  '',  '',  '']
+  - ['',  ⊞ LGUI,  ⌥ LALT,  ⎈ LCTL,  ⇧ LSFT,  '',  '',  ⇧ RSFT,  ⎈ RCTL,  ⌥ RALT,  ⊞ RGUI,  '']
+  - ['',  {t: ▽, type: held},  DRAG SCROLL,  SNIPE,  EE CLR,  QK BOOT,  QK BOOT,  EE CLR,  SNIPE,  DRAG SCROLL,  {t: ▽, type: held},  '']
+  - ['', MOUSE 2,  MOUSE 1,  MOUSE 3]
+  - [MOUSE 3, MOUSE 1, MOUSE 2, '']
