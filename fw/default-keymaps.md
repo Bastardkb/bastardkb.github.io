@@ -57,11 +57,27 @@ For more information on the features from the Charybdis keymaps, see the [charyb
 
 # Dilemma MAX
 
-// TODO
+![](../assets/pics/layouts/dilemma_max/Base.png)
+
+![](../assets/pics/layouts/dilemma_max/Lower.png)
+
+![](../assets/pics/layouts/dilemma_max/Raise.png)
+
+![](../assets/pics/layouts/dilemma_max/Mouse.png)
 
 # Dilemma
 
-// TODO
+![](../assets/pics/layouts/dilemma/Base.png)
+
+![](../assets/pics/layouts/dilemma/Nav.png)
+
+![](../assets/pics/layouts/dilemma/Mouse.png)
+
+![](../assets/pics/layouts/dilemma/Num.png)
+
+![](../assets/pics/layouts/dilemma/Sym.png)
+
+![](../assets/pics/layouts/dilemma/Fun.png)
 
 # Scylla
 
