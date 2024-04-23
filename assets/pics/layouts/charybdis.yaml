@@ -25,9 +25,9 @@ layers:
   - [▽,  ▽,  '',  {t: ▽, type: held}, '']
   - [▽,  ▽,  '']
   Mouse:
-  - ['',  '',  '',  '',  '',  '',  '',  '',  '',  '',  '',  '']
+  - [QK BOOT,  EE CLR,  '',  '',  '',  '',  '',  '',  '',  '',  EE CLR,  QK BOOT]
   - ['',  '',  '',  '',  DPI,  Snipe DPI,  Snipe DPI,  DPI,  '',  '',  '',  '']
   - ['',  ⊞ LGUI,  ⌥ LALT,  ⎈ LCTL,  ⇧ LSFT,  '',  '',  ⇧ RSFT,  ⎈ RCTL,  ⌥ RALT,  ⊞ RGUI,  '']
-  - ['',  {t: ▽, type: held},  DRAG SCROLL,  SNIPE,  EE CLR,  QK BOOT,  QK BOOT,  EE CLR,  SNIPE,  DRAG SCROLL,  {t: ▽, type: held},  '']
+  - ['',  {t: ▽, type: held},  DRAG SCROLL,  SNIPE,  '', '', '', '',  SNIPE,  DRAG SCROLL,  {t: ▽, type: held},  '']
   - [MOUSE 2,  MOUSE 1,  MOUSE 3, MOUSE 3, MOUSE 1]
   - ['',  MOUSE 2,  MOUSE 2]
