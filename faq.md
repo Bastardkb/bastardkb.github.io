@@ -2,7 +2,6 @@
 layout: default
 title: Frequently Asked Questions
 nav_order: 2
-parent: Help
 ---
 
 # Table of contents

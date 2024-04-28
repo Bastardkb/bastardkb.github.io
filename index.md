@@ -17,6 +17,8 @@ Welcome to the official Bastard Keyboards documentation website.
 
 Just like the rest of BK's work, this wiki is open-source - with the files on github. This wiki is hosted by Github Pages. Contributions are welcome!
 
+We recommend first checking out the [FAQ page][faq], which contains answers to commonly asked questions like bluetooth and hotswap.
+
 # What you will find here
 
 **Use the left menu to navigate. You will find:**
@@ -55,3 +57,4 @@ If you are unable to solve your issue, you may get additional help of the Bastar
 [github]: https://github.com/bastardkb
 [website]: https://bastardkb.com
 [youtube]: https://youtube.com/@bastardkb
+[faq]: {{site.baseurl}}/faq.html
