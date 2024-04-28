@@ -16,6 +16,7 @@ exclude:
   - _site/
   - building-locally.md
   - cspell.config.yaml
+  - assets/pics/layouts/README.md
 
 plugins:
   - jekyll-default-layout
