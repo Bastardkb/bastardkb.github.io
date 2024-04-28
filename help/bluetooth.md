@@ -18,7 +18,9 @@ If you still wish to build one of the Charybdis or Dactyl keyboards, in this pag
 
 Before beginning, make sure you have some **good understanding of electronics and firmware**. Read the whole page before committing.
 
-There is a video overview here made by EIGA: [youtube link](https://www.youtube.com/watch?v=Mks7QDxFreY)
+There is a video overview here made by EIGA: [youtube link](https://www.youtube.com/watch?v=Mks7QDxFreY).
+
+Please note, **there is no official guide or video**, nor officially up-to-date, maintained repository. You will need to check out the links on this page and/or use the search function on discord to figure out the latest developments.
 
 # Caveats
 
@@ -65,7 +67,10 @@ The PMW3610 sensor PCB connects in the same way as the regular sensor PCB.
 
 If you are building a Dactyl, you can use the regular shield PCB.
 
-If you are building a Charybdis, you will need a different shield PCB as the nice!nano does not have the bottom row of pins.
+If you are building a Charybdis, you will need a different shield PCB as:
+
+- the nice!nano does not have the bottom row of pins, which is where the SPI CS pin is routed for the trackball header
+- the SPI pin positions on the elite-c map to low-frequency pins on the nice!nano
 
 You can find it here: [Nice!Nano holder](https://github.com/victorlucachi/Elite-C-holder)
 
