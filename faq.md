@@ -9,7 +9,7 @@ nav_order: 2
 1. TOC
 {:toc}
 
-# Hotswap
+# Hotswap 
 
 {: .question }
 Is it possible to build a hotswap Bastard Keyboard?
