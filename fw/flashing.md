@@ -118,6 +118,7 @@ If you have made changes to the RGB, the QMK version, the rotary encoder, or the
 Unplug the USB connector and connect the other side, and then repeat the procedure - flashing the same firmware file. 
 
 If you use the `QK_BOOT` method, please note that your layout may now be mirrored! This is normal, ignore it and plug the USB back into the right side.
+
 ---- 
 
 [releases]: https://github.com/Bastardkb/bastardkb-qmk/releases
