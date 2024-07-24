@@ -89,3 +89,8 @@ daughterboard
 cnano
 cmini
 tbkmini
+bootmagic
+udev
+
+Singel
+LEBASTARD
