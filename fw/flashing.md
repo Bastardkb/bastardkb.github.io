@@ -81,8 +81,7 @@ Once you've put the keyboard in bootloader mode, you can skip to the [usb drive 
 
 The hardware fallback is an emergency method:
 
-- if the currently flashed firmware will not work, eg. if none is loaded 
-- if you self-sourced a controller and it's not working
+- if the currently flashed firmware will not work, eg. if none is loaded, such as on a self-sourced controller 
 - if something went wrong while flashing
 - if you accidentally flashed a firmware for a different board
 
