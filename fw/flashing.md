@@ -65,6 +65,8 @@ There exists a dedicated key code that will immediately reboot into the bootload
 
 Please refer to the [keymap guide][keymaps] to find the default location of this key for your keyboard.
 
+Once you've put the keyboard in bootloader mode, you can skip to the [usb drive section](#usb-drive). 
+
 ## Update button
 
 Locate the button labeled "UPDATE" or "RESET" on your controller.
