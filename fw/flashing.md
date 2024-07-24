@@ -112,7 +112,7 @@ On a Linux system, you will need to ensure the drive is automatically mounted an
 
 # The other hand
 
-If you have made changes to the RGB, the QMK version, the rotary encoder, or the trackball behaviour, it's a good idea to flash the other side as well. You can read more on the [splitkb article on this topic][splitkb-whentoflash]. If the keyboard is behaving in a weird manner or if you have any doubt, always flash both hands.
+If you have made changes to the RGB, the QMK version, the rotary encoder, or the trackball behavior, it's a good idea to flash the other side as well. You can read more on the [splitkb article on this topic][splitkb-whentoflash]. If the keyboard is behaving in a weird manner or if you have any doubt, always flash both hands.
 
 
 Unplug the USB connector and connect the other side, and then repeat the procedure - flashing the same firmware file. 
