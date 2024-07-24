@@ -23,7 +23,9 @@ A note about the TRS/TRRS cable: It does not disturb the flashing process and ca
 
 To flash your new image, you will need to go through a few steps:
 
-- compile your own firmware (not covered in this article)
+// TODO link default firmwares
+
+- compile your own firmware (not covered in this article), or get it from the default BKB firmwares
 - put the keyboard into bootloader mode
 - copy the image to the USB drive
 - (if needed) flash the other hand
