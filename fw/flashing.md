@@ -25,7 +25,7 @@ To flash your new image, you will need to go through a few steps:
 
 // TODO link default firmwares
 
-- compile your own firmware (not covered in this article), or get it from the default BKB firmwares
+- compile your own firmware (not covered in this article), or get it from the BKB firmware [releases][releases]
 - put the keyboard into bootloader mode
 - copy the image to the USB drive
 - (if needed) flash the other hand
@@ -118,5 +118,6 @@ Unplug the USB connector and connect the other side, and then repeat the procedu
 If you use the `QK_BOOT` method, please note that your layout may now be mirrored! This is normal, ignore it and plug the USB back into the right side.
 ---- 
 
+[releases]: https://github.com/Bastardkb/bastardkb-qmk/releases
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [splitkb-whentoflash]: https://docs.splitkb.com/hc/en-us/articles/360011949679-When-do-I-need-to-flash-my-microcontroller
