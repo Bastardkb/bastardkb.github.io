@@ -36,7 +36,7 @@ Below is detailed the exact procedure to follow. You need to flash either the ri
 
 Sourcing your firmware can be done in a couple ways:
 
-// TODO fix link build?
+// TODO fix link build to internal doc?
 
 - downloading it from the [release section on github][releases]
 - build your own firmware, [detailed here][build]

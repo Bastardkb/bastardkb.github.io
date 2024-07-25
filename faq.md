@@ -9,6 +9,13 @@ nav_order: 2
 1. TOC
 {:toc}
 
+# Customize the keymap
+
+{: .question }
+How do I customize my keymap?
+
+You can read more on how to customize your keyboard [on the How to use and customize your Bastard Keyboard][customize] page.
+
 # Hotswap
 
 {: .question }
@@ -59,3 +66,4 @@ You can get those from Drop, or any other website that offers them.
 ---
 
 [bluetooth]: {{site.baseurl}}/help/bluetooth.html
+[customize]: {{site.baseurl}}/fw/customize-keyboard.html
