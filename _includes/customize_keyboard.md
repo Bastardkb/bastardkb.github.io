@@ -45,8 +45,6 @@ The 3x5 keyboards (Skeletyl, Charybdis Nano) come flashed with [Miryoku](https:/
 
 # Customization
 
-You can find the latest **default images** for all Bastard Keyboards in the release section of the [BastardKB QMK fork](https://github.com/Bastardkb/bastardkb-qmk/releases).
-
 ## Using VIA
 
 All Bastard Keyboards come flashed with VIA. You can open the [VIA Web Interface through use.via.app](https://usevia.app/). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
@@ -61,7 +59,9 @@ Through VIA, you can customize:
 
 ## Using QMK
 
-For how to flash your keyboard, take a look at the [readme on the BKB QMK Fork](https://github.com/Bastardkb/bastardkb-qmk).
+You can find the latest **default images** for all Bastard Keyboards in the release section of the [BastardKB QMK fork](https://github.com/Bastardkb/bastardkb-qmk/releases).
+
+For how to flash your keyboard, take a look at the [how to flash your keyboard page][flashing].
 
 For **advanced customization of the Charybdis and Charybdis Nano**, take a look at the [customize page][customize].
 
@@ -69,3 +69,4 @@ For **advanced customization of the Charybdis and Charybdis Nano**, take a look 
 
 [customize]: {{site.baseurl}}/fw/charybdis-features.html
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
+[flashing]: {{site.baseurl}}/fw/flashing.html
