@@ -36,8 +36,6 @@ Below is detailed the exact procedure to follow. You need to flash either the ri
 
 Sourcing your firmware can be done in a couple ways:
 
-// TODO fix link build to internal doc?
-
 - downloading it from the [release section on github][releases]
 - build your own firmware, [detailed here][build]
 
@@ -56,6 +54,10 @@ There exists a dedicated key code that will immediately reboot into the bootload
 
 Please refer to the [keymap guide][keymaps] to find the default location of this key for your keyboard.
 
+For example, on the Charybdis the keycode is on the `Nav/Sym` layer:
+
+![](../assets/pics/help/flashing/5.jpg)
+
 Once you've put the keyboard in bootloader mode, you can skip to the [usb drive section](#usb-drive). 
 
 ## Bootmagic
@@ -72,7 +74,7 @@ To initiate bootmagic:
 - at the same time, plug the USB cable in again
 - release the key
 
-/// PICTURE of several boards with bootmagic keys highlighted
+![](../assets/pics/help/flashing/4.jpg)
 
 Once you've put the keyboard in bootloader mode, you can skip to the [usb drive section](#usb-drive). 
 
@@ -82,7 +84,7 @@ Locate the button labeled "UPDATE" or "RESET" on your controller.
 
 The Dactyl and Charybdis families have a hole in the bottom plate allowing access to the button with for example a pen. On the Dilemma family, the button is located on the top of the keyboard.
 
-/// PICTURE of dactyl bottom and Dilemma with button/button holes highlighted
+![](../assets/pics/help/flashing/2.jpg)
 
 Tapping this button twice within 500 milliseconds will engage the bootloader.
 
@@ -98,7 +100,7 @@ The hardware fallback is an emergency method:
 
 For this, you will need to unscrew the case bottom and locate two through holes, either labelled "BOOT" or unlabelled.
 
-/// PICTURE of splinky, splinktegrated and Dilemma with boot pads highlighted
+![](../assets/pics/help/flashing/1.jpg)
 
 Next, unplug the USB connector, and then bridge the two pads, for example using metallic tweezers. Hold this connection while you plug in the USB connector, and release it shortly afterward.
 
