@@ -10,7 +10,11 @@ parent: Firmware
 1. TOC
 {:toc}
 
-# Flashing
+# Introduction
+
+There are 2 ways of customizing your Bastard Keyboard:
+- using VIA through a web interface
+- flashing your own firmware
 
 *Flashing* refers to writing a new firmware binary onto a controller. This article will describe the process and the various ways of initiating it.
 
@@ -23,12 +27,19 @@ A note about the TRS/TRRS cable: It does not disturb the flashing process and ca
 
 To flash your new image, you will need to go through a few steps:
 
-- compile your own firmware (not covered in this article), or get it from the BKB firmware [releases][releases]
+- source your own firmware
 - put the keyboard into bootloader mode
 - copy the image to the USB drive
 - (if needed) flash the other hand
 
 Below is detailed the exact procedure to follow. You need to flash either the right side only, or the right and left side separately - this is also detailed below.
+
+Sourcing your firmware can be done in a couple ways:
+
+// TODO fix link build?
+
+- downloading it from the [release section on github][releases]
+- build your own firmware, [detailed here][build]
 
 # Bootloader
 
@@ -117,7 +128,7 @@ Unplug the USB connector and connect the other side, and then repeat the procedu
 If you use the `QK_BOOT` method, please note that your layout may now be mirrored! This is normal, ignore it and plug the USB back into the right side.
 
 ---- 
-
+[build]: https://github.com/Bastardkb/bastardkb-qmk?tab=readme-ov-file#building-from-source-advanced
 [releases]: https://github.com/Bastardkb/bastardkb-qmk/releases
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [splitkb-whentoflash]: https://docs.splitkb.com/hc/en-us/articles/360011949679-When-do-I-need-to-flash-my-microcontroller
