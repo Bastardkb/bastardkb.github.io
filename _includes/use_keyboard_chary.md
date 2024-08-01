@@ -43,11 +43,19 @@ You can also configure qmk to have it activated automatically.
 
 The 3x5 keyboards (Skeletyl, Charybdis Nano) come flashed with [Miryoku](https://github.com/manna-harbour/miryoku). On its github repository you will find useful information on the different layers available.
 
+
 # Customization
+
+For customizing your keyboard, you can:
+
+- use VIA
+- use QMK
 
 ## Using VIA
 
-All Bastard Keyboards come flashed with VIA. You can open the [VIA Web Interface through use.via.app](https://usevia.app/). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
+All Bastard Keyboards come flashed with VIA. VIA is an additional layer that comes on top of QMK, and comes with a handy graphical interface. While it's limited in features, it removes the need to manage a git repository, the console and a QMK installation.
+
+You can open the [VIA Web Interface through use.via.app](https://usevia.app/). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
 
 You can check the following tutorial on how to use it:
 {% include youtube.html id="cYICAlliJfU" %}
@@ -59,14 +67,14 @@ Through VIA, you can customize:
 
 ## Using QMK
 
-You can find the latest **default images** for all Bastard Keyboards in the release section of the [BastardKB QMK fork](https://github.com/Bastardkb/bastardkb-qmk/releases).
+This is for advanced users. 
 
-For how to flash your keyboard, take a look at the [how to flash your keyboard page][flashing].
+For how to compile a custom hardware for your keyboard, take a look at the [how to compilee your own firmware page][compile-firmware].
 
-For **advanced customization of the Charybdis and Charybdis Nano**, take a look at the [customize page][customize].
+For **advanced customization of the Charybdis and Charybdis Nano**, take a look at the [customize page][customize-chary].
 
 ---
 
-[customize]: {{site.baseurl}}/fw/charybdis-features.html
+[customize-chary]: {{site.baseurl}}/fw/charybdis-features.html
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [flashing]: {{site.baseurl}}/fw/flashing.html
