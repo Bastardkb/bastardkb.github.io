@@ -19,7 +19,7 @@ While that repository is used as primary source of truth for Bastard Keyboards f
 
 This page details how to compile your own firmware. Building from source is useful to people who want to customize their keyboard and keymaps beyond what Via offers. This involves using a command-line interface, writing C code, and compiling this code into the final firmware file.
 
-If that seems too complicated, you can also use one of the default releases, or VIA. // TODO links
+If that seems too complicated, you can also use one of the default releases, or VIA.
 
 # Requirements 
 
