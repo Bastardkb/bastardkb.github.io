@@ -78,3 +78,4 @@ For **advanced customization of the Charybdis and Charybdis Nano**, take a look 
 [customize-chary]: {{site.baseurl}}/fw/charybdis-features.html
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [flashing]: {{site.baseurl}}/fw/flashing.html
+[compile-firmware]: {{site.baseurl}}/fw/compile-firmware.html
