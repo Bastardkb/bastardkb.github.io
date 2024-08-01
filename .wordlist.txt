@@ -94,3 +94,5 @@ udev
 
 Singel
 LEBASTARD
+
+Alli # keeps getting detected as a word in youtube video id in embed
