@@ -69,7 +69,7 @@ Through VIA, you can customize:
 
 This is for advanced users. 
 
-For how to compile a custom hardware for your keyboard, take a look at the [how to compilee your own firmware page][compile-firmware].
+For how to compile a custom hardware for your keyboard, take a look at the [how to compile your own firmware page][compile-firmware].
 
 For **advanced customization of the Charybdis and Charybdis Nano**, take a look at the [customize page][customize-chary].
 
