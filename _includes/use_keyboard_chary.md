@@ -34,7 +34,7 @@ The most important ones are on the thumb cluster - it transforms into mouse butt
 
 ### Sniping 
 
-Sniping **slows down the trackball**. This way, you can move the cursor more precisely.
+Sniping **slows down the trackball/trackpad**. This way, you can move the cursor more precisely.
 
 By default, Sniping mode is activated when you hold the `MOUSE + SNIP` keys at the same time.
 You can also configure qmk to have it activated automatically.
