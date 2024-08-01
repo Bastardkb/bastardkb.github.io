@@ -23,7 +23,8 @@ If that seems too complicated, you can also use one of the default releases, or 
 
 # Requirements 
 
-Follow the [QMK docs](https://docs.qmk.fm/#/getting_started_build_tools) to setup your environment
+1. Follow the [QMK docs](https://docs.qmk.fm/#/getting_started_build_tools) to setup your environment
+2. Clone the [BastardKB QMK repository](https://github.com/bastardkb/bastardkb-qmk)
 
 # Building your firmware
 
