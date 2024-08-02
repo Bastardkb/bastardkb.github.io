@@ -103,7 +103,7 @@ First, make sure you have went through the [Github actions requirements section 
 
 After cloning the BastardKB userspace repository, it is already configured to work with the BastardKB QMK fork - so no need for additional configuration on that side.
 
-If you created your own keymap, you will need to add it to the list of keympaps to be compiled in `qmk.json`, for example:
+If you created your own keymap, you will need to add it to the list of keymaps to be compiled in `qmk.json`, for example:
 
 ```shell
 {
