@@ -61,6 +61,7 @@ multimeter
 keypress
 MCU
 !dilemma
+dilemma
 TRRS
 KiCad
 Millmax
