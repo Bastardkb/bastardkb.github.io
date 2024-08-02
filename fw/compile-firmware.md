@@ -48,7 +48,7 @@ qmk config user.qmk_home="$(realpath .)"
 If you have multiple QMK installations, you will need to manually set the qmk home path again to use the other ones.
 
 That's all you needed to do with the QMK repository.
-From here on, **we will only focus on the Userspace repository.**
+From here on, **we will only focus on the userspace repository.**
 
 ## BastardKb userspace
 
