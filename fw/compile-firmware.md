@@ -101,7 +101,7 @@ qmk compile -c -kb bastardkb/{keyboard} -km {keymap}
 
 ## `{keymap}` argument
 
-All keyboards have a `default` keymap. Most also have a `via` keymap. The latter is already configured to work with [Via](https://usevia.app).
+All keyboards have a `vendor` keymap, which is the one officially supported and shipped with Bastard Keyboards.
 
 To build *any* keymap with Via support, simply add the following argument to the command line: `-e VIA_ENABLE=yes`, e.g.:
 
