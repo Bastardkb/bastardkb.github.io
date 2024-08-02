@@ -16,7 +16,7 @@ The [BastardKB QMK repository](https://github.com/bastardkb/bastardkb-qmk) conta
 
 While that repository is used as primary source of truth for Bastard Keyboards firmwares as it contains the latest changes and improvements, the maintainers aim at upstreaming all those changes to the official [QMK repository](https://github.com/qmk/qmk_firmware).
 
-While the behavioural code is stored on the QMK repository, the keymaps are stored in our [QMK userspace](https://github.com/Bastardkb/qmk_userspace).
+While the behavioral code is stored on the QMK repository, the keymaps are stored in our [QMK userspace](https://github.com/Bastardkb/qmk_userspace).
 
 This page details how to compile your own firmware. Building from source is useful to people who want to customize their keyboard and keymaps beyond what Via offers. This involves using a command-line interface, writing C code, and compiling this code into the final firmware file.
 
