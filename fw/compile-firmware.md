@@ -48,7 +48,7 @@ qmk config user.qmk_home="$(realpath .)"
 If you have multiple QMK installations, you will need to manually set the qmk home path again to use the other ones.
 
 That's all you needed to do with the QMK repository.
-From here on, **we will only focus on the Userspace repository.**
+From here on, **we will only focus on the userspace repository.**
 
 ## BastardKb userspace
 
@@ -72,7 +72,7 @@ qmk config user.overlay_dir="$(realpath .)"
 
 ## Github actions {#actions-requirements}
 
-If you want to use Github actions to compile your firmware (rather than the console), you will need to:
+If you want to use Github actions to compile your firmware (rather than doing it locally in the console), you will need to:
 
 - fork the BastardKB QMK Userspace repository
 - in the `Actions` tab, enable workflows
@@ -103,7 +103,7 @@ First, make sure you have went through the [Github actions requirements section 
 
 After cloning the BastardKB userspace repository, it is already configured to work with the BastardKB QMK fork - so no need for additional configuration on that side.
 
-If you created your own keymap, you will need to add it to the list of keympaps to be compiled in `qmk.json`, for example:
+If you created your own keymap, you will need to add it to the list of keymaps to be compiled in `qmk.json`, for example:
 
 ```shell
 {
@@ -124,7 +124,7 @@ Then,
 1. Inspect the Releases tab on your repository for the latest firmware build
 
 
-# Compiling with console
+# Compiling locally
 
 Once in the QMK userspace repository, compiling a keymap works the same as normal:
 
