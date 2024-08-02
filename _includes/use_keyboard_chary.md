@@ -50,7 +50,7 @@ For customizing your keyboard, you can:
 
 All Bastard Keyboards come flashed with VIA. VIA is an additional layer that comes on top of QMK, and comes with a handy graphical interface. While it's limited in features, it removes the need to manage a git repository, the console and a QMK installation.
 
-You can open the [VIA Web Interface through use.via.app](https://usevia.app/). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
+You can open the [VIA Web Interface through usevia.app](https://usevia.app/). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
 
 You can check the following tutorial on how to use it:
 {% include youtube.html id="cYICAlliJfU" %}
