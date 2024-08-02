@@ -51,11 +51,13 @@ If you have multiple QMK installations, you will need to manually set the qmk ho
 
 While the QMK repository contains the logic behind the keyboards, the keymaps are in the userspace repository.
 
+**If you are going to create your own keymaps, you should fork the repository.**
+
 In a separate folder, clone the BKB QMK repository, using either github desktop or the command line:
 
 
 ```shell
-git clone https://github.com/bastardkb/qmk_userspace
+git clone https://github.com/bastardkb/qmk_userspace # or, your own fork
 ```
 
 Next, `cd` into the repository and enable userspace:
@@ -65,18 +67,59 @@ cd qmk_userspace
 qmk config user.overlay_dir="$(realpath .)"
 ```
 
-## Github actions
+## Github actions {#actions-requirements}
 
-// TODO screenshot enable actions workflows
+If you are want to use Github actions to compile your firmware (rather than the console), you will need to:
 
-// TODO mroe details, screenshots
-actions tab -- "I understand my workflows, go ahead and enable them"
+- fork the BastardKB QMK Userspace repository
+- in the `Actions` tab, enable workflows
 
-1. In the GitHub Actions tab, enable workflows
-2. Push your changes above to your forked GitHub repository
-3. Look at the GitHub Actions for a new actions run
-4. Wait for the actions run to complete
-5. Inspect the Releases tab on your repository for the latest firmware build
+
+# Creating your keymap
+
+If you want to create your own keymap, **we heavily recommend to create your own fork of the BastardKB QMK userspace.**
+
+This way, you can:
+
+- track changes
+- use Github actions to compile your keymap
+- (if relevant) contribute your keymap to the origin Bastard KB QMK Userspace
+
+Create a separate folder in the relevant folder, eg:
+
+```
+keyboards/bastardkb/charybdis/4x6/keymaps/my-keymap/
+```
+
+Then, the easiest is to copy over an existing keymap (eg. `vendor`) over, and modify from there.
+
+
+# Compiling with Github Actions
+
+First, make sure you have went through the [Github actions requirements section above](#actions-requirements).
+
+After cloning the BastardKB userspace repository, it is already configured to work with the BastardKB QMK fork - so no need for additional configuration on that side.
+
+If you created your own keymap, you will need to add it to the list of keympaps to be compiled in `qmk.json`, for example:
+
+```shell
+{
+    "userspace_version": "1.0",
+    "build_targets": [
+        ["bastardkb/charybdis/4x6", "my-keymap"]
+    ]
+}
+```
+
+We also recommend deleting the other keymaps if you don't use them, as it'll make the action run faster.
+
+Then,
+
+1. Push your changes above to your forked GitHub repository
+1. Look at the GitHub Actions for a new actions run
+1. Wait for the actions run to complete
+1. Inspect the Releases tab on your repository for the latest firmware build
+
 
 # Compiling with console
 
@@ -109,30 +152,11 @@ To build *any* keymap with Via support, simply add the following argument to the
 qmk compile -c -kb {keyboard} -km default -e VIA_ENABLE=yes
 ```
 
-# Compiling with Github Actions
-
-If you clone the BastardKB userspace repository, it is already configured to work with the BastardKB QMK fork.
-
-If you created your own keymap, you will need to add it to the list of keympaps to be compiled in `qmk.json`, for example:
-
-```shell
-{
-    "userspace_version": "1.0",
-    "build_targets": [
-        ["bastardkb/charybdis/4x6", "my-keymap"]
-    ]
-}
-```
-
-We also recommend deleting the other keymaps if you don't use them, as it'll make the action run faster.
-
-# Creating your own keymap
-
-// TODO
-
 # Contributing your own keymap
 
-// TODO
+If you are happy with your keymap and would like to share it, we would gladly review it!
+
+Just PR your fork to the origin BastardKB Userspace repository.
 
 # Flashing your keyboard
 
