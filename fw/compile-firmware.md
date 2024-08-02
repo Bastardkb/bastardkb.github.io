@@ -124,7 +124,7 @@ Then,
 1. Inspect the Releases tab on your repository for the latest firmware build
 
 
-# Compiling with console
+# Compiling locally
 
 Once in the QMK userspace repository, compiling a keymap works the same as normal:
 
