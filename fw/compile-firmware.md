@@ -80,7 +80,7 @@ actions tab -- "I understand my workflows, go ahead and enable them"
 
 # Compiling with console
 
-Once in the QMK Userspace repository, compiling a keymap works the same as normal:
+Once in the QMK userspace repository, compiling a keymap works the same as normal:
 
 ```shell
 qmk compile -c -kb bastardkb/{keyboard} -km {keymap}
