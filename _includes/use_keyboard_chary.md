@@ -39,11 +39,6 @@ Sniping **slows down the trackball/trackpad**. This way, you can move the cursor
 By default, Sniping mode is activated when you hold the `MOUSE + SNIP` keys at the same time.
 You can also configure qmk to have it activated automatically.
 
-## Miryoku
-
-The 3x5 keyboards (Skeletyl, Charybdis Nano) come flashed with [Miryoku](https://github.com/manna-harbour/miryoku). On its github repository you will find useful information on the different layers available.
-
-
 # Customization
 
 For customizing your keyboard, you can:

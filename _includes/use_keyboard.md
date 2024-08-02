@@ -17,10 +17,6 @@ You can find pictures of the default keymaps on the [default keymaps page][keyma
 
 Alternatively, you can also plug in your keyboard and visualize the keymap using VIA (see VIA section).
 
-## Miryoku
-
-The 3x5 keyboards (Skeletyl, Charybdis Nano) come flashed with [Miryoku](https://github.com/manna-harbour/miryoku). On its github repository you will find useful information on the different layers available.
-
 # Customization
 
 For customizing your keyboard, you can:
