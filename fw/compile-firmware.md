@@ -34,13 +34,13 @@ Clone the BKB QMK repository, using either github desktop or the command line, a
 
 ```shell
 git clone https://github.com/bastardkb/bastardkb-qmk
+cd bastardkb-qmk
 git checkout origin/bkb-master
 ```
 
 Now that you've cloned the repository, `cd` into it and set it as the default local QMK repository. You also need to do this if you had a previous, separate QMK installation.
 
 ```shell
-cd bastardkb-qmk
 qmk config user.qmk_home="$(realpath .)" 
 ```
 
