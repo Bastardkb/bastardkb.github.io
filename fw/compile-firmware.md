@@ -72,7 +72,7 @@ qmk config user.overlay_dir="$(realpath .)"
 
 ## Github actions {#actions-requirements}
 
-If you want to use Github actions to compile your firmware (rather than the console), you will need to:
+If you want to use Github actions to compile your firmware (rather than doing it locally in the console), you will need to:
 
 - fork the BastardKB QMK Userspace repository
 - in the `Actions` tab, enable workflows
