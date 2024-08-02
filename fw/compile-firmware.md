@@ -111,7 +111,7 @@ qmk compile -c -kb {keyboard} -km default -e VIA_ENABLE=yes
 
 # Compiling with Github Actions
 
-If you clone the BastardKB Userspace repository, it is alredy configured to work with the BastardKB QMK fork.
+If you clone the BastardKB userspace repository, it is already configured to work with the BastardKB QMK fork.
 
 If you created your own keymap, you will need to add it to the list of keympaps to be compiled in `qmk.json`, for example:
 
