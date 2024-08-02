@@ -44,7 +44,7 @@ Now that you've cloned the repository, `cd` into it and set it as the default lo
 qmk config user.qmk_home="$(realpath .)" 
 ```
 
-{: .note }
+{: .info }
 If you have multiple QMK installations, you will need to manually set the qmk home path again to use the other ones.
 
 ## BastardKb userspace
