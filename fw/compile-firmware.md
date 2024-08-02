@@ -16,7 +16,7 @@ The [BastardKB QMK repository](https://github.com/bastardkb/bastardkb-qmk) conta
 
 While that repository is used as primary source of truth for Bastard Keyboards firmwares as it contains the latest changes and improvements, the maintainers aim at upstreaming all those changes to the official [QMK repository](https://github.com/qmk/qmk_firmware).
 
-While the behavioural code is stored on the QMK repository, the keymaps are stored in our [QMK userspace](https://github.com/Bastardkb/qmk_userspace).
+While the behavioral code is stored on the QMK repository, the keymaps are stored in our [QMK userspace](https://github.com/Bastardkb/qmk_userspace).
 
 This page details how to compile your own firmware. Building from source is useful to people who want to customize their keyboard and keymaps beyond what Via offers. This involves using a command-line interface, writing C code, and compiling this code into the final firmware file.
 
@@ -35,7 +35,7 @@ Clone the BKB QMK repository, using either github desktop or the command line, a
 ```shell
 git clone https://github.com/bastardkb/bastardkb-qmk
 cd bastardkb-qmk
-git checkout origin/bkb-master
+git checkout -b bkb-master origin/bkb-master
 ```
 
 Now that you've cloned the repository, `cd` into it and set it as the default local QMK repository. You also need to do this if you had a previous, separate QMK installation.
@@ -80,7 +80,7 @@ actions tab -- "I understand my workflows, go ahead and enable them"
 
 # Compiling with console
 
-Once in the QMK Userspace repository, compiling a keymap works the same as normal:
+Once in the QMK userspace repository, compiling a keymap works the same as normal:
 
 ```shell
 qmk compile -c -kb bastardkb/{keyboard} -km {keymap}
@@ -111,7 +111,7 @@ qmk compile -c -kb {keyboard} -km default -e VIA_ENABLE=yes
 
 # Compiling with Github Actions
 
-If you clone the BastardKB Userspace repository, it is alredy configured to work with the BastardKB QMK fork.
+If you clone the BastardKB userspace repository, it is already configured to work with the BastardKB QMK fork.
 
 If you created your own keymap, you will need to add it to the list of keympaps to be compiled in `qmk.json`, for example:
 
