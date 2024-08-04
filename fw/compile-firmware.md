@@ -33,7 +33,7 @@ While the QMK repository contains the logic behind the keyboards, the keymaps ar
 
 **If you are going to create your own keymaps, the first step is to fork the repository.**
 
-In a separate folder, clone the BKB QMK repository, using either Github desktop or the command line:
+In a separate folder, clone the fork you just created, using either Github desktop or the command line:
 
 
 ```shell
