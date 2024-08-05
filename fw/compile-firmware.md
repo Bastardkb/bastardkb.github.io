@@ -56,6 +56,10 @@ Create a separate folder in the relevant folder, eg:
 keyboards/bastardkb/charybdis/4x6/keymaps/my-keymap/
 ```
 
+
+{: .note }
+By convention, your keymap name must be all lowercase, without spaces.
+
 Then, the easiest is to copy over an existing keymap (eg. `vendor`) over, and modify from there.
 
 # Compiling your firmware using Github actions
