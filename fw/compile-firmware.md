@@ -31,7 +31,7 @@ If that seems too complicated, you can also use one of the default releases, or 
 
 While the QMK repository contains the logic behind the keyboards, the keymaps are in the userspace repository.
 
-**If you are going to create your own keymaps, the first step is to fork the repository.**
+**If you are going to create your own keymaps, the first step is to fork the [BastardKB QMK userspace repository](https://github.com/Bastardkb/qmk_userspace).**
 
 In a separate folder, clone the fork you just created, using either Github desktop or the command line:
 
@@ -42,7 +42,7 @@ git clone https://github.com/my_username/qmk_userspace
 
 # Creating your keymap
 
-If you want to create your own keymap, **make sure to fork the BastardKB QMK userspace repository.**
+If you want to create your own keymap, **make sure to fork the  [BastardKB QMK userspace repository](https://github.com/Bastardkb/qmk_userspace).**
 
 This way, you can:
 
