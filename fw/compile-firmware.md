@@ -14,7 +14,7 @@ parent: Firmware
 
 The [BastardKB QMK repository](https://github.com/bastardkb/bastardkb-qmk) contains the behavioural firmware code and releases for the Bastard Keyboards Charybdis boards.
 
-The keymaps are stored in our [QMK userspace](https://github.com/Bastardkb/qmk_userspace).
+The keymaps are stored in the [BastardKB QMK userspace repository][bkbus].
 
 The QMK repository repository is used as primary source of truth for Bastard Keyboards firmwares and contains the latest changes and improvements.
 The maintainers aim at upstreaming all those changes to the official [QMK repository](https://github.com/qmk/qmk_firmware).
@@ -31,7 +31,14 @@ If that seems too complicated, you can also use one of the default releases, or 
 
 While the QMK repository contains the logic behind the keyboards, the keymaps are in the userspace repository.
 
-**If you are going to create your own keymaps, the first step is to fork the [BastardKB QMK userspace repository](https://github.com/Bastardkb/qmk_userspace).**
+**If you are going to create your own keymaps, the first step is to fork the [BastardKB QMK userspace repository][bkbus].**
+
+
+This way, you can:
+
+- track changes
+- use Github actions to compile your keymap
+- (if relevant) contribute your keymap to the origin Bastard KB QMK Userspace
 
 In a separate folder, clone the fork you just created, using either Github desktop or the command line:
 
@@ -42,13 +49,7 @@ git clone https://github.com/my_username/qmk_userspace
 
 # Creating your keymap
 
-If you want to create your own keymap, **make sure to fork the  [BastardKB QMK userspace repository](https://github.com/Bastardkb/qmk_userspace).**
-
-This way, you can:
-
-- track changes
-- use Github actions to compile your keymap
-- (if relevant) contribute your keymap to the origin Bastard KB QMK Userspace
+If you want to create your own keymap, **make sure you have forked the [BastardKB QMK userspace repository][bkbus].**
 
 Create a separate folder in the relevant folder, eg:
 
@@ -188,3 +189,4 @@ For how to flash your keyboard, take a look at the [how to flash your keyboard p
 ---
 
 [flashing]: {{site.baseurl}}/fw/flashing.html
+[bkbus]: https://github.com/Bastardkb/qmk_userspace
