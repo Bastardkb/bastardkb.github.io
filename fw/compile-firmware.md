@@ -27,7 +27,7 @@ If that seems too complicated, you can also use one of the [release firmware](ht
 
 # Pre-requisites
 
-## BastardKb userspace
+## BastardKB userspace
 
 While the QMK repository contains the logic behind the keyboards, the keymaps are in the userspace repository.
 
