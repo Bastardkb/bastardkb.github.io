@@ -166,13 +166,10 @@ qmk compile -c -kb bastardkb/{keyboard} -km {keymap}
 ### `{keymap}` argument
 
 
-`{keymap}` corresponds to the keymap that you are compiling. If you followed the instructions until now, you can use `my-keymap`.
+`{keymap}` corresponds to the keymap that you created. 
 
-To build *any* keymap with Via support, simply add the following argument to the command line: `-e VIA_ENABLE=yes`, e.g.:
+If you followed the instructions until now, it would be `my-keymap`.
 
-```shell
-qmk compile -c -kb charybdis/4x6 -km my-keymap -e VIA_ENABLE=yes
-```
 # Contributing your own keymap
 
 If you are happy with your keymap and would like to share it, we would gladly review it!
