@@ -23,11 +23,11 @@ This page details how to build your own firmware.
 Building from source is useful to people who want to customize their keyboard and keymaps beyond what Via offers. 
 You will have to modify the keymap `C` code, and from there compile your firmware either using Github actions or the local command line.
 
-If that seems too complicated, you can also use one of the [default releases](https://github.com/Bastardkb/bastardkb-qmk/releases/latest), or VIA.
+If that seems too complicated, you can also use one of the [release firmware](https://github.com/Bastardkb/bastardkb-qmk/releases/latest) builds.
 
 # Pre-requisites
 
-## BastardKb userspace
+## BastardKB userspace
 
 While the QMK repository contains the logic behind the keyboards, the keymaps are in the userspace repository.
 
@@ -112,7 +112,7 @@ You can also compile your firmware through your local command line. This require
 
 Make sure you have a functional QMK environment. See [QMK Docs](https://docs.qmk.fm/#/newbs) for details. At this point, **you don't need** to run `qmk setup`.
 
-### BastardKb QMK fork
+### BastardKB QMK fork
 
 Clone the BKB QMK repository, using either github desktop or the command line, and switch to the `bkb-master` branch:
 
