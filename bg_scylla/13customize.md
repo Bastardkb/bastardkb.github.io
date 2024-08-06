@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Customizing your keyboard
+title: Using your keyboard
 nav_order: 13
 parent: Build guide - Scylla
 ---
 
 
-{% include customize_keyboard.md %}
+{% include use_keyboard.md %}
