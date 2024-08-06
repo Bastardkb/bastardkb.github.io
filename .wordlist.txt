@@ -60,7 +60,6 @@ TODO
 multimeter
 keypress
 MCU
-dilemma
 Dilemma
 TRRS
 KiCad
