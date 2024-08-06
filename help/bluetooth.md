@@ -181,7 +181,7 @@ Do not set your soldering iron any higher than 300°C, as it might damage the ni
 
 You can use [this video from Joe Scotto](https://youtu.be/l5kAx08Iom4) to help.
 
-![nice!nano installed](images/nano_holder.jpg)
+![nice!nano installed](../assets/pics/bluetooth/nano_holder.jpg)
 
 Being careful to not short any connections, connect the JST battery connections, turn the switch to the on position, and confirm the MCU powers on.
 
@@ -191,7 +191,7 @@ If all goes well, unplug the battery and continue the assembly.
 
 You can either mount the battery between the MCU and holder PCB, or tape it to the case.
 
-![nice!nano installed](images/battery.jpg)
+![nice!nano installed](../assets/pics/bluetooth/battery.jpg)
 
 # Firmware
 
@@ -199,7 +199,7 @@ The firmware can be downloaded from the [charybdis-wireless-mini-zmk-firmware re
 
 The main branch builds firmware for the colemak dh key layout. The layouts/qwerty branch builds firmware for the qwerty layout. Make sure you pick the correct branch for your needs.
 
-![branch names](images/branch_names.png)
+![branch names](../assets/pics/bluetooth/branch_names.png)
 
 Customizing the firmware is pretty straight forward. Common changes might include swapping the central and peripheral halves, changing the keyboard name, or modifying the key bindings. See the firmware repo for details on how to make changes.
 
