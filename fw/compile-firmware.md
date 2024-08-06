@@ -112,7 +112,7 @@ You can also compile your firmware through your local command line. This require
 
 Make sure you have a functional QMK environment. See [QMK Docs](https://docs.qmk.fm/#/newbs) for details. At this point, **you don't need** to run `qmk setup`.
 
-### BastardKb QMK fork
+### BastardKB QMK fork
 
 Clone the BKB QMK repository, using either github desktop or the command line, and switch to the `bkb-master` branch:
 
