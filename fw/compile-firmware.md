@@ -12,7 +12,7 @@ parent: Firmware
 
 # Introduction
 
-The [BastardKB QMK repository](https://github.com/bastardkb/bastardkb-qmk) contains the behavioural firmware code and releases for the Bastard Keyboards Charybdis boards.
+The [BastardKB QMK repository](https://github.com/bastardkb/bastardkb-qmk) contains the behavioral firmware code and releases for the Bastard Keyboards Charybdis boards.
 
 The keymaps are stored in the [BastardKB QMK userspace repository][bkbus].
 
