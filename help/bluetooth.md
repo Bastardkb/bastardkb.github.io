@@ -14,7 +14,10 @@ parent: Help
 # Introduction
 
 
+{: .warning }
 Wireless bluetooth capabilities are not supported officially on Bastard Keyboards.
+**Follow at your own risk**, Bastard Keyboards, erenatas and 280Zo are not liable for anything that does not work. 
+As it's not an official supported build you will get limited help on the BK discord server.
 
 If you still wish to build one of the Charybdis or Dactyl keyboards, in this page is detailed a basic outline of the work needed.
 
@@ -30,10 +33,6 @@ The purpose of it is to outline how to build a Wireless (Bluetooth) Charybdis. I
 **Important notes:**
 - As of writing this setup does not support RGB LEDs
 
-# Important disclaimer 
-**Follow at your own risk**, Bastard Keyboards, erenatas and 280Zo are not liable for anything that does not work. 
-
-Please note, as it's not an official supported build you will get limited help on the BK discord server.
 
 
 # Caveats
@@ -143,21 +142,6 @@ What needs to be considered before ordering any battery is to ensure that it is:
 - again, if you would like to fit a battery underneath nice!nano, you may want to buy [Mill Max Low Profile Sockets with Headers](https://splitkb.com/collections/keyboard-parts/products/mill-max-low-profile-sockets?variant=47060695646555) in order to create the gap in between. Then you'll need to use a case with a raised USB-C hole (only available for certain keyboards)
 
 For this build specifically, a JST plug was used to be able to take out the batteries without the need of desoldering.
-
-## Helper Tools
-
-Some tools will make it easier to build your keyboard:
-
-- solder Iron: It's strongly recommended to get a good quality solder iron where you can change the temperature. From my research I have found that Hakko solder irons are overwhelmingly popular, however they are expensive. If you are not planning to build keyboards for a living, you can cut some costs by a cheaper alternative. I myself bought a [GALLUNOPTIMAL GOSprint150](https://www.amazon.nl/dp/B091J6TB43). Others have had success with the Pinecil.
-- solder: There are two types of solder that can be used, leaded and lead-free. While leaded solder melts easier and its easier to desolder, lead itself is toxic, therefore its important not to inhale it. You can put a fan in front of you and have good ventilation and possibly wear a mask. Lead-free solder is a safer choice, but it melts harder and is harder to desolder. Make sure to wash your hands after you are done! Using solder with a rosin core also makes it much easier to use.
-- solder wick: Its a type of solder remover, can be handy during incidents. Adding flux to board also helps a lot
-- solder brass: If solder tin gets stuck on the tip of your iron, this is your go to
-- pliers: You will need them to cut flexstrip ribbon cables
-- torx screw drivers: You need M3 and M4 screw drivers. You already may have one at home.
-- tweezers: You are going to need them to hold pieces together, and also deal with small parts such as SOD123 diodes
-- desoldering Pump: Can be handy in case of accidents
-- solder flux: Optional, solder tins usually have tin inside nowadays, however it may be handy to have one
-- solder Station silicon: Optional, to make sure not to damage the surface you are working on
 
 # Assembly
 
