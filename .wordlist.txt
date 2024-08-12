@@ -100,3 +100,27 @@ upstreaming
 userspace
 realpath
 usevia # keeps being detected in the url
+
+erenatas
+JLCPCB
+DDCR
+ROHS
+olidacombe's
+erenatas
+Perixx
+Aliexpress
+Flexstrip
+Microcontrollers
+keebs
+Hakko
+GALLUNOPTIMAL
+Pinecil
+scotto
+colemak
+inorichi
+petejohanson
+erenata's
+grassfedreeve
+nicenano
+SPDT
+Erenata
