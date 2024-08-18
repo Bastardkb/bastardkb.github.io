@@ -18,30 +18,30 @@ The stock keymap aims at providing a consistent experience out of the box. Becau
 
 ## Charybdis stock keymap
 
-The stock keymap is built off the `via` keymap:
+- the stock keymaps are built off the `vendor` keymaps, and come with VIA enabled
+- you can find a visual reference of those keymaps on the [default keymaps page][keymaps]
+- you can find instructions on how to compile your own firmware on the [how to compile your firmware page][compile]
 
-- [Charybdis (4x6) `via` keymap](https://github.com/Bastardkb/bastardkb-qmk/tree/bkb-master/keyboards/bastardkb/charybdis/4x6/keymaps/via#layout)
-- [Charybdis Nano (3x5) `via` keymap](https://github.com/Bastardkb/bastardkb-qmk/tree/bkb-master/keyboards/bastardkb/charybdis/3x5/keymaps/via#layout)
+## Trackball related features
 
-A visual reference layout is provided for each of these keymap at the links above.
+Custom features were developed for the Charybdis, and have since been ported to QMK core.
 
-Those stock keymaps are compatible with [Via](https://www.caniusevia.com/) which enables on-the-fly configuration to a certain extent (i.e. keycodes, rotary encoders, RGB animations can be configured in just a few clicks from the UI). Some more advanced features, however, require manually updating the firmware.
+For each feature, there are:
 
-### Trackball related features
+- custom keycodes you can implement in VIA or when [compiling your own firmware][compile]
+- custom defines to change the behaviour of the feature
+- custom functions you can call to read or write options
 
-There's 2 features that are related to pointing devices available in the Charybdis firmware:
-
-- **Sniping**: temporarily reduces the sensitivity of the pointer for a more precise control.
-- **Drag-scroll**: temporarily changes the behavior of the trackball into a scrolling device (in any direction).
+Those are detailed below.
 
 ### DPI
 
 DPI (i.e. dots per linear inch), a.k.a. mouse sensitivity, can be controlled by the firmware. The Charybdis keymap offers 2 different DPI settings:
 
-- **Default** DPI: the sensitivity of the pointer in normal (i.e. non-sniping) mode.
-- **Sniping** DPI: the sensitivity of the pointer in sniping mode.
+- **Default** DPI: the sensitivity of the pointer in normal mode.
+- **Sniping** DPI: the sensitivity of the pointer in [sniping mode](#sniping)
 
-For each mode, the firmware allows cycling through multiple pre-defined values:
+For each mode, the firmware allows cycling through multiple pre-defined values.
 
 - Default mode:
     - Default value: 400 DPI
@@ -56,72 +56,117 @@ For each mode, the firmware allows cycling through multiple pre-defined values:
 
 The firmware _cycles_ through these values, which means that, for example, incrementing the sniping DPI of `500` by 1 step will loop back to `200`.
 
-These values can be changed by manually editing the firmware. See [Dynamic DPI scaling](#changing-dynamic-dpi-scaling-default-and-increment-values].
+You can cycle through those values by using custom keycodes (also present in the default keymap), and also [modify those values in your own firmware if needed.](#changing-dynamic-dpi-scaling-default-and-increment-values].
 
-### Custom keycodes
+Custom keycodes:
 
-The Charybdis firmware comes with a number of custom keycodes related to features that are specific to this keyboard. These keycodes are:
+| Name   | Description                                                  |
+| ------ | ------------------------------------------------------------ |
+| `DPI_MOD` | increase the sensitivity of the pointer movement by one step |
+| `DPI_RMOD` | decrease the sensitivity of the pointer movement by one step |
 
-- Default DPI Increase (`DPI+`): increase the sensitivity of the pointer movement by one step (out of 16).
-- Default DPI Decrease (`DPI-`): decrease the sensitivity of the pointer movement by one step (out of 16).
-- Sniping DPI Increase (`Snp+`): increase the sensitivity of the pointer movement in sniping mode by one step (out of 4).
-- Sniping DPI Decrease (`Snp-`): decrease the sensitivity of the pointer movement in sniping mode by one step (out of 4).
-- Sniping Momentary (`Snp`): enable sniping mode as long as the key is pressed.
-- Sniping Toggle (`SnpT`): toggle sniping mode on and off.
-- Drag-scroll Momentary (`Drg`): enable drag-scroll mode as long as the key is pressed.
-- Drag-scroll Toggle (`DrgT`): toggle drag-scroll mode on and off.
+Custom functions:
 
-### Charybdis 4x6
+```c
+charybdis_cycle_pointer_default_dpi(bool forward) // cycle forward or backward the possible values
+charybdis_cycle_pointer_default_dpi_noeeprom(bool forward) // cycle forward or backward the possible values without persisting the change to EEPROM
+charybdis_get_pointer_default_dpi() // returns the current DPI value
+```
 
-- 3x5: heavily inspired by Miryoku
-  - Base layer
-  - Numbers layer
-  - Symbols layer
-  - Function layer
-  - Navigation layer
-  - Media layer
-  - Pointer layer
-- 4x6: inspired from OG dactyl
-  - Base layer
-  - Lower layer
-  - Raise layer
-  - Pointer layer
 
-## Firmware configuration
+### Sniping
 
-{: .note }
-This requires a firmware update.
+**Sniping**: temporarily reduces the sensitivity of the pointer for a more precise control.
 
-The following section explains how to update the firmware source code to fine-tune your experience. This requires a functional development environment for QMK (https://docs.qmk.fm/#/newbs) and, ideally, some prior experience in computer science and the C programming language.
+**Sniping mode** slows down the pointer for more precise gestures. It is useful when combined with a higher default DPI. Like the default pointer's DPI, the sniper mode DPI can be changed at runtime
 
-### Changing dynamic DPI scaling default and increment values
+Custom Keycodes:
 
-{: .note }
-This requires a firmware update.
+| Name   | Description                                                                  |
+| ------ | ---------------------------------------------------------------------------- |
+| `S_D_MOD` | increase the sensitivity of the pointer movement in sniping mode by one step |
+| `S_D_RMOD` | decrease the sensitivity of the pointer movement in sniping mode by one step |
+| `SNIPING`  | enable sniping mode as long as the key is pressed                            |
+| `SNP_TOG` | toggle sniping mode on and off                                               |
+
+
+Custom defines (with default values):
+
+```c
+#define CHARYBDIS_MINIMUM_SNIPING_DPI 200
+#define CHARYBDIS_SNIPING_DPI_CONFIG_STEP 100
+```
+
+Custom functions:
+
+```c
+charybdis_set_pointer_sniping_enabled(bool enable) // enable/disable sniping mode
+charybdis_get_pointer_sniping_enabled() // returns whether sniping mode is currently enabled
+charybdis_cycle_pointer_sniping_dpi(bool forward) // cycle forward or backward the possible values
+charybdis_cycle_pointer_sniping_dpi_noeeprom(bool forward) // cycle forward or backward the possible values without persisting the change to EEPROM
+charybdis_get_pointer_sniping_dpi() // returns the current sniping mode DPI value
+```
 
 ### Auto sniping on layer
 
-{: .note }
-This requires a firmware update.
+You can trigger sniping automatically when on a specific layer by adjusting the following in your keymap:
+
+```c
+#define CHARYBDIS_AUTO_SNIPING_ON_LAYER LAYER_POINTER
+```
 
 ### Auto pointer layer
 
-{: .note }
-This requires a firmware update.
+You can trigger the pointer layer automatically upon moving the trackball by adjusting the following in your keymap:
 
-### X/Y axis inversion
+```c
+#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
+#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS 1000
+```
 
-{: .note }
-This requires a firmware update.
+### Drag-scroll
 
-### Extended mouse reports
+**Drag-scroll** enables scrolling with the trackball. When drag-scroll is enabled, the trackball's `x` and `y` movements are converted into `h` (horizontal) and `v` (vertical) movement, effectively sending scroll instructions to the host system.
 
-{: .note }
-This requires a firmware update.
+Custom keycodes:
 
-By default, QMK reports the pointing device movement using numbers between `-127` and `128`.
+| Name   | Description                                           |
+| ------ | ----------------------------------------------------- |
+| `DRGSCRL`  | enable drag-scroll mode as long as the key is pressed |
+| `DRG_TOG` | toggle drag-scroll mode on and off                    |
 
-### Configuration sync between each half
+Custom functions:
 
-{: .note }
-This requires a firmware update.
+```c
+charybdis_set_pointer_dragscroll_enabled(bool enable) // enable/disable drag-scroll
+charybdis_get_pointer_dragscroll_enabled() // returns whether drag-scroll mode is currently enabled
+```
+
+Custom defines:
+
+```c
+#define CHARYBDIS_DRAGSCROLL_REVERSE_X` // inverts horizontal scrolling 
+#define CHARYBDIS_DRAGSCROLL_REVERSE_Y` // inverts vertical scrolling 
+```
+
+### Large mouse reports
+
+By default, the `x` and `y` motion for the pointing device/mouse reports is `-127` to `127`. If you hit the limit for that with the sensors, you can enable support for `-32767` to `32767` by adding this to your `config.h`:
+
+```c
+#define MOUSE_EXTENDED_REPORT
+```
+
+## Configuration Syncing
+If you want/need to enable syncing of the charybdis config, such as to read the sniping or drag scroll modes on the other half (such as for displaying the status via rgb matrix, or added on screens, or what not), you can enabled this. To do so, add this to your `config.h`:
+
+```c
+#define CHARYBDIS_CONFIG_SYNC
+```
+
+Please note that you will need to reflash both sides when enabling this.
+
+----
+
+[keymaps]: {{site.baseurl}}/fw/default-keymaps.html
+[compile]: {{site.baseurl}}/fw/compile-firmware.html
