@@ -76,8 +76,6 @@ charybdis_get_pointer_default_dpi() // returns the current DPI value
 
 ### Sniping
 
-**Sniping**: temporarily reduces the sensitivity of the pointer for a more precise control.
-
 **Sniping mode** slows down the pointer for more precise gestures. It is useful when combined with a higher default DPI. Like the default pointer's DPI, the sniper mode DPI can be changed at runtime
 
 Custom Keycodes:
