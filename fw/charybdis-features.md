@@ -166,7 +166,7 @@ By default, the `x` and `y` motion for the pointing device/mouse reports is `-12
 ```
 
 ## Configuration Syncing
-If you want/need to enable syncing of the charybdis config, such as to read the sniping or drag scroll modes on the other half (such as for displaying the status via rgb matrix, or added on screens, or what not), you can enabled this. To do so, add this to your `config.h`:
+If you want/need to enable syncing of the charybdis config, such as to read the sniping or drag scroll modes on the other half (e.g. for displaying the status via rgb matrix, or added on screens), you can enabled this. To do so, add this to your `config.h`:
 
 ```c
 #define CHARYBDIS_CONFIG_SYNC
