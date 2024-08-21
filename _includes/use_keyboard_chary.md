@@ -71,7 +71,7 @@ This is for advanced users.
 ---
 
 [customize-chary]: {{site.baseurl}}/fw/charybdis-features.html
-[customize-chary]: {{site.baseurl}}/fw/dilemma-features.html
+[customize-dilemma]: {{site.baseurl}}/fw/dilemma-features.html
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [flashing]: {{site.baseurl}}/fw/flashing.html
 [compile-firmware]: {{site.baseurl}}/fw/compile-firmware.html
