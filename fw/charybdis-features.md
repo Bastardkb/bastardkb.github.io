@@ -29,7 +29,7 @@ Custom features were developed for the Charybdis, and have since been ported to 
 For each feature, there are:
 
 - custom keycodes you can implement in VIA or when [compiling your own firmware][compile]
-- custom defines to change the behaviour of the feature
+- custom defines to change the behavior of the feature
 - custom functions you can call to read or write options
 
 Those are detailed below.
