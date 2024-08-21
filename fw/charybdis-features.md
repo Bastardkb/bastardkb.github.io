@@ -67,6 +67,14 @@ Custom keycodes:
 | `DPI_MOD` | increase the sensitivity of the pointer movement by one step |
 | `DPI_RMOD` | decrease the sensitivity of the pointer movement by one step |
 
+
+Custom defines (with default values):
+
+```c
+#define CHARYBDIS_MINIMUM_DEFAULT_DPI 400
+#define CHARYBDIS_DEFAULT_DPI_CONFIG_STEP 200
+```
+
 Custom functions:
 
 ```c
