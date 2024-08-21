@@ -153,8 +153,8 @@ charybdis_get_pointer_dragscroll_enabled() // returns whether drag-scroll mode i
 Custom defines:
 
 ```
-#define CHARYBDIS_DRAGSCROLL_REVERSE_X` // inverts horizontal scrolling 
-#define CHARYBDIS_DRAGSCROLL_REVERSE_Y` // inverts vertical scrolling 
+#define CHARYBDIS_DRAGSCROLL_REVERSE_X // inverts horizontal scrolling 
+#define CHARYBDIS_DRAGSCROLL_REVERSE_Y // inverts vertical scrolling 
 ```
 
 ### Large mouse reports
