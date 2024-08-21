@@ -157,14 +157,6 @@ Custom defines:
 #define CHARYBDIS_DRAGSCROLL_REVERSE_Y` // inverts vertical scrolling 
 ```
 
-### Large mouse reports
-
-By default, the `x` and `y` motion for the pointing device/mouse reports is `-127` to `127`. If you hit the limit for that with the sensors, you can enable support for `-32767` to `32767` by adding this to your `config.h`:
-
-```c
-#define MOUSE_EXTENDED_REPORT
-```
-
 ## Configuration Syncing
 If you want/need to enable syncing of the charybdis config, such as to read the sniping or drag scroll modes on the other half (such as for displaying the status via rgb matrix, or added on screens, or what not), you can enabled this. To do so, add this to your `config.h`:
 
