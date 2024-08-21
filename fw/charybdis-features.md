@@ -70,7 +70,7 @@ Custom keycodes:
 
 Custom defines (with default values):
 
-```c
+```
 #define CHARYBDIS_MINIMUM_DEFAULT_DPI 400
 #define CHARYBDIS_DEFAULT_DPI_CONFIG_STEP 200
 ```
@@ -100,7 +100,7 @@ Custom Keycodes:
 
 Custom defines (with default values):
 
-```c
+```
 #define CHARYBDIS_MINIMUM_SNIPING_DPI 200
 #define CHARYBDIS_SNIPING_DPI_CONFIG_STEP 100
 ```
@@ -119,7 +119,7 @@ charybdis_get_pointer_sniping_dpi() // returns the current sniping mode DPI valu
 
 You can trigger sniping automatically when on a specific layer by adjusting the following in your keymap:
 
-```c
+```
 #define CHARYBDIS_AUTO_SNIPING_ON_LAYER LAYER_POINTER
 ```
 
@@ -127,7 +127,7 @@ You can trigger sniping automatically when on a specific layer by adjusting the 
 
 You can trigger the pointer layer automatically upon moving the trackball by adjusting the following in your keymap:
 
-```c
+```
 #define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
 #define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS 1000
 ```
@@ -152,7 +152,7 @@ charybdis_get_pointer_dragscroll_enabled() // returns whether drag-scroll mode i
 
 Custom defines:
 
-```c
+```
 #define CHARYBDIS_DRAGSCROLL_REVERSE_X` // inverts horizontal scrolling 
 #define CHARYBDIS_DRAGSCROLL_REVERSE_Y` // inverts vertical scrolling 
 ```
