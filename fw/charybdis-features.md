@@ -14,7 +14,7 @@ parent: Firmware
 
 All the features listed below are available in the Charybdis `vendor` keymaps.
 
-The `vendor` keymap aims at providing a consistent experience out of the box. Because some features can be mutually exclusives (e.g. [Auto sniping on layer](#auto-sniping-on-layer) and [Auto pointer layer](#auto-pointer-layer)), not all features are enabled by default. It may be necessary to rebuild the firmware to enable or disable some of the features listed below.
+The `vendor` keymap aims at providing a consistent experience out of the box. Because some features can be mutually exclusive (e.g. [Auto sniping on layer](#auto-sniping-on-layer) and [Auto pointer layer](#auto-pointer-layer)), not all features are enabled by default. It may be necessary to rebuild the firmware to enable or disable some of the features listed below.
 
 # Charybdis features
 
