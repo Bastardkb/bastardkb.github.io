@@ -46,7 +46,7 @@ DPI (i.e. dots per linear inch), a.k.a. mouse sensitivity, can be controlled by 
 For each mode, the firmware allows cycling through multiple pre-defined values.
 
 - Default mode:
-    - Default value: 400 DPI
+    - Default value: 1000 DPI
     - 16 steps available
     - Increments of 200 DPI
     - Total range from 400 to 3,400 (400 → 600 → 800 → … → 3,400)
