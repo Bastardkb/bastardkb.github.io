@@ -131,3 +131,7 @@ eeprom
 drgscrl
 dragscroll
 reflash
+
+hidraw
+uaccess
+udevadm
