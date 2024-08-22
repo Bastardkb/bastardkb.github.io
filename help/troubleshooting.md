@@ -68,7 +68,7 @@ Outlined below are some steps, in order of complexity:
 
 ### Custom udev rules
 
-If your keyboard is still not recognized and you are running a **Linux-based distribution**, you need to setup some custom udev rules to allow access to `hidraw` devices.
+If your keyboard is still not recognized and you are running a **Linux-based distribution**, you need to setup some custom udev rules to allow access to `hidraw` devices for regular users:
 
 First, write this text to `/etc/udev/rules.d/92-via.rules`:
 
