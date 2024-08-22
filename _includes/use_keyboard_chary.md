@@ -64,13 +64,14 @@ Through VIA, you can customize:
 
 This is for advanced users. 
 
-For how to compile a custom hardware for your keyboard, take a look at the [how to compile your own firmware page][compile-firmware].
-
-For **advanced customization of the Charybdis and Charybdis Nano**, take a look at the [customize page][customize-chary].
+- how to compile a custom hardware for your keyboard: [how to compile your own firmware][compile-firmware].
+- advanced customization of the Charybdis (and smaller variants): [customize your Charybdis][customize-chary].
+- advanced customization of the Dilemma (and smaller variants): [customize your Dilemma][customize-dilemma].
 
 ---
 
 [customize-chary]: {{site.baseurl}}/fw/charybdis-features.html
+[customize-dilemma]: {{site.baseurl}}/fw/dilemma-features.html
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [flashing]: {{site.baseurl}}/fw/flashing.html
 [compile-firmware]: {{site.baseurl}}/fw/compile-firmware.html
