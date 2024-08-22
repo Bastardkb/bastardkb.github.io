@@ -70,7 +70,7 @@ Outlined below are some steps, in order of complexity:
 
 If your keyboard is still not recognized and you are running a **Linux-based distribution**, you need to setup some custom udev rules to allow access to `hidraw` devices.
 
-First, write this text to `/etc/udev/rules.d/92-viia.rules`:
+First, write this text to `/etc/udev/rules.d/92-via.rules`:
 
 ```
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0660", GROUP="users", TAG+="uaccess", TAG+="udev-acl"
