@@ -66,4 +66,4 @@ You can get those from Drop, or any other website that offers them.
 ---
 
 [bluetooth]: {{site.baseurl}}/help/bluetooth.html
-[customize]: {{site.baseurl}}/fw/customize-keyboard.html
+[customize]: {{site.baseurl}}/bg_charybdis/13customize.html

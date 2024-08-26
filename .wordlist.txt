@@ -60,7 +60,7 @@ TODO
 multimeter
 keypress
 MCU
-!dilemma
+Dilemma
 TRRS
 KiCad
 Millmax
@@ -94,3 +94,44 @@ udev
 
 Singel
 LEBASTARD
+
+Alli # keeps getting detected as a word in youtube video id in embed
+upstreaming
+userspace
+realpath
+usevia # keeps being detected in the url
+
+erenatas
+JLCPCB
+DDCR
+ROHS
+olidacombe's
+erenatas
+Perixx
+Aliexpress
+Flexstrip
+Microcontrollers
+keebs
+Hakko
+GALLUNOPTIMAL
+Pinecil
+scotto
+colemak
+inorichi
+petejohanson
+erenata's
+grassfedreeve
+nicenano
+SPDT
+Erenata
+
+RMOD
+noeeprom
+eeprom
+drgscrl
+dragscroll
+reflash
+
+hidraw
+uaccess
+udevadm

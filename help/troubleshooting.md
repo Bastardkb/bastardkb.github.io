@@ -52,6 +52,36 @@ Since the LEDs are arranged in a chain, focus your efforts on the last LED that 
 
 Please refer to the [diagnosing a broken trace](./diagnose_broken_trace.html#inspect-the-schematics) guide to learn how to inspect the schematics for your particular board.
 
+# Flashing/Using Troubleshooting
+
+## Keyboard not recognized by VIA
+
+If your keyboard is not recognized by VIA, might be getting the following error:
+
+```
+Received invalid protocol version from device
+```
+
+Outlined below are some steps, in order of complexity:
+- make sure you use a chromium-based browser like edge, google chrome
+- flash the [latest firmware version](https://github.com/Bastardkb/bastardkb-qmk/releases/latest)
+
+### Custom udev rules
+
+If your keyboard is still not recognized and you are running a **Linux-based distribution**, you need to setup some custom udev rules to allow access to `hidraw` devices for regular users:
+
+First, write this text to `/etc/udev/rules.d/92-via.rules`:
+
+```
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0660", GROUP="users", TAG+="uaccess", TAG+="udev-acl"
+```
+
+Then, reload `udev` by running this command as `root`:
+
+```
+udevadm control --reload-rules && udevadm trigger
+```
+
 # Glossary
 
 This section explains some of the terms used while troubleshooting in brief.

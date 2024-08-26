@@ -34,6 +34,8 @@ To flash your new image, you will need to go through a few steps:
 
 Below is detailed the exact procedure to follow. You need to flash either the right side only, or the right and left side separately - this is also detailed below.
 
+# Sourcing your firmware
+
 Sourcing your firmware can be done in a couple ways:
 
 - downloading it from the [release section on github][releases]
@@ -130,7 +132,7 @@ Unplug the USB connector and connect the other side, and then repeat the procedu
 If you use the `QK_BOOT` method, please note that your layout may now be mirrored! This is normal, ignore it and plug the USB back into the right side.
 
 ---- 
-[build]: https://github.com/Bastardkb/bastardkb-qmk?tab=readme-ov-file#building-from-source-advanced
+[build]: {{site.baseurl}}/fw/compile-firmware.html
 [releases]: https://github.com/Bastardkb/bastardkb-qmk/releases
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [splitkb-whentoflash]: https://docs.splitkb.com/hc/en-us/articles/360011949679-When-do-I-need-to-flash-my-microcontroller
