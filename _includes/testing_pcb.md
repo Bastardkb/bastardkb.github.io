@@ -30,6 +30,8 @@ The default firmware requires the USB cable be connected to the right side of th
 
 Open [VIA](https://usevia.app/) - please note this only works on chromium-based browsers like chromium, edge, chrome.
 
+{: .warning } If you are on linux, make sure to have your udev rules set up. [Setting up udev]({{site.baseurl}}help/troubleshooting.html#custom-udev-rules)
+
 ![](../assets/pics/guides/generic/7.jpg)
 
 After connecting to your device, switch to the key tester page using the stethoscope pictogram, then activate the "Test Matrix" option. Now, you can connect each pair of switch pads in turn, using your tweezers, a wire, or a switch inclined enough.
