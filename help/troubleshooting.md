@@ -15,7 +15,7 @@ This page offers remedies to common problems after completing your build. If you
 
 ## One or more keys don't work
 
-A single key not working, which has neighbors that work, is most often caused by either a faulty switch, or diode to column discontinuity. It can often be fixed with a [bodge wire][Bodge wire].
+A single key not working, which has neighbors that work, is most often caused by either a faulty switch, or diode to column discontinuity. First try to reflow the solder on diode and switch, otherwise it can often be fixed with a [bodge wire][Bodge wire].
 
 You can either try measuring those with a multimeter, or turn the board on and bridge the diode's cathode to the right switch leg. If that produces a keypress, you can narrow it down further by bridging from the cathode to the switch leg (diode to switch discontinuity), and, separately, between the two switch legs (faulty switch).
 
