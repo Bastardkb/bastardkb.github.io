@@ -15,11 +15,29 @@ This page offers remedies to common problems after completing your build. If you
 
 ## One or more keys don't work
 
-A single key not working, which has neighbors that work, is most often caused by either a faulty switch, or diode to column discontinuity. First try to reflow the solder on diode and switch, otherwise it can often be fixed with a [bodge wire][Bodge wire].
+A single key not working, which has neighbors that work, is most often caused by either a faulty switch, or diode to column discontinuity. 
 
-You can either try measuring those with a multimeter, or turn the board on and bridge the diode's cathode to the right switch leg. If that produces a keypress, you can narrow it down further by bridging from the cathode to the switch leg (diode to switch discontinuity), and, separately, between the two switch legs (faulty switch).
+There are a number of steps you can try, starting with the most simple.
+
+### Bad solder joint
+
+If the switch or diode are not soldered properly, this can cause the switch press to not register.
+Try to reflow the solder on diode and switch.
+
+### Discontinuity
+
+If the reflow does not work, let's check if the key presses register.
+
+You can do so either by:
+
+- turning the board on and bridge the diode's cathode to the right switch leg
+- checking that connection with a multimeter
+
+If that produces a keypress, you can narrow it down further by bridging from the cathode to the switch leg (**diode to switch discontinuity**), and, separately, between the two switch legs (**faulty switch**).
 
 To find out exactly where which diode is connected to which switch leg, please consult the [diagnosing a broken trace](./diagnose_broken_trace.html#inspect-the-schematics) guide.
+
+If it's a faulty switch - you can replace the switch. If it's a discontinuity, you can [bodge wire][Bodge wire] it.
 
 ## One or more rows or columns don't work
 
