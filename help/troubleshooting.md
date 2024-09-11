@@ -82,7 +82,7 @@ Received invalid protocol version from device
 
 Outlined below are some steps, in order of complexity:
 - make sure you use a chromium-based browser like edge, google chrome
-- flash the [latest firmware version](https://github.com/Bastardkb/bastardkb-qmk/releases/latest)
+- flash the [latest firmware version](https://github.com/Bastardkb/qmk_userspace/releases/latest)
 
 ### Custom udev rules
 

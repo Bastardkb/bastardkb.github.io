@@ -23,7 +23,7 @@ This page details how to build your own firmware.
 Building from source is useful to people who want to customize their keyboard and keymaps beyond what Via offers. 
 You will have to modify the keymap `C` code, and from there compile your firmware either using Github actions or the local command line.
 
-If that seems too complicated, you can also use one of the [release firmware](https://github.com/Bastardkb/bastardkb-qmk/releases/latest) builds.
+If that seems too complicated, you can also use one of the [release firmware](https://github.com/Bastardkb/qmk_userspace/releases/latest) builds.
 
 # Pre-requisites
 
