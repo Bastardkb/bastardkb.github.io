@@ -179,7 +179,7 @@ You can either mount the battery between the MCU and holder PCB, or tape it to t
 
 # Firmware
 
-The firmware can be downloaded from the [charybdis-wireless-mini-zmk-firmware](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware) repository by opening the [Actions Workflows](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/actions?query=is%3Acompleted+branch%3Amain), selecting latest successful run on the main branch, then downloading the `firmware-charybdis-nanov2-qwerty` artifacr. There's also a colemak dh firmware for those that want to use that layout. Note that you have to be logged into Github to be able to download the files.
+The firmware can be downloaded from the [charybdis-wireless-mini-zmk-firmware](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware) repository by opening the [Actions Workflows](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/actions?query=is%3Acompleted+branch%3Amain), selecting latest successful run on the main branch, then downloading the `firmware-charybdis-nanov2-qwerty` artifact. There's also a colemak dh firmware for those that want to use that layout. Note that you have to be logged into Github to be able to download the files.
 
 To add support for the PMW3610 sensor, [inorichi's driver](https://github.com/inorichi/zmk-pmw3610-driver?tab=readme-ov-file) is included in the firmware, along with 
 [Petejohanson's work](https://github.com/petejohanson/zmk/blob/feat/pointers-move-scroll/docs/docs/behaviors/mouse-emulation.md) to allow mouse keys.
