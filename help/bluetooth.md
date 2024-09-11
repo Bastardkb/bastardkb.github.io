@@ -184,7 +184,7 @@ The firmware can be downloaded from the [charybdis-wireless-mini-zmk-firmware](h
 To add support for the PMW3610 sensor, [inorichi's driver](https://github.com/inorichi/zmk-pmw3610-driver?tab=readme-ov-file) is included in the firmware, along with 
 [Petejohanson's work](https://github.com/petejohanson/zmk/blob/feat/pointers-move-scroll/docs/docs/behaviors/mouse-emulation.md) to allow mouse keys.
 
-The firmware is heavily influenced by Miryoku and homerow mods that use bilateral combinations to make typing as efficient and ergonomic as possible. If you'd like to see the key layout, a layer map is available on the repo's [README](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware).
+The firmware is heavily influenced by Miryoku and home row mods that use bilateral combinations to make typing as efficient and ergonomic as possible. If you'd like to see the key layout, a layer map is available on the repo's [README](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware).
 
 If you'd like to learn how to customize the key bindings and layers, or for tips on how to modify the firmware build configuration yourself, these are also available on the README.
 
