@@ -135,3 +135,5 @@ reflash
 hidraw
 uaccess
 udevadm
+
+nanov
