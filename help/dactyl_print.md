@@ -24,11 +24,94 @@ Our keyboards are complex models. While we did our best to make them less diffic
 - PLA is easiest to print.
 - Plastics with patterns in it works best - eg. Prusament Galaxy or Fillamentum Extrafill.
 
-# Quality settings
+# Print settings
 
-From personal experience, **0.15mm** is a good **layer height**. Going lower than that doesn't show an increase in visual quality and adds a long time to the print.
+## Temperature
 
-Printing with a **0.4mm nozzle** is recommended over a 0.6, as larger nozzles leave more visible lines on the flat curves of the keyboard. The difference is very visible.
+Printing at lower temperatures makes the plastic more matte rather than glossy. We recommend 195 to 210C for PLA, depending on your plastic.
+
+## For Prusa printers
+
+If you are using a prusa printer, print in:
+
+- 0.15mm structural profile
+- supports on build plate only
+- support type: grid (important!)
+- nozzle temperature: 200 for MK3, MK3.5, MK4. 210 for MK4S
+
+## For other printers
+
+The following settings were tested on a BambuLabs A1 Mini and worked well.
+They were worked from the `0.16mm High Quality` profile in Bambu Studio.
+
+**Filament settings:**
+
+| Description                | Value                         |
+| -------------------------- | ----------------------------- |
+| No cooling for the first   | 1 layer                       |
+| Min fan speed threshold    | 65% fan speed, 75s layer time |
+| Max fan speed threshold    | 80% fan speed, 6s layer time  |
+| Auxiliary part cooling fan | 80%                           |
+| Cooling overhang threshold | 0%                            |
+| Keep fan always on         | true                          |
+| Min print speed            | 20                            |
+| Bed temperature            | 65                            |
+| Nozzle temperature         | 210                           |
+
+**Quality setings:**
+
+| Description           | Value |
+| --------------------- | ----- |
+| Brim type             | None  |
+| Layer height          | 0.15  |
+| Initial layer height  | 0.15  |
+| Line width: support   | 0.36  |
+| Sparse infill density | 30%   |
+| Wall loops            | 4     |
+
+**Acceleration settings:**
+
+| Description     | Value |
+| --------------- | ----- |
+| Normal printing | 2000  |
+
+
+**Speed settings:**
+
+| Description               | Value |
+| ------------------------- | ----- |
+| Gap infill                | 120   |
+| Inner wall                | 60    |
+| Internal solid infill     | 120   |
+| Outer wall                | 25    |
+| Overhang speed (10%, 25%) | 30    |
+| Overhang speed (25%, 50%) | 25    |
+| Sparse infill             | 120   |
+| Support interface         | 50    |
+| Support                   | 120   |
+| Top surface               | 80    |
+| Initial layer infill      | 60    |
+| Initial layer             | 30    |
+
+
+**Support settings:**
+
+| Description                      | Value       |
+| -------------------------------- | ----------- |
+| Enable support                   | true        |
+| On build plate only              | true        |
+| Remove small overhangs           | false       |
+| Style                            | Grid        |
+| Threshold angle                  | 50          |
+| Independent support layer height | false       |
+| Initial layer expansion          | 8           |
+| Base pattern                     | Rectilinear |
+| Bottom Z distance                | 0.17        |
+| Bottom interface layers          | 0           |
+| Top interface spacing            | 0.2         |
+| Top interface layers             | 5           |
+| Support/object xy distance       | 1           |
+| Top Z distance                   | 0.17        |
 
 # Bed adhesion
 
@@ -41,26 +124,3 @@ If your print does not stick, here are a few pointers:
 - Use glue - paper glue or wood glue diluted with water works well
 - Disable the parts fan for the first layer
 - Make sure your bed is leveled correctly
-
-# Supports
-
-Here's what we found works best for me in prusaslicer:
-
-**General settings:**
-- 75% XY separation
-- 0.1-0.25mm Z distance
-- 3-4 layer interface*
-- 100% fan speed (except for 1st layer)
-- 0.2mm interface spacing
-
-*If your printer has good cooling, you may go to 1 or 0 layer interface to save print time
-
-**For Scylla / Charybdis :**
-- tree / organic supports
-
-**For Skeletyl / Charybdis Nano :**
-- 2-3mm rectilinear pattern
-
-
-
-
