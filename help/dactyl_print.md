@@ -68,7 +68,6 @@ They were worked from the `0.16mm High Quality` profile in Bambu Studio.
 | Line width: support   | 0.36  |
 | Sparse infill density | 30%   |
 | Wall loops            | 4     |
-|                       |       |
 
 **Acceleration settings:**
 
