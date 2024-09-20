@@ -133,6 +133,6 @@ If you use the `QK_BOOT` method, please note that your layout may now be mirrore
 
 ---- 
 [build]: {{site.baseurl}}/fw/compile-firmware.html
-[releases]: https://github.com/Bastardkb/bastardkb-qmk/releases
+[releases]: https://github.com/Bastardkb/qmk_userspace/releases
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [splitkb-whentoflash]: https://docs.splitkb.com/hc/en-us/articles/360011949679-When-do-I-need-to-flash-my-microcontroller

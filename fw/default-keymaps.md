@@ -13,7 +13,7 @@ parent: Firmware
 This page contains reference pictures for all the default keymaps flashed onto the Bastard Keyboards.
 
 Releases are available here:
-https://github.com/Bastardkb/bastardkb-qmk/releases
+https://github.com/Bastardkb/qmk_userspace/releases
 
 For more information on the features from the Charybdis keymaps, see the [charybdis features][chary] page.
 

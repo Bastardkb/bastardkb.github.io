@@ -36,7 +36,7 @@ Controller | Pin-compatible | Flash size | Vbus detection | Notes
 
 # Firmware compatibility
 
-All controllers above marked as pin-compatible, and using the QMK default `W25Q080` second-stage bootloader, should be compatible out-of-the-box with the [Bastard Keyboard firmwares](https://github.com/bastardkb/bastardkb-qmk/releases) targeting the Splinky v3, _ie._ `splinky_3` firmwares.
+All controllers above marked as pin-compatible, and using the QMK default `W25Q080` second-stage bootloader, should be compatible out-of-the-box with the [Bastard Keyboard firmwares](https://github.com/Bastardkb/qmk_userspace/releases).
 
 ## Bootloader
 
