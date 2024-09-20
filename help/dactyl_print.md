@@ -58,7 +58,7 @@ They were worked from the `0.16mm High Quality` profile in Bambu Studio.
 | Bed temperature            | 65                            |
 | Nozzle temperature         | 210                           |
 
-**Quality setings:**
+**Quality settings:**
 
 | Description           | Value |
 | --------------------- | ----- |
