@@ -28,7 +28,7 @@ Our keyboards are complex models. While we did our best to make them less diffic
 
 ## Temperature
 
-Printing at lower temperatures makes the plastic more matte rather than glossy. We recommend 195 to 205C for PLA, depending on your plastic.
+Printing at lower temperatures makes the plastic more matte rather than glossy. We recommend 195 to 210C for PLA, depending on your plastic.
 
 ## For Prusa printers
 
@@ -37,6 +37,7 @@ If you are using a prusa printer, print in:
 - 0.15mm structural profile
 - supports on build plate only
 - support type: grid (important!)
+- nozzle temperature: 200 for MK3, MK3.5, MK4. 210 for MK4S
 
 ## For other printers
 
