@@ -135,3 +135,9 @@ reflash
 hidraw
 uaccess
 udevadm
+
+prusa
+Prusa
+Bambu
+bambu
+nanov

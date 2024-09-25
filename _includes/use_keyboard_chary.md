@@ -9,6 +9,9 @@ Congratulations on successfully building your keyboard!
 
 The Bastard Keyboards come with a range of features, and it's also easy to customize them. On this page you will find additional information on how to use them and make them your own.
 
+{: .note }
+The default firmware requires the USB cable be connected to the right side of the keyboard.
+
 # Daily use
 
 ## Default keymap

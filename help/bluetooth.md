@@ -98,7 +98,7 @@ This list is based on the electronics BOM present on the Charybdis repo as of wr
 | Name                         | Count | Link                                                                                                                       |
 | ---------------------------- | ----- | -------------------------------------------------------------------------------------------------------------------------- |
 | Trackball                    | 1     | [Perixx Europe](https://eu.perixx.com/collections/accessory/products/18010)                                                |
-| nice!nano microcontroller*    | 2     | [Splitkb.com](https://splitkb.com/collections/keyboard-parts/products/nice-nano)                                           |
+| nice!nano microcontroller*   | 2     | [Splitkb.com](https://splitkb.com/collections/keyboard-parts/products/nice-nano)                                           |
 | (optional) mill max sockets  | 2     | [Splitkb.com](https://splitkb.com/collections/keyboard-parts/products/mill-max-low-profile-sockets?variant=31945995845709) |
 | SOD123 Diodes                | 41    | [Splitkb.com](https://splitkb.com/collections/keyboard-parts/products/smd-diodes)                                          |
 | Button, 4x4x1.5              | 2     | [Aliexpress](https://www.aliexpress.com/item/4001046134819.html)                                                           |
@@ -179,17 +179,14 @@ You can either mount the battery between the MCU and holder PCB, or tape it to t
 
 # Firmware
 
-The firmware can be downloaded from the [charybdis-wireless-mini-zmk-firmware repository](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware) by opening [the Actions tab](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/actions), clicking on the latest successful run, then downloading the firmware file under Artifacts.
+The firmware can be downloaded from the [charybdis-wireless-mini-zmk-firmware](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware) repository by opening the [Actions Workflows](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/actions?query=is%3Acompleted+branch%3Amain), selecting latest successful run on the main branch, then downloading the `firmware-charybdis-nanov2-qwerty` artifact. There's also a colemak dh firmware for those that want to use that layout. Note that you have to be logged into Github to be able to download the files.
 
-The main branch builds firmware for the colemak dh key layout. The layouts/qwerty branch builds firmware for the qwerty layout. Make sure you pick the correct branch for your needs.
+To add support for the PMW3610 sensor, [inorichi's driver](https://github.com/inorichi/zmk-pmw3610-driver?tab=readme-ov-file) is included in the firmware, along with 
+[Petejohanson's work](https://github.com/petejohanson/zmk/blob/feat/pointers-move-scroll/docs/docs/behaviors/mouse-emulation.md) to allow mouse keys.
 
-![branch names](../assets/pics/bluetooth/branch_names.png)
+The firmware is heavily influenced by Miryoku and home row mods that use bilateral combinations to make typing as efficient and ergonomic as possible. If you'd like to see the key layout, a layer map is available on the repo's [README](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware).
 
-Customizing the firmware is pretty straight forward. Common changes might include swapping the central and peripheral halves, changing the keyboard name, or modifying the key bindings. See the firmware repo for details on how to make changes.
-
-Note that the official ZMK firmware doesn't support the PMW3610 or mouse movement keys, both of which are used in the firmware above. To get a working firmware I leveraged [the work of inorichi](https://github.com/inorichi) to get the PMW3610 driver, and [the work of petejohanson](https://github.com/petejohanson) for the driver to allow pointer movement and scrolling with keys.
-
-Official ZMK support for mouse keys [is being worked on](https://github.com/zmkfirmware/zmk/pull/778), and when it's merged I'll switch back to the official ZMK firmware for the builds.
+If you'd like to learn how to customize the key bindings and layers, or for tips on how to modify the firmware build configuration yourself, these are also available on the README.
 
 Additional links:
 
