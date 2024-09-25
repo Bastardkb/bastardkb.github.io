@@ -44,14 +44,14 @@ For the following modifications, modify the files in the **4x6** folder if you a
 #define ROTATIONAL_TRANSFORM_ANGLE 40
 ```
 
-**charybdis/3x5/v2/splinky_3/config.h:**
+**charybdis/3x5/config.h:**
 
 ```c
 // #define MASTER_RIGHT
 #undef MASTER_RIGHT
 ```
 
-**charybdis/3x5/info.json - old values:**
+**charybdis/3x5/keyboard.json - old values:**
 ```json
                 {"matrix": [3, 2], "x": 4, "y": 3},
                 {"matrix": [3, 3], "x": 5, "y": 3},
@@ -61,7 +61,7 @@ For the following modifications, modify the files in the **4x6** folder if you a
                 {"matrix": [7, 2], "x": 10, "y": 3}
 ```
 
-**charybdis/3x5/info.json - new values:**
+**charybdis/3x5/keyboard.json - new values:**
 ```json
 
                 {"matrix": [3, 2], "x": 4, "y": 3},
