@@ -73,6 +73,22 @@ For the following modifications, modify the files in the **4x6** folder if you a
 
 ```
 
+For a Charybdis 4x6, the change will be:
+
+```json
+                {"matrix": [4, 3], "x": 5, "y": 4},
+                {"matrix": [4, 1], "x": 6, "y": 4},
+                {"matrix": [9, 1], "x": 7, "y": 4},
+
+                {"matrix": [9, 4], "x": 9, "y": 4},
+                {"matrix": [9, 3], "x": 10, "y": 4},
+
+                {"matrix": [4, 5], "x": 6, "y": 5},
+                {"matrix": [9, 2], "x": 7, "y": 5},
+
+                {"matrix": [9, 5], "x": 9, "y": 5}
+```
+
 Now that you've modified your firmware, you can compile and flash the `via` keymap.
 
 # VIA definitions
