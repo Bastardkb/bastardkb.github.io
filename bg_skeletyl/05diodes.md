@@ -107,7 +107,7 @@ Do the same for the 15 diodes.
 
 ## Left side - thumb cluster - installing the diodes
 
-On the thumb cluster PCB, we need to install a total of 2 diodes. They go on the footprints with 2 pads (see pictures below).
+On the thumb cluster PCB, we need to install a total of 3 diodes. They go on the footprints with 2 pads (see pictures below).
 
 ![](../assets/pics/guides/charybdis/16.jpg)
 
