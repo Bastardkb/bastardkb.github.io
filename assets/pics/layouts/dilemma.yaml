@@ -32,7 +32,7 @@ layers:
   - [':', $, '%', ^, +, '', ⇧ LSFT, ⎈ LCTL, ⌥ LALT, ⊞ LGUI]
   - ['~', '!', '@', '#', '|', '', '', '', '', '']
   - [(, '', _]
-  - ['', {t: ▽, type: held}, '']
+  - [{t: ▽, type: held}, '', '']
   Fun:
   - ['', '', '', '', '', PRINT SCREEN, F7, F8, F9, F12]
   - [⊞ LGUI, ⌥ LALT, ⎈ LCTL, ⇧ LSFT, '', SCROLL LOCK, F4, F5, F6, F11]
