@@ -124,3 +124,9 @@ If your print does not stick, here are a few pointers:
 - Use glue - paper glue or wood glue diluted with water works well
 - Disable the parts fan for the first layer
 - Make sure your bed is leveled correctly
+
+# Part orientation
+
+All the keyboard cases need to be printed in the same orientation they will be used.
+
+![](../assets/pics/help/4.jpg)
