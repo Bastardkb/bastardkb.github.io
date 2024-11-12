@@ -54,7 +54,7 @@ In the following section, we detail some tips on how to install diodes. You can 
 
 -   Using a soldering iron, put some soldering tin on one pad
 
-![](../assets/pics/guides/charybdis/11.jpg)
+![](../assets/pics/guides/charybdis/68.jpg)
 
 -   Using tweezers, install the diode, with one of its pins on top of the pad you just tinned
 -   Melt the soldering tin, while still holding the diode in place. The soldering tin will "melt around" the diode's pin
