@@ -21,7 +21,7 @@ VIA has a handy built-in matrix tester, to check that all the keys of your keybo
 - click on the **Key tester** tab
 - enable the **Test matrix** toggle
 
-![](../assets/pics/help/4.jpg)
+![](../assets/pics/help/5.jpg)
 
 ## One or more keys don't work
 
