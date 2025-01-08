@@ -13,6 +13,16 @@ parent: Help
 
 This page offers remedies to common problems after completing your build. If your problem is not covered, or the offered solution does not help, please feel free ask the community on Discord: [bstkbd.com/discord][discord]
 
+## Using the matrix tester
+
+VIA has a handy built-in matrix tester, to check that all the keys of your keyboard work.
+
+- access VIA at [https://usevia.app/](usevia.app)
+- click on the **Key tester** tab
+- enable the **Test matrix** toggle
+
+![](../assets/pics/help/4.jpg)
+
 ## One or more keys don't work
 
 A single key not working, which has neighbors that work, is most often caused by either a faulty switch, or diode to column discontinuity. 
