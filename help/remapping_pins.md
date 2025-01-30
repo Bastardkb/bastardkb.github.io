@@ -44,7 +44,7 @@ For example:
 
 - if you have a Charybdis Nano, you can use one of the unused Row or Column pin
 - if you have a keyboard without RGB, you can use the RGB pin
-- if you have a keyboard without trackball, you can use one of the `TRCK` pins
+- if you have a keyboard without trackball, you can use one of the `TRCK` pins. **Do not use the `VCC` or `GND` pins.
 
 {: .note }
 If you have a full size Charydis with RGB, unfortunately you will need to sacrifice RGB. We are aware of this physical limitation and working on a new version of the Splinktegrated that addresses this.
@@ -54,6 +54,8 @@ If you have a full size Charydis with RGB, unfortunately you will need to sacrif
 Use a wire to bodge the broken pin and the replacement pin. You can find instructions on the [how to bodge wire page][bodge]. 
 
 You will need to do this on **both sides of your keyboard**, even the side that still works. This is because we will modify the firmware, and the hardware configuration needs to be the same on both halves.
+
+While this is not technically necessary for a broken row/col pin, it would add a lot of complexity while debugging and potential issues with switching the master side and using bootmagic.
 
 ## Broken row or column
 
@@ -75,6 +77,22 @@ For this, in your local QMK installation look for your keyboard's folder.
 
 Then, change the appropriate pin in your files.
 
+## Broken row or column
+
+For example, if on your Charybdis you bodged the `R1` pin (`GP29`) to the `RGB` pin (`GP0`), change those parts of the file `bastardkb/charybdis/4x6/keyboard.json`:
+
+```json
+    "matrix_pins": {
+        "cols": ["GP27", "GP28", "GP21", "GP6", "GP7", "GP8"],
+        "rows": ["GP0", "GP26", "GP5", "GP4", "GP9"]
+    },
+    "ws2812": {
+        "pin": "GP29"
+    }
+```
+
+## Broken serial pin
+
 For example, if on your Charybdis you bodged the `serial` pin (`GP1`) to the `RGB` pin (`GP0`), change those parts of the file `bastardkb/charybdis/4x6/keyboard.json`:
 
 ```json
@@ -91,7 +109,6 @@ For example, if on your Charybdis you bodged the `serial` pin (`GP1`) to the `RG
 ```
 
 Then, you will need to [compile and flash **both sides of your keyboard**][install].
-
 
 You can now plug your keyboard in and test your work. With any luck, the fault will be fixed!
 
