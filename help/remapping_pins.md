@@ -19,6 +19,9 @@ This can happen either during the build, or after using the keyboard for some ti
 
 In this situation, you can fix your keyboard by bodging the malfunctioning pin and then remapping the pin in firmware.
 
+{: .warning }
+This is a complicated procedure, which requires both hardware and firmware modification. We recommend creating a help thread on the [discord server][discord] at the same time.
+
 # Pre-requisites
 
 To do this, you will need:
@@ -53,9 +56,9 @@ If you have a full size Charydis with RGB, unfortunately you will need to sacrif
 
 Use a wire to bodge the broken pin and the replacement pin. You can find instructions on the [how to bodge wire page][bodge]. 
 
-You will need to do this on **both sides of your keyboard**, even the side that still works. This is because we will modify the firmware, and the hardware configuration needs to be the same on both halves.
+If you are fixing a broken serial pin, you will need to do this and change the firmware on **both sides of your keyboard**, even the side that still works.
 
-While this is not technically necessary for a broken row/col pin, it would add a lot of complexity while debugging and potential issues with switching the master side and using bootmagic.
+If you are fixing a broken row or column pin, you will need to do this and change the firmware on **the side that does not work only**.
 
 ## Broken row or column
 
@@ -79,17 +82,24 @@ Then, change the appropriate pin in your files.
 
 ## Broken row or column
 
-For example, if on your Charybdis you bodged the `R1` pin (`GP29`) to the `RGB` pin (`GP0`), change those parts of the file `bastardkb/charybdis/4x6/keyboard.json`:
+For example, if on your Charybdis right side you bodged the `R1` pin (`GP29`) to the `RGB` pin (`GP0`), change those parts of the file `bastardkb/charybdis/4x6/keyboard.json`:
 
 ```json
-    "matrix_pins": {
-        "cols": ["GP27", "GP28", "GP21", "GP6", "GP7", "GP8"],
-        "rows": ["GP0", "GP26", "GP5", "GP4", "GP9"]
+    "split": {
+        "matrix_pins": {
+            "right": {
+                "cols": ["GP27", "GP28", "GP21", "GP6", "GP7", "GP8"],
+                "rows": ["GP0", "GP26", "GP5", "GP4", "GP9"]
+            }
+        }
     },
     "ws2812": {
         "pin": "GP29"
     }
 ```
+
+{: .note }
+Here we modified the right side's pin assignment only, because we bodged the wire on the right side.
 
 ## Broken serial pin
 
@@ -107,6 +117,11 @@ For example, if on your Charybdis you bodged the `serial` pin (`GP1`) to the `RG
 }
 
 ```
+
+Remember! In this case, since you modified the serial pin you will need to flash both sides.
+
+
+## Compile and flash
 
 Then, you will need to [compile and flash **both sides of your keyboard**][install].
 
