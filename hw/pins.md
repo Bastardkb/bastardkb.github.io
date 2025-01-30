@@ -5,6 +5,13 @@ nav_order: 11
 parent: Hardware
 ---
 
+# Table of contents
+
+1. TOC
+{:toc}
+
+# Splinktegrated pins
+
 On this page you will find the pin assignments on the Splinktegrated.
 This can be useful when bodge wiring a pin that does not work anymore.
 
