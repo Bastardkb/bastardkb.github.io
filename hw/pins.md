@@ -2,7 +2,7 @@
 layout: default
 title: Splinktegrated pins
 nav_order: 11
-has_children: true
+parent: Hardware
 ---
 
 On this page you will find the pin assignments on the Splinktegrated.
