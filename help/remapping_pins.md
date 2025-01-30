@@ -51,7 +51,7 @@ If you have a full size Charydis with RGB, unfortunately you will need to sacrif
 
 # Bodge the broken pin
 
-Use a wire to bodge the broken pin and the replacement pin. You can instructions on the [how to bodge wire page][bodge]. 
+Use a wire to bodge the broken pin and the replacement pin. You can find instructions on the [how to bodge wire page][bodge]. 
 
 You will need to do this on **both sides of your keyboard**, even the side that still works. This is because we will modify the firmware, and the hardware configuration needs to be the same on both halves.
 
