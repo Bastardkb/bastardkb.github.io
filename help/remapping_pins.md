@@ -40,6 +40,8 @@ Take a note of the pin number (eg. `GP20`).
 
 Next, you need to choose a pin that's not used, which we will use to replace the broken pin.
 
+For example:
+
 - if you have a Charybdis Nano, you can use one of the unused Row or Column pin
 - if you have a keyboard without RGB, you can use the RGB pin
 - if you have a keyboard without trackball, you can use one of the `TRCK` pins
