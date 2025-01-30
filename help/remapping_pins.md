@@ -28,7 +28,7 @@ To do this, you will need:
 - a bodge wire - we recommend solid core, around 28AWG
 
 {: .note }
-It's also possible to remap the pin through Github Actions without a local installation, but it's more complicated. We will only explain the simpler "local installation" on this page.
+It's also possible to remap the pin through Github Actions without a local installation, but it's more complicated. We will only explain the simpler "local installation" method on this page.
 
 # Identify the broken pin
 
