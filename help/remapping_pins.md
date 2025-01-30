@@ -97,11 +97,10 @@ You can now plug your keyboard in and test your work. With any luck, the fault w
 
 No luck yet? Ask the community on [discord][discord]!
 
-[Discord]: https://www.bstkbd.com/discord
-
 ---
 
 [install]: {{site.baseurl}}/fw/compile-firmware.html
 [bodge]: {{site.baseurl}}/help/diagnose_broken_trace.html
 [pins]: {{site.baseurl}}/hw/pins.html
 [bodge]: {{site.baseurl}}/help/bodge_wiring.html
+[Discord]: https://www.bstkbd.com/discord
