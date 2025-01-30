@@ -92,6 +92,13 @@ For example, if on your Charybdis you bodged the `serial` pin (`GP1`) to the `RG
 
 Then, you will need to [compile and flash **both sides of your keyboard**][install].
 
+
+You can now plug your keyboard in and test your work. With any luck, the fault will be fixed!
+
+No luck yet? Ask the community on [discord][discord]!
+
+[Discord]: https://www.bstkbd.com/discord
+
 ---
 
 [install]: {{site.baseurl}}/fw/compile-firmware.html
