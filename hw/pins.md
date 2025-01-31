@@ -17,6 +17,8 @@ This can be useful when bodge wiring a pin that does not work anymore.
 
 This page details all the pins, but depending on the size of your keyboard, type, and options, some of them might be unused.
 
+![](../assets/pics/pins.jpg)
+
 ## Rows and columns
 
 Those are the pins on the group labeled `MATRIX` on the splinktegrated.
