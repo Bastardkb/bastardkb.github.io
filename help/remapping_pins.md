@@ -64,13 +64,17 @@ If you are fixing a broken row or column pin, you will need to do this and chang
 
 Bodging a broken row or column is easy, as you can use the `MATRIX` connector.
 
-For example, bodge the `C3` pin to the `RGB` pin if you're not using RGB.
+For example, bodge the `R1` pin to the `RGB` pin if you're not using RGB.
+
+![](../assets/pics/help/remap/1.jpg)
 
 ## Broken serial pin
 
 To bodge a broken serial pin, you can use the jumper that's next to the audio jack. **Make sure to use the one that you soldered already** when building the keyboard.
 
 For example, you may bodge the jumper pin to the `RGB` pin if you're not using RGB.
+
+![](../assets/pics/help/remap/2.jpg)
 
 # Change your firmware
 
