@@ -83,7 +83,7 @@ Do the same for the 12 diodes.
 
 ## Left side - thumb cluster - placing the PCB
 
--   Place the plate PCB on your working surface, and make sure the "RIGHT" label is visible
+-   Place the plate PCB on your working surface, and make sure the "LEFT" label is visible
 -   Use the picture below for reference.
 
 ![](../assets/pics/guides/charybdis/21.jpg)
