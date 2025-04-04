@@ -36,7 +36,8 @@ Blok
 bootloader
 ESD
 Frood
-GPIO
+GPIOv
+TRCK
 Kee
 Keeb
 Liatris
@@ -140,4 +141,4 @@ prusa
 Prusa
 Bambu
 bambu
-nanov
+nano
