@@ -120,9 +120,10 @@ Clone the BKB QMK repository, using either github desktop or the command line, a
 git clone https://github.com/bastardkb/bastardkb-qmk
 cd bastardkb-qmk
 git checkout -b bkb-master origin/bkb-master
+qmk git-submodule
 ```
 
-Now that you've cloned the repository, `cd` into it and set it as the default local QMK repository. You also need to do this if you had a previous, separate QMK installation.
+Now that you've cloned the repository, set it as the default local QMK repository. You also need to do this if you had a previous, separate QMK installation.
 
 ```shell
 qmk config user.qmk_home="$(realpath .)" 
