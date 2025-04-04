@@ -28,7 +28,7 @@ If you are building with per-key RGB, there are some additional cables that came
 
 # Cutting the cables
 
-Before we can connect everything together, we need to cut the cables to the right length. 
+Before we can connect everything together, we need to cut the cables to the right width. 
 
 ![](../assets/pics/guides/cnano/20.jpg)
 

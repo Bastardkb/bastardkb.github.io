@@ -54,7 +54,7 @@ In the following section, we detail some tips on how to install diodes. You can 
 
 -   Using a soldering iron, put some soldering tin on one pad
 
-![](../assets/pics/guides/charybdis/11.jpg)
+![](../assets/pics/guides/charybdis/68.jpg)
 
 -   Using tweezers, install the diode, with one of its pins on top of the pad you just tinned
 -   Melt the soldering tin, while still holding the diode in place. The soldering tin will "melt around" the diode's pin
@@ -83,14 +83,14 @@ Do the same for the 12 diodes.
 
 ## Left side - thumb cluster - placing the PCB
 
--   Place the plate PCB on your working surface, and make sure the "RIGHT" label is visible
+-   Place the plate PCB on your working surface, and make sure the "LEFT" label is visible
 -   Use the picture below for reference.
 
 ![](../assets/pics/guides/charybdis/21.jpg)
 
 ## Left side - thumb cluster - installing the diodes
 
-On the thumb cluster PCB, we need to install a total of 3 diodes. They go on the footprints with 2 pads (see pictures below).
+On the thumb cluster PCB, we need to install a total of 5 diodes. They go on the footprints with 2 pads (see pictures below).
 
 {: .warning }
 These diodes need to be installed in a specific way, or they will not work! **Read the following carefully.**

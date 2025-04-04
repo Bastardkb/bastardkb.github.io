@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: bastardkb/tbkmini, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: bastardkb/tbkmini, layout_name: LAYOUT_split_3x6_3}
 draw_config:
   svg_extra_style: |
     text.label { stroke: none; fill: #e0f0f0;}
