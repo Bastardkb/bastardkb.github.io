@@ -157,6 +157,18 @@ Custom defines:
 #define DILEMMA_DRAGSCROLL_REVERSE_Y // inverts vertical scrolling 
 ```
 
+### Rotary encoders
+
+The Dilemma keyboards come with optional rotary encoders, which have behaviours assigned in the vendor keymap.
+
+Depending on your rotary encoder model, you might need to change the encoder resolution, for example if the encoder needs 2 clicks to trigger a signal. The shorter encoders always need a resolution of 2, and the longer ones may need 2, or 4.
+
+You can do this in your userspace's keymap `config.h` file:
+
+```c
+#define ENCODER_RESOLUTION 2
+```
+
 ----
 
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html

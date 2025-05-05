@@ -17,7 +17,7 @@ This page offers remedies to common problems after completing your build. If you
 
 VIA has a handy built-in matrix tester, to check that all the keys of your keyboard work.
 
-- access VIA at [https://usevia.app/](usevia.app)
+- access VIA at [https://usevia.app/](https://usevia.app/)
 - click on the **Key tester** tab
 - enable the **Test matrix** toggle
 

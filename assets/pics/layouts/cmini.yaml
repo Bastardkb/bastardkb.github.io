@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: bastardkb/charybdis/3x6, qmk_layout: LAYOUT}
+layout: {qmk_keyboard: bastardkb/charybdis/3x6, layout_name: LAYOUT}
 draw_config:
   svg_extra_style: |
     text.label { stroke: none; fill: #e0f0f0;}

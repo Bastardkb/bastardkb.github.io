@@ -30,7 +30,8 @@ The default firmware requires the USB cable be connected to the right side of th
 
 Open [VIA](https://usevia.app/) - please note this only works on chromium-based browsers like chromium, edge, chrome.
 
-{: .note } If you are on linux, make sure to have your udev rules set up. [Setting up udev]({{site.baseurl}}help/troubleshooting.html#custom-udev-rules)
+{: .note } 
+If you are on linux, make sure to have your udev rules set up. [Setting up udev]({{site.baseurl}}/help/troubleshooting.html#custom-udev-rules)
 
 ![](../assets/pics/guides/generic/7.jpg)
 

@@ -21,8 +21,7 @@ You can read more on how to customize your keyboard [on the How to use and custo
 {: .question }
 Is it possible to build a hotswap Bastard Keyboard?
 
-**On the 3d keyboards (Scylla, Charybdis...):**
-It's not possible to use MX sockets, because they need a specific footprint on the PCB which is not present. It is in theory possible to use Millmax sockets, though not recommended.
+It is not possible to use MX or Choc sockets, because they need a specific footprint on the PCB which is not present. It is in theory possible to use Millmax sockets, though not recommended.
 
 When installing the PCBs, you bend them to fit it to the curvature so the whole thing is continuously under tension, pulling away from the switch plate, only held in place by the switch pins and solder joints.
 
