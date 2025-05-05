@@ -39,6 +39,8 @@ The first step is to identify the broken pin. You can check the tables on the [s
 
 Take a note of the pin number (eg. `GP20`).
 
+// TODO identify row or diode column pin on PCB directly
+
 # Identify a replacement pin
 
 Next, you need to choose a pin that's not used, which we will use to replace the broken pin.
@@ -52,6 +54,10 @@ For example:
 {: .note }
 If you have a full size Charydis with RGB, unfortunately you will need to sacrifice RGB. We are aware of this physical limitation and working on a new version of the Splinktegrated that addresses this.
 
+# Disconnect the broken pin
+
+// TODO: hack and slash the old flexstrip cable
+
 # Bodge the broken pin
 
 Use a wire to bodge the broken pin and the replacement pin. You can find instructions on the [how to bodge wire page][bodge]. 
@@ -64,9 +70,9 @@ If you are fixing a broken row or column pin, you will need to do this and chang
 
 Bodging a broken row or column is easy, as you can use the `MATRIX` connector.
 
-For example, bodge the `R1` pin to the `RGB` pin if you're not using RGB.
+For example, bodge the `row 1` to the `RGB` pin if you're not using RGB.
 
-![](../assets/pics/help/remap/1.jpg)
+// TODO: wire from row / column diode to `RGB` pin
 
 ## Broken serial pin
 
@@ -74,7 +80,7 @@ To bodge a broken serial pin, you can use the jumper that's next to the audio ja
 
 For example, you may bodge the jumper pin to the `RGB` pin if you're not using RGB.
 
-![](../assets/pics/help/remap/2.jpg)
+// TODO: wire from audio jack serial pin to `RGB` pin
 
 # Change your firmware
 
