@@ -117,7 +117,7 @@ Depending on your kit, the bottom housing might look slightly different. Install
 {: .warning }
 In the following steps, you will install the sensor PCB. It comes with a lens, **which should stay installed**. The lens is required for the sensor to function properly.
 
-![](../assets/pics/guides/cnano/41.jpg)
+![](../assets/pics/guides/cnano/69.jpg)
 
 **For the following step, please prepare:**
 - keyboard assembly
