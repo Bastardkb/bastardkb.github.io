@@ -114,6 +114,9 @@ Depending on your kit, the bottom housing might look slightly different. Install
 
 # Soldering the sensor PCB to the Splinky Shield
 
+{: .warning }
+In the following steps, you will install the sensor PCB. It comes with a lens, **which should stay installed**. The lens is required for the sensor to function properly.
+
 ![](../assets/pics/guides/cnano/41.jpg)
 
 **For the following step, please prepare:**
