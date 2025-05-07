@@ -87,18 +87,14 @@ Depending on your kit, the bottom housing might look slightly different. The pro
 
 # Soldering the sensor PCB to the Splinky Shield
 
-![](../assets/pics/guides/cnano/41.jpg)
+![](../assets/pics/guides/charybdis/69.jpg)
 
 **For the following step, please prepare:**
 - keyboard assembly
 - sensor PCB assembly
 
-
-{: .note }
-On the pictures, we use a Splinktegrated - those come with premium kits. The Splinky + Shield works exactly the same, so inspect the pictures carefully.
-
 Inspect the Splinky shield: there is a `SPI` header, that we need to connect to the sensor PCB.
-- you can match the 3v3 with the 5V
+- match the 3v3 with the 5V
 - the rest of the pins will align
 
 ![](../assets/pics/guides/cnano/42.jpg)

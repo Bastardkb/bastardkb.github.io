@@ -114,7 +114,10 @@ Depending on your kit, the bottom housing might look slightly different. Install
 
 # Soldering the sensor PCB to the Splinky Shield
 
-![](../assets/pics/guides/cnano/41.jpg)
+{: .warning }
+In the following steps, you will install the sensor PCB. It comes with a lens, **which should stay installed**. The lens is required for the sensor to function properly.
+
+![](../assets/pics/guides/charybdis/69.jpg)
 
 **For the following step, please prepare:**
 - keyboard assembly
@@ -122,10 +125,10 @@ Depending on your kit, the bottom housing might look slightly different. Install
 
 
 {: .note }
-On the pictures, we use a Splinktegrated, and a 3x5 case - those come with premium kits. The Splinky + Shield works exactly the same, so inspect the pictures carefully.
+On the pictures, we use a Charybdis Nano case. Installing the sensor PCB into the Charybdis works exactly the same.
 
-Inspect the Splinky shield: there is a `SPI` header, that we need to connect to the sensor PCB.
-- you can match the 3v3 with the 5V
+Inspect the Splinktegrated: there is a `SPI` header, that we need to connect to the sensor PCB.
+- match the 3v3 with the 5V
 - the rest of the pins will align
 
 ![](../assets/pics/guides/cnano/42.jpg)
