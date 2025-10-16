@@ -12,6 +12,9 @@ parent: Firmware
 
 # Introduction
 
+{: .warning }
+This page only applies to the Dilemma V3 and Dilemma MAX V3. If you have any other keyboard, check out the [compile page instead][compile].
+
 The [BastardKB QMK repository](https://github.com/bastardkb/bastardkb-qmk) contains the behavioral firmware code and releases for the Bastard Keyboards Charybdis boards.
 
 The keymaps are stored in the [BastardKB QMK userspace repository][bkbus].
@@ -173,6 +176,7 @@ For how to flash your keyboard, take a look at the [how to flash your keyboard p
 ----
 
 [githubactions]: {{site.baseurl}}/fw/compile-firmware.html#compiling-your-firmware-using-github-actions
+[compile]: {{site.baseurl}}/fw/compile-firmware.html
 [flashing]: {{site.baseurl}}/fw/flashing.html
 [bkbus]: https://github.com/Bastardkb/qmk_userspace
 [dilemma]: {{site.baseurl}}/fw/procyon-compile
