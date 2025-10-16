@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Compiling your firmware
-nav_order: 99
+title: Compiling firmware for Dilemma/MAX V3
+nav_order: 2
 parent: Firmware
 ---
 
@@ -23,9 +23,16 @@ This page details how to build your own firmware.
 Building from source is useful to people who want to customize their keyboard and keymaps beyond what Via offers. 
 You will have to modify the keymap `C` code, and from there compile your firmware either using Github actions or the local command line.
 
-If that seems too complicated, you can also use one of the [release firmware](https://github.com/Bastardkb/qmk_userspace/releases/latest) builds.
+If that seems too complicated, you can also use one of the [release firmware](https://github.com/Bastardkb/qmk_userspace/releases/tag/prerelease) builds.
 
-If you are compiling for the Dilemma V3/Dilemma MAX V3, you can check the [specific instructions here][dilemma].
+Right now the code for the Dilemma V3 and Dilemma MAX V3 is not on the master branch of our QMK fork.
+This is because we are waiting for features to merge into the main QMK repository, and need to use the `bkb-develop` branch meanwhile.
+
+Because of this, compiling your own image requires some additional steps. Otherwise, the process is quite similar to the regular one.
+
+{: .note }
+In this page, we will compile a custom keymap for the `3x5_3` Dilemma V3. If you need to compile an image for the `4x6_4` Dilemma MAX V3, just change the options accordingly.
+
 
 # Pre-requisites
 
@@ -42,21 +49,23 @@ This way, you can:
 - use Github actions to compile your keymap
 - (if relevant) contribute your keymap to the origin Bastard KB QMK Userspace
 
-In a separate folder, clone the fork you just created, using either Github desktop or the command line:
+In a separate folder, clone the fork you just created, using either Github desktop or the command line. Then, switch to the `bkb-develop` branch:
 
 
 ```shell
 git clone https://github.com/my_username/qmk_userspace 
+cd qmk_userspace
+git checkout -b bkb-develop origin/bkb-develop
 ```
 
 # Creating your keymap
 
-If you want to create your own keymap, **make sure you have forked the [BastardKB QMK userspace repository][bkbus].**
+If you want to create your own keymap, **make sure you have forked the [BastardKB QMK userspace repository][bkbus]**, and switched to the `bkb-develop` branch.
 
 Create a separate folder in the relevant folder, eg:
 
 ```
-keyboards/bastardkb/charybdis/4x6/keymaps/my-keymap/
+keyboards/bastardkb/dilemma/3x5_3_procyon/my-keymap
 ```
 
 
@@ -74,8 +83,10 @@ By using github actions, you can have Github compile your firmware without havin
 If you want to use Github actions to compile your firmware (rather than doing it locally in the console), you will need to:
 
 - fork the [BastardKB QMK userspace repository][bkbus]
+- switch to the `bkb-develop` branch
 - **in the `Actions` tab, enable workflows**
 
+If you switched to the `bkb-develop` branch, then your userspace is already pointing to the `bkb-develop` branch of our QMK fork. This is where the code for the Dilemma/MAX V3 is stored.
 
 ## Compiling your firmware
 
@@ -89,7 +100,7 @@ Once you created your own keymap, you will need to add it to the list of keymaps
 {
     "userspace_version": "1.0",
     "build_targets": [
-        ["bastardkb/charybdis/4x6", "my-keymap"]
+        ["bastardkb/dilemma/3x5_3_procyon", "my-keymap"]
     ]
 }
 ```
@@ -116,12 +127,12 @@ Make sure you have a functional QMK environment. See [QMK Docs](https://docs.qmk
 
 ### BastardKB QMK fork
 
-Clone the BKB QMK repository, using either github desktop or the command line, and switch to the `bkb-master` branch:
+Clone the BKB QMK repository, using either github desktop or the command line, and switch to the `bkb-develop` branch:
 
 ```shell
 git clone https://github.com/bastardkb/bastardkb-qmk
 cd bastardkb-qmk
-git checkout -b bkb-master origin/bkb-master
+git checkout -b bkb-develop origin/bkb-develop
 qmk git-submodule
 ```
 
@@ -147,32 +158,11 @@ qmk config user.overlay_dir="$(realpath .)"
 
 ## Compiling your firmware
 
-Once in the QMK userspace repository, compiling a keymap works the same as normal:
+Once in the QMK userspace repository, compiling a keymap works the same as normal. For example:
 
 ```shell
-qmk compile -c -kb bastardkb/{keyboard} -km {keymap}
+qmk compile -c -kb bastardkb/dilemma/3x5_3_procyon -km my_keymap
 ```
-
-### `{keyboard}` argument
-
-`{keyboard}` corresponds to the physical keyboard you are building the firmware for. It can be one of the following:
-
-- `charybdis/4x6`: the 4x6+5 [Charybdis](https://github.com/bastardkb/charybdis/)
-- `charybdis/3x5`: the 3x5+3 [Charybdis Nano](https://github.com/bastardkb/charybdis/)
-- `charybdis/3x6`: the 3x6+3 [Charybdis Mini](https://github.com/bastardkb/charybdis/)
-- `scylla`: the 4x6+5 [Scylla](https://github.com/Bastardkb/Scylla)
-- `skeletyl`: the 3x5+3 [Skeletyl](https://github.com/Bastardkb/Skeletyl/)
-- `tbkmini`: the 3x6+3 [TBK Mini](https://github.com/Bastardkb/TBK-Mini/)
-- `dilemma/3x5_3`: the 3x5+3 [Dilemma](https://github.com/bastardkb/dilemma/)
-- `dilemma/4x6_4`: the 4x6+4 [Dilemma Max](https://github.com/bastardkb/dilemma/)
-
-### `{keymap}` argument
-
-
-`{keymap}` corresponds to the keymap that you created. 
-
-If you followed the instructions until now, it would be `my-keymap`.
-
 
 # Flashing your keyboard
 
@@ -180,9 +170,9 @@ Once you compiled your `uf2` image, you can flash your keyboard.
 
 For how to flash your keyboard, take a look at the [how to flash your keyboard page][flashing].
 
+----
 
----
-
+[githubactions]: {{site.baseurl}}/fw/compile-firmware.html#compiling-your-firmware-using-github-actions
 [flashing]: {{site.baseurl}}/fw/flashing.html
 [bkbus]: https://github.com/Bastardkb/qmk_userspace
 [dilemma]: {{site.baseurl}}/fw/procyon-compile
