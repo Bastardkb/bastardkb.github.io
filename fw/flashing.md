@@ -105,7 +105,6 @@ For this, you will need to unscrew the case bottom and locate, depending on your
 - for all other keyboards: two through holes, either labelled "BOOT" or unlabelled.
 
 ![](../assets/pics/help/flashing/1.jpg)
-![](../assets/pics/help/flashing/6.jpg)
 
 Next, unplug the connector and then:
 - press the button. Maintain it pressed 
