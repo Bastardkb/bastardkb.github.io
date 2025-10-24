@@ -107,7 +107,7 @@ For this, you will need to unscrew the case bottom and locate, depending on your
 ![](../assets/pics/help/flashing/1.jpg)
 
 Next, unplug the connector and then:
-- press the button. Maintain it pressed 
+- press the button. It is stiff, so make sure you feel a "click". Maintain it pressed
 - or, bridge the two pads, for example using metallic tweezers. Hold this connection
 - plug in the USB connector, and release the button or tweezers
 
