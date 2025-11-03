@@ -60,7 +60,7 @@ Be careful when installing the screw inserts, you can damage the case. Read all 
 
 We will now install the screw inserts that will later hold the controller. There are **2 on each side.** Use the below pictures to identify them (in red).
 
-![](../assets/pics/guides/charybdis/7.PNG)
+![](../assets/pics/guides/charybdis/7.png)
 
 {: .tip }
 There is **a third inner hole at the bottom** (in blue). If you are building a **left-handed Charybdis**, install a screw insert there. Otherwise, you can ignore it.

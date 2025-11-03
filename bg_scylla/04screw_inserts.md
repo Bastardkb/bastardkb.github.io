@@ -57,7 +57,7 @@ Be careful when installing the screw inserts, you can damage the case. Read all 
 
 We will now install the screw inserts that will later hold the controller. There are **2 on each side.** Use the below pictures to identify them (in red).
 
-![](../assets/pics/guides/scylla/3.PNG)
+![](../assets/pics/guides/scylla/3.png)
 
 Follow the same procedure as previously, except:
 
