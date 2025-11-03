@@ -31,7 +31,7 @@ There are other 3d parts in your kit like plates, tents, 3d holders. You can set
 
 First, we will install the screw inserts on the outer edges of the case. There are 6 on each side. Use the below pictures to identify them.
 
-![](../assets/pics/guides/charybdis/2.jpg)
+![](../assets/pics/guides/charybdis/2.PNG)
 
 {: .warning }
 Be careful when installing the screw inserts, you can damage the case. Read all the instructions first, then proceed to the installation.
@@ -60,7 +60,7 @@ Be careful when installing the screw inserts, you can damage the case. Read all 
 
 We will now install the screw inserts that will later hold the controller. There are **2 on each side.** Use the below pictures to identify them (in red).
 
-![](../assets/pics/guides/charybdis/7.jpg)
+![](../assets/pics/guides/charybdis/7.PNG)
 
 {: .tip }
 There is **a third inner hole at the bottom** (in blue). If you are building a **left-handed Charybdis**, install a screw insert there. Otherwise, you can ignore it.
