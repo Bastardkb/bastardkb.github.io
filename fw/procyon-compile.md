@@ -52,18 +52,18 @@ This way, you can:
 - use Github actions to compile your keymap
 - (if relevant) contribute your keymap to the origin Bastard KB QMK Userspace
 
-In a separate folder, clone the fork you just created, using either Github desktop or the command line. Then, switch to the `bkb-develop` branch:
+In a separate folder, clone the fork you just created, using either Github desktop or the command line. Then, switch to the `develop` branch:
 
 
 ```shell
 git clone https://github.com/my_username/qmk_userspace 
 cd qmk_userspace
-git checkout -b bkb-develop origin/bkb-develop
+git checkout -b develop origin/develop
 ```
 
 # Creating your keymap
 
-If you want to create your own keymap, **make sure you have forked the [BastardKB QMK userspace repository][bkbus]**, and switched to the `bkb-develop` branch.
+If you want to create your own keymap, **make sure you have forked the [BastardKB QMK userspace repository][bkbus]**, and switched to the `develop` branch.
 
 Create a separate folder in the relevant folder, eg:
 
@@ -86,10 +86,10 @@ By using github actions, you can have Github compile your firmware without havin
 If you want to use Github actions to compile your firmware (rather than doing it locally in the console), you will need to:
 
 - fork the [BastardKB QMK userspace repository][bkbus]
-- switch to the `bkb-develop` branch
+- switch to the `develop` branch
 - **in the `Actions` tab, enable workflows**
 
-If you switched to the `bkb-develop` branch, then your userspace is already pointing to the `bkb-develop` branch of our QMK fork. This is where the code for the Dilemma/MAX V3 is stored.
+If you switched to the `develop` branch, then your userspace is already pointing to the `develop` branch of our QMK fork. This is where the code for the Dilemma/MAX V3 is stored.
 
 ## Compiling your firmware
 
