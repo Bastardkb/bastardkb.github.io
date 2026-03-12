@@ -12,7 +12,7 @@ parent: Firmware
 
 # Introduction
 
-The Dilemma V3 and Dilemma MAX V3 can accomodate an LCD module. It has default behaviour, like showing the layer, mods, scrolling DPI and sniping toggles.
+The Dilemma V3 and Dilemma MAX V3 can accommodate an LCD module. It has default behavior, like showing the layer, mods, scrolling DPI and sniping toggles.
 
 It requires custom code, that is stored in a [module][module].
 
