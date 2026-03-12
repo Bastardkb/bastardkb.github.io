@@ -45,6 +45,12 @@ Add the following to your `keymap.json`. You may need to merge it with your exis
 }
 ```
 
+# Themes
+
+The LCD screen supports multiple themes.
+
+The module comes with a custom keycode to change the theme: `LCD_THEME`. Triggering it will change the theme, and store the current theme in memory.
+
 ---- 
 [module]: https://github.com/Bastardkb/qmk_modules
 [userspace]: {{site.baseurl}}/fw/procyon-compile.html
