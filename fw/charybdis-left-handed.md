@@ -111,12 +111,6 @@ With your firmware flashed, there are a number of things to do in the VIA interf
 
 - **You're all set!**
 
-# TODO list
-
-- TODO 4x6 info.json
-- TODO 4x6 draft definition
-- RGB information
-
 # Charybdis 3x5 Nano draft file
 
 ```json
@@ -257,6 +251,70 @@ With your firmware flashed, there are a number of things to do in the VIA interf
         },
         "7,3\n\n\n0,1",
         "7,2\n\n\n0,1"
+      ]
+    ]
+  }
+}
+
+```
+
+# Charybdis 4x6 draft file
+
+```json
+{
+  "name": "Charybdis",
+  "vendorId": "0xA8F8",
+  "productId": "0x1833",
+  "matrix": {
+    "rows": 10,
+    "cols": 6
+  },
+  "customKeycodes": [
+    {"title":"Default DPI Increase","name":"Default DPI Inc","shortName":"DPI+"},
+    {"title":"Default DPI Decrease","name":"Default DPI Dec","shortName":"DPI-"},
+    {"title":"Sniping DPI Increase","name":"Sniping DPI Inc","shortName":"Snp+"},
+    {"title":"Sniping DPI Decrease","name":"Sniping DPI Dec","shortName":"Snp-"},
+    {"title":"Sniping Momentary","name":"Sniping MO","shortName":"Snp"},
+    {"title":"Sniping Toggle","name":"Sniping TO","shortName":"SnpT"},
+    {"title":"Drag-scroll Momentary","name":"Drag-scroll MO","shortName":"Drg"},
+    {"title":"Drag-scroll Toggle","name":"Drag-scroll TG","shortName":"DrgT"}
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        "0,0","0,1","0,2","0,3","0,4","0,5",
+        { "x": 4 },
+        "5,5","5,4","5,3","5,2","5,1","5,0"
+      ],
+      [
+        "1,0","1,1","1,2","1,3","1,4","1,5",
+        { "x": 4 },
+        "6,5","6,4","6,3","6,2","6,1","6,0"
+      ],
+      [
+        "2,0","2,1","2,2","2,3","2,4","2,5",
+        { "x": 4 },
+        "7,5","7,4","7,3","7,2","7,1","7,0"
+      ],
+      [
+        "3,0","3,1","3,2","3,3","3,4","3,5",
+        { "x": 4 },
+        "8,5","8,4","8,3","8,2","8,1","8,0"
+      ],
+      [
+        { "x": 5 },
+        "4,3","4,1",
+        { "x": 2 },
+        "9,1","9,4","9,3"
+      ],
+      [
+        { "x": 6 },
+        "4,5",
+        { "x": 2 },
+        "9,2","9,5"
       ]
     ]
   }
