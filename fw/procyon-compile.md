@@ -68,7 +68,7 @@ If you want to create your own keymap, **make sure you have forked the [BastardK
 Create a separate folder in the relevant folder, eg:
 
 ```
-keyboards/bastardkb/dilemma/3x5_3_procyon/my-keymap
+keyboards/bastardkb/dilemma/3x5_3_procyon/my_keymap
 ```
 
 
@@ -103,7 +103,7 @@ Once you created your own keymap, you will need to add it to the list of keymaps
 {
     "userspace_version": "1.0",
     "build_targets": [
-        ["bastardkb/dilemma/3x5_3_procyon", "my-keymap"]
+        ["bastardkb/dilemma/3x5_3_procyon", "my_keymap"]
     ]
 }
 ```
