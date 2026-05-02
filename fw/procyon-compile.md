@@ -29,7 +29,7 @@ You will have to modify the keymap `C` code, and from there compile your firmwar
 If that seems too complicated, you can also use one of the [release firmware](https://github.com/Bastardkb/qmk_userspace/releases/tag/prerelease) builds.
 
 Right now the code for the Dilemma V3 and Dilemma MAX V3 is not on the master branch of our QMK fork.
-This is because we are waiting for features to merge into the main QMK repository, and need to use the `bkb-develop` branch meanwhile.
+This is because we are waiting for features to merge into the main QMK repository, and need to use the `bkb-procyon` branch meanwhile.
 
 Because of this, compiling your own image requires some additional steps. Otherwise, the process is quite similar to the regular one.
 
@@ -130,12 +130,12 @@ Make sure you have a functional QMK environment. See [QMK Docs](https://docs.qmk
 
 ### BastardKB QMK fork
 
-Clone the BKB QMK repository, using either github desktop or the command line, and switch to the `bkb-develop` branch:
+Clone the BKB QMK repository, using either github desktop or the command line, and switch to the `bkb-procyon` branch:
 
 ```shell
 git clone https://github.com/bastardkb/bastardkb-qmk
 cd bastardkb-qmk
-git checkout -b bkb-develop origin/bkb-develop
+git checkout -b bkb-procyon origin/bkb-procyon
 qmk git-submodule
 ```
 
