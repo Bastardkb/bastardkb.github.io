@@ -69,15 +69,17 @@ For more information on the features from the Charybdis keymaps, see the [charyb
 
 ![](../assets/pics/layouts/dilemma/Base.png)
 
+![](../assets/pics/layouts/dilemma/Fun.png)
+
 ![](../assets/pics/layouts/dilemma/Nav.png)
 
-![](../assets/pics/layouts/dilemma/Mouse.png)
+![](../assets/pics/layouts/dilemma/Media.png)
+
+![](../assets/pics/layouts/dilemma/Pointer.png)
 
 ![](../assets/pics/layouts/dilemma/Num.png)
 
 ![](../assets/pics/layouts/dilemma/Sym.png)
-
-![](../assets/pics/layouts/dilemma/Fun.png)
 
 # Scylla
 
