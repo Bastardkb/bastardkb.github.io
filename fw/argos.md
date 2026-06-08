@@ -67,4 +67,4 @@ In the *Keyboard settings* view, you can modify different keyboard options.
 ----
 
 [bootmagic]: {{site.baseurl}}/fw/flashing.html#bootmagic
-[argos]: argos.bastardkb.com
+[argos]: https://argos.bastardkb.com
