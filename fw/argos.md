@@ -21,8 +21,8 @@ You can change your keymap and layers, set up combos and tap dances, adjust RGB 
 When configuring your keyboard, you have different options: QMK, VIA, Argos.
 
 - QMK is the firmware that always runs on your keyboard. You can modify its code, compile and flash it
-- VIA is a widely used visual configurator for keyboards. It lacks options and is visually old
-- Argos is Bastard Keyboards’ dedicated web configurator: it covers the same kind of keymap editing as VIA, plus combos, tap dances, pointing-device tuning, and backups
+- VIA is a widely used visual configuration interface for keyboards. It lacks options and is visually old
+- Argos is Bastard Keyboards’ dedicated web configuration interface: it covers the same kind of keymap editing as VIA, plus combos, tap dances, pointing-device tuning, and backups
 
 # Requirements
 
