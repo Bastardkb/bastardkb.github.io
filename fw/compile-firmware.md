@@ -25,8 +25,6 @@ You will have to modify the keymap `C` code, and from there compile your firmwar
 
 If that seems too complicated, you can also use one of the [release firmware](https://github.com/Bastardkb/qmk_userspace/releases/latest) builds.
 
-If you are compiling for the Dilemma V3/Dilemma MAX V3, you can check the [specific instructions here][dilemma].
-
 # Pre-requisites
 
 ## BastardKB userspace
@@ -185,4 +183,3 @@ For how to flash your keyboard, take a look at the [how to flash your keyboard p
 
 [flashing]: {{site.baseurl}}/fw/flashing.html
 [bkbus]: https://github.com/Bastardkb/qmk_userspace
-[dilemma]: {{site.baseurl}}/fw/procyon-compile

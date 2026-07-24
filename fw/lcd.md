@@ -53,4 +53,4 @@ The module comes with a custom keycode to change the theme: `LCD_THEME`. Trigger
 
 ---- 
 [module]: https://github.com/Bastardkb/qmk_modules
-[userspace]: {{site.baseurl}}/fw/procyon-compile.html
+[userspace]: {{site.baseurl}}/fw/compile-firmware.html
