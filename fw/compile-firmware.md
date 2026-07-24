@@ -119,7 +119,7 @@ Clone the BKB QMK repository, using either github desktop or the command line, a
 ```shell
 git clone https://github.com/bastardkb/bastardkb-qmk
 cd bastardkb-qmk
-git checkout -b bkb-master origin/bkb-master
+git checkout -b main origin/main
 qmk git-submodule
 ```
 
@@ -136,6 +136,12 @@ That's all you needed to do with the QMK repository.
 From here on, **we will only focus on the userspace repository.**
 
 ### QMK Userspace
+
+You will need to create a fork of [the BKB userspace](https://github.com/Bastardkb/qmk_userspace).
+
+- if you are using Argos, you will need the [argos module](https://github.com/Bastardkb/qmk_modules)
+- if you are using a trackball or trackpad, you will need the [pointing device module](https://github.com/Bastardkb/qmk_modules)
+- you can read on how to add modules to your userspace in the [official QMK documentation](https://docs.qmk.fm/features/community_modules)
 
 Next, `cd` into your userspace fork and enable userspace:
 
@@ -155,14 +161,16 @@ qmk compile -c -kb bastardkb/{keyboard} -km {keymap}
 
 `{keyboard}` corresponds to the physical keyboard you are building the firmware for. It can be one of the following:
 
-- `charybdis/4x6`: the 4x6+5 [Charybdis](https://github.com/bastardkb/charybdis/)
-- `charybdis/3x5`: the 3x5+3 [Charybdis Nano](https://github.com/bastardkb/charybdis/)
-- `charybdis/3x6`: the 3x6+3 [Charybdis Mini](https://github.com/bastardkb/charybdis/)
-- `scylla`: the 4x6+5 [Scylla](https://github.com/Bastardkb/Scylla)
-- `skeletyl`: the 3x5+3 [Skeletyl](https://github.com/Bastardkb/Skeletyl/)
-- `tbkmini`: the 3x6+3 [TBK Mini](https://github.com/Bastardkb/TBK-Mini/)
+- `charybdis/4x6/splinktegrated_rev1`: the 4x6+5 [Charybdis](https://github.com/bastardkb/charybdis/)
+- `charybdis/3x5/splinktegrated_rev1`: the 3x5+3 [Charybdis Nano](https://github.com/bastardkb/charybdis/)
+- `charybdis/3x6/splinktegrated_rev1`: the 3x6+3 [Charybdis Mini](https://github.com/bastardkb/charybdis/)
+- `scylla/splinktegrated_rev1`: the 4x6+5 [Scylla](https://github.com/Bastardkb/Scylla)
+- `skeletyl/splinktegrated_rev1`: the 3x5+3 [Skeletyl](https://github.com/Bastardkb/Skeletyl/)
+- `tbkmini/splinktegrated_rev1`: the 3x6+3 [TBK Mini](https://github.com/Bastardkb/TBK-Mini/)
 - `dilemma/3x5_3`: the 3x5+3 [Dilemma](https://github.com/bastardkb/dilemma/)
 - `dilemma/4x6_4`: the 4x6+4 [Dilemma Max](https://github.com/bastardkb/dilemma/)
+- `dilemma/3x5_3_procyon`: the 3x5+3 [Dilemma v3](https://github.com/bastardkb/dilemma/)
+- `dilemma/4x6_4_procyon`: the 4x6+4 [Dilemma Max v3](https://github.com/bastardkb/dilemma/)
 
 ### `{keymap}` argument
 
