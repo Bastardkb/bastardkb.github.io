@@ -78,7 +78,7 @@ To initiate bootmagic:
 
 ![](../assets/pics/help/flashing/4.jpg)
 
-{: .info }
+{: .tip }
 If you flash one side with bootmagic, you will also probably need to flash the other side.
 
 Once you've put the keyboard in bootloader mode, you can skip to the [usb drive section](#usb-drive). 
