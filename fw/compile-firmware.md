@@ -114,7 +114,7 @@ Make sure you have a functional QMK environment. See [QMK Docs](https://docs.qmk
 
 ### BastardKB QMK fork
 
-Clone the BKB QMK repository, using either github desktop or the command line, and switch to the `bkb-master` branch:
+Clone the BKB QMK repository, using either github desktop or the command line, and switch to the `main` branch:
 
 ```shell
 git clone https://github.com/bastardkb/bastardkb-qmk
