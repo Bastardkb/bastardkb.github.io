@@ -129,7 +129,15 @@ Custom keycodes:
 | `DRGSCRL`  | enable drag-scroll mode as long as the key is pressed |
 | `DRG_TOG` | toggle drag-scroll mode on and off                    |
 
-Custom functions:
+Custom defines:
+
+```c
+#define BK_POINTING_DEVICE_DRAGSCROLL_REVERSE_X // inverts horizontal scrolling 
+#define BK_POINTING_DEVICE_DRAGSCROLL_REVERSE_Y // inverts vertical scrolling 
+```
+
+
+Custom functions:   
 
 ```c
 bkpd_set_pointer_dragscroll_enabled(bool enable) // enable/disable drag-scroll
