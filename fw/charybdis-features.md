@@ -134,15 +134,15 @@ Custom functions:
 ```c
 bkpd_set_pointer_dragscroll_enabled(bool enable) // enable/disable drag-scroll
 bkpd_get_pointer_dragscroll_enabled() // returns whether drag-scroll mode is currently enabled
-bkpd_set_dragscroll_axis_invert_x(bool invert) // inverts (or not) dragsroll on X axis
-bkpd_set_dragscroll_axis_invert_y(bool invert) // inverts (or not) dragsroll on Y axis
+bkpd_set_dragscroll_axis_invert_x(bool invert) // inverts (or not) dragscroll on X axis
+bkpd_set_dragscroll_axis_invert_y(bool invert) // inverts (or not) dragscroll on Y axis
 ```
 
 ## Configuration Syncing
 
 Configuration syncing is enabled by default on the newest firmwares. It enables syncing of the configuration, such as to read the Precision mode or drag scroll modes on the other half (e.g. for displaying the status via rgb matrix, or added on screens).
 
-Please note that you will need to reflash both sides when enabling this. A the moment this can make dragscroll unuseable if you connect the secondary side to your computer instead of primary.
+Please note that you will need to reflash both sides when enabling this. A the moment this can make dragscroll unusable if you connect the secondary side to your computer instead of primary.
 
 ----
 
