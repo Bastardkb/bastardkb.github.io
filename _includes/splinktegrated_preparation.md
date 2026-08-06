@@ -19,6 +19,9 @@ In your kit, you might get either a Splinky with shield PCB, or a Splinktegrated
 > 
 > We will start with preparing the headers, then the left side, and after that do the right side.
 
+{: .tip }
+In the following sections, you may see controllers with two beige and black flat cable connectors. You can ignore those - They are not used.
+
 # Headers
 ## Headers - Required parts
 
