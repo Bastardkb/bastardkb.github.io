@@ -65,6 +65,9 @@ In this section, we will solder headers to the PCB. **They will be close to some
 - **At all times, make sure the daughterboard is pressed against the motherboard**
 - There should be no gap between the daughterboard, the header pins, and the motherboard
 
+{: .tip }
+The picture below shows what correct installation looks like for the right side. This is for illustration purposes - the left side should look the same: no gap at all.
+
 ![](../assets/pics/guides/splinktegrated/7.jpg)
 
 - Inspect the front of the assembly: 
