@@ -22,19 +22,6 @@ In your kit, you might get either a Splinky with shield PCB, or a Splinktegrated
 {: .tip }
 In the following sections, you may see controllers with two beige and black flat cable connectors. You can ignore those - They are not used.
 
-# Headers
-## Headers - Required parts
-
-![](../assets/pics/guides/splinktegrated/1.jpg)
-
-**For the following step, please prepare:**
-- 12-pin header (x2)
-
-Using pliers, cut the headers into pieces of **4 pins**:
-![](../assets/pics/guides/splinktegrated/2.jpg)
-
-You only need 4 pieces, you can set the other ones aside.
-
 # Left side
 ## Left side - Required parts
 
