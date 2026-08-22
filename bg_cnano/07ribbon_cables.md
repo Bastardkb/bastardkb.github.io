@@ -67,9 +67,16 @@ Remember: by "left plate", we mean the one with the diodes visible when the "lef
 - Use the pictures below for reference: **notice both the "LEFT" label and the SMD components are visible when the cables are installed from the top**
 - Flip the PCB, and solder on the other side
 
+{: .warning }
+Once installed, avoid bending the cables. They're fragile and can break.
+
 ![](../assets/pics/guides/cnano/23.jpg)
 
 ![](../assets/pics/guides/cnano/24.jpg)
+
+
+{: .warning }
+Once installed, avoid bending the cables. They're fragile and can break.
 
 
 # Left side - thumb cluster PCB
@@ -113,6 +120,8 @@ Remember: by "right plate", we mean the one with the diodes visible when the "ri
 - Use the pictures below for reference: **notice both the "RIGHT" label and the SMD components are visible when the cables are installed from the top**
 - Flip the PCB, and solder on the other side
 
+{: .warning }
+Once installed, avoid bending the cables. They're fragile and can break.
 
 ![](../assets/pics/guides/cnano/25.jpg)
 

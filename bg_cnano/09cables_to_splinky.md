@@ -34,7 +34,10 @@ The row labels will not match between the splinktegrated and the plate PCB and b
 {: .warning }
 The cables need to be soldered on a specific side of the shield - otherwise, they will be difficult to route properly. Make sure to inspect the pictures carefully before soldering!
 
-Install the cables coming out of the flexible PCB assembly into those connectors, and solder them:
+Install the cables coming out of the flexible PCB assembly into those connectors, and solder them.
+
+{: .warning }
+Once installed, avoid bending the cables. They're fragile and can break.
 
 ![](../assets/pics/guides/cnano/37.jpg)
 ![](../assets/pics/guides/cnano/38.jpg)
@@ -68,7 +71,10 @@ Install the cables coming out of the flexible PCB assembly into those connectors
 {: .warning }
 The cables need to be soldered on a specific side of the shield - otherwise, they will be difficult to route properly. Make sure to inspect the pictures carefully before soldering!
 
-Install the cables coming out of the flexible PCB assembly into those connectors, and solder them:
+Install the cables coming out of the flexible PCB assembly into those connectors, and solder them.
+
+{: .warning }
+Once installed, avoid bending the cables. They're fragile and can break.
 
 ![](../assets/pics/guides/cnano/35.jpg)
 ![](../assets/pics/guides/cnano/36.jpg)

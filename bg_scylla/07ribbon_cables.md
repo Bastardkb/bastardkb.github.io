@@ -14,9 +14,6 @@ parent: Build guide - Scylla
 
 In this section, we will connect the PCB plates to the Splinky shields using the flexible ribbon cables. This connects the switches to the "brain" of the keyboard, which can then read what you type.
 
-
-
-
 There is the right side and left side, with plate and thumb cluster PCBs. It can get a bit confusing, but not to worry! We detailed everything, so just read the instructions carefully. 
 
 
@@ -72,6 +69,9 @@ Remember: by "left plate", we mean the one with the diodes visible when the "lef
 - Use the pictures below for reference: **notice both the "LEFT" label and the SMD components are visible when the cables are installed from the top**
 - Flip the PCB, and solder on the other side
 
+{: .warning }
+Once installed, avoid bending the cables. They're fragile and can break.
+
 ![](../assets/pics/guides/charybdis/33.jpg)
 
 ![](../assets/pics/guides/charybdis/34.jpg)
@@ -94,6 +94,9 @@ Identify the bottom ribbon cable: it has 6 cables, that's the one we will connec
 - Solder the bottom ribbon cable to the thumb cluster PCB just like previously
 - Use the pictures below for reference: **notice both the "LEFT" label and the SMD components are visible on both PCBs when the cables are installed from the top**
   
+{: .warning }
+Once installed, avoid bending the cables. They're fragile and can break.
+
 ![](../assets/pics/guides/charybdis/37.jpg)
 
 

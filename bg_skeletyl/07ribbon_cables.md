@@ -70,6 +70,9 @@ Remember: by "left plate", we mean the one with the diodes visible when the "lef
 - Use the pictures below for reference: **notice both the "LEFT" label and the SMD components are visible when the cables are installed from the top**
 - Flip the PCB, and solder on the other side
 
+{: .warning }
+Once installed, avoid bending the cables. They're fragile and can break.
+
 ![](../assets/pics/guides/cnano/23.jpg)
 
 ![](../assets/pics/guides/cnano/24.jpg)
@@ -91,7 +94,11 @@ Identify the bottom ribbon cable: it has 4 cables, that's the one we will connec
 
 - Solder the bottom ribbon cable to the thumb cluster PCB just like previously
 - Use the pictures below for reference: **notice both the "LEFT" label and the SMD components are visible on both PCBs when the cables are installed from the top**
-  
+
+
+{: .warning }
+Once installed, avoid bending the cables. They're fragile and can break.
+
 ![](../assets/pics/guides/cnano/32.jpg)
 
 # Installing the RGB cables (optional)

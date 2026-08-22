@@ -19,18 +19,8 @@ In your kit, you might get either a Splinky with shield PCB, or a Splinktegrated
 > 
 > We will start with preparing the headers, then the left side, and after that do the right side.
 
-# Headers
-## Headers - Required parts
-
-![](../assets/pics/guides/splinktegrated/1.jpg)
-
-**For the following step, please prepare:**
-- 12-pin header (x2)
-
-Using pliers, cut the headers into pieces of **4 pins**:
-![](../assets/pics/guides/splinktegrated/2.jpg)
-
-You only need 4 pieces, you can set the other ones aside.
+{: .tip }
+In the following sections, you may see controllers with two beige and black flat cable connectors. You can ignore those - They are not used.
 
 # Left side
 ## Left side - Required parts
@@ -61,6 +51,9 @@ In this section, we will solder headers to the PCB. **They will be close to some
 
 - **At all times, make sure the daughterboard is pressed against the motherboard**
 - There should be no gap between the daughterboard, the header pins, and the motherboard
+
+{: .tip }
+The picture below shows what correct installation looks like for the right side. This is for illustration purposes - the left side should look the same: no gap at all.
 
 ![](../assets/pics/guides/splinktegrated/7.jpg)
 

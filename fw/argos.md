@@ -28,7 +28,7 @@ When configuring your keyboard, you have different options: QMK, VIA, Argos.
 
 # Requirements
 
-First, make sure your keyboard has the latest Argos image. You can download the image on the [release page](https://github.com/bstiq/qmk_userspace_private/releases/tag/argos0.1) and flash it using the [bootmagic method][bootmagic].
+First, make sure your keyboard has the latest Argos image. You can download the image on the [release page](https://github.com/Bastardkb/qmk_userspace/releases/tag/latest) and flash it using the [bootmagic method][bootmagic].
 
 You will need to use a chromium-based browser like Chrome or Edge.
 
