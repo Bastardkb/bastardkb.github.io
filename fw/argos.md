@@ -14,7 +14,7 @@ parent: Firmware
 
 Argos is our solution to easy keyboard customization.
 
-You can change your keymap and mouse behaviour, but also a lot of options to make you more productive: combos, tap dances, macros… 
+You can change your keymap and mouse behavior, but also a lot of options to make you more productive: combos, tap dances, macros… 
 
 The changes are instant and stored on your keyboard: will work anywhere, with no need for compilation.
 
