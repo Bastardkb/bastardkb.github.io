@@ -42,33 +42,29 @@ You will need to use a chromium-based browser like Chrome or Edge.
 
 You can navigate the app through the menu on the left.
 
-## Overview
+## Pointing settings
 
-**Keymap**: Assign a keycode to every key on a visual layout of your board. You can also switch between layers. Includes special keys like Modifiers and Layer-Taps.
+![](../assets/pics/argos/12.png)
 
-**Combos**: Press two or more keys at once to trigger a different action. For example, press A and B together to send C.
+In the *Keyboard settings* view, you can modify different options about your trackball or trackpad.
 
-**Tap dances**: Give one physical key several behaviors depending on how you press it—a tap, a hold, a double-tap, or tap-and-hold. Assign tap-dance slots in the *tap dances* view, then place them on keys in the Keymap view.
+**Trackpad / trackball settings**: Set normal DPI and a lower “precision mode” DPI for fine cursor control (on boards with a pointing device). 
 
-**Keyboard settings**: Tune lighting, pointing device sensitivity, and timing options that affect combos and tap behavior. Export or import your full setup as a backup file.
-
-**Test keyboard**: Press keys on your built board and see them light up on screen. Quite handy while assembling your kit or checking that every switch works!
-
-**RGB**: Change the colors of the keys, per-layer.
-
-**Macros**: Create any combination of text, key, and delay.
+You can also enable auto precision on mouse layer, and autotomatic mouse layer switch when you move your trackball / trackpad. 
 
 ## Keyboard settings
 
-In the *Keyboard settings* view, you can modify different keyboard options.
+![](../assets/pics/argos/13.png)
+![](../assets/pics/argos/14.png)
+
+In the *Keyboard settings* view, you can modify different options about your keyboard behaviour.
 
 **RGB settings**: Adjust brightness, pick an effect, and set hue, saturation, and speed for your keyboard’s lighting.
-
-**Trackpad / trackball settings**: Set normal DPI and a lower “precision mode” DPI for fine cursor control (on boards with a pointing device). Additional options available (auto mouse layer....)
 
 **Term settings**: Control how long you can hold keys apart for a combo, and how quickly a tap is recognized before a hold takes over.
 
 **Export / import configuration**: Save your keymap, combos, tap dances, and related settings to a JSON file, or restore them later on the same or another compatible board.
+
 
 ## Multiple languages support
 
