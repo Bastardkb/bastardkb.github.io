@@ -50,14 +50,14 @@ In the *Keyboard settings* view, you can modify different options about your tra
 
 **Trackpad / trackball settings**: Set normal DPI and a lower “precision mode” DPI for fine cursor control (on boards with a pointing device). 
 
-You can also enable auto precision on mouse layer, and autotomatic mouse layer switch when you move your trackball / trackpad. 
+You can also enable auto precision on mouse layer, and automatic mouse layer switch when you move your trackball / trackpad. 
 
 ## Keyboard settings
 
 ![](../assets/pics/argos/13.png)
 ![](../assets/pics/argos/14.png)
 
-In the *Keyboard settings* view, you can modify different options about your keyboard behaviour.
+In the *Keyboard settings* view, you can modify different options about your keyboard behavior.
 
 **RGB settings**: Adjust brightness, pick an effect, and set hue, saturation, and speed for your keyboard’s lighting.
 
