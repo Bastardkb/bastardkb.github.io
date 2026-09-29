@@ -148,3 +148,10 @@ nanov
 
 behaviours
 bkpd
+
+PBRIGHT
+PZOOM
+PVOLUME
+PTABS
+PHIST
+PCUSTOM
