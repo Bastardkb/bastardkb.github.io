@@ -39,7 +39,7 @@ It supports:
 - tap dances
 - per-key and per-layer RGB configuration
 
-You can open the [Argos Web Interface through argos.bastardkb.com](argos.bastardkb.com). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
+You can open the [Argos Web Interface through argos.bastardkb.com](https://argos.bastardkb.com). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
 
 [You can read more about Argos here][argosdocs].
 

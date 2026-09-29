@@ -35,22 +35,11 @@ The most important ones are on the thumb cluster - it transforms into mouse butt
 - `mouse + BTN2`: Right click
 - `mouse + BNT3`: Middle click
 
-### Sniping 
+On the mouse layer, motion can also:
 
-Sniping **slows down the trackball/trackpad**. This way, you can move the cursor more precisely.
+{% include pointing_mode_inventory.md %}
 
-By default, Sniping mode is activated when you hold the `MOUSE + SNIP` keys at the same time.
-You can also configure qmk to have it activated automatically.
-
-### Dragscroll
-
-Drag-scroll **enables scrolling with the trackball**. When drag-scroll is enabled, the trackball's `x` and `y` movements are converted into `h` (horizontal) and `v` (vertical) movement, effectively sending scroll instructions to the host system.
-
-### Additional Pointer modes
-
-Pointer modes transform the trackball/trackpad to control history, volume, zoom, brightness, tabs, cursor, etc. [You can read more about pointer modes here.][customize-chary].
-
-![](../assets/pics/argos/15.png)
+Hold a mode key together with `MOUSE` to use it. For what each mode does, see [Charybdis features][customize-chary]. To change DPI, auto mouse layer, auto precision, or per-mode settings, use [Argos][argosdocs].
 
 # Customization
 
@@ -71,7 +60,7 @@ It supports:
 - tap dances
 - per-key and per-layer RGB configuration
 
-You can open the [Argos Web Interface through argos.bastardkb.com](argos.bastardkb.com). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
+You can open the [Argos Web Interface through argos.bastardkb.com](https://argos.bastardkb.com). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
 
 [You can read more about Argos here][argosdocs].
 

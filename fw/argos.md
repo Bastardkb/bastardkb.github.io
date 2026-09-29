@@ -44,33 +44,36 @@ You can navigate the app through the menu on the left.
 
 ## Pointing settings
 
+These options apply to Charybdis trackballs and Dilemma trackpads. What the modes *do* is documented on the [Charybdis features]({{site.baseurl}}/fw/charybdis-features.html) page; this section is only where to click.
+
+### Global trackball / trackpad settings
+
 ![](../assets/pics/argos/12.png)
 
-In the *Keyboard settings* view, you can modify different options about your trackball or trackpad.
+In **Keyboard settings**, the pointing block sets defaults for the device:
 
-**Trackpad / trackball settings**: Set normal DPI and a lower “precision mode” DPI for fine cursor control (on boards with a pointing device). 
+- **Auto mouse layer** - moving the pointing device activates the mouse layer. See [auto pointer layer]({{site.baseurl}}/fw/charybdis-features.html#auto-pointer-layer).
+- **Auto precision on mouse layer** - the mouse layer turns on precision. See [auto precision]({{site.baseurl}}/fw/charybdis-features.html#auto-precision-on-mouse-layer).
+- **Pointer DPI** - default pointer sensitivity. See [DPI]({{site.baseurl}}/fw/charybdis-features.html#dpi).
+- **Sniping DPI** - this is **precision mode** DPI; the UI still says “Sniping”. See [precision mode]({{site.baseurl}}/fw/charybdis-features.html#precision-mode).
+- **Invert dragscroll X / Y** - reverse scroll direction for drag-scroll.
 
-You can also enable auto precision on mouse layer, and automatic mouse layer switch when you move your trackball / trackpad. 
+### Pointer mode settings
 
-## Pointer mode settings
+Hold (or toggle) a mode key to change what motion does:
 
-Argos supports pointing modes. Hold a key to transform your trackball/trackpad.
-
-- Precision — Moves the mouse pointer more slowly for fine control
-- Dragscroll — Scrolls instead of moving the mouse pointer
-- Cursor — Moves the text cursor
-- Brightness — Adjusts keyboard RGB brightness
-- Zoom — Zooms in and out
-- Volume — Adjusts system volume
-- Tab switch — Switches between tabs
-- History — Goes back and forward in history
-- Custom 1-5 — Sends a custom keycode for each trackball/trackpad direction
+{% include pointing_mode_inventory.md %}
 
 ![](../assets/pics/argos/15.png)
 
-You can customize for each pointing mode an automatic activation per-layer, as well as precision and axis invert.
+Open **Pointing modes configuration**. Pick a **Mode** in the dropdown. For that mode you can set:
 
-There are also custom modes where keys can be triggered based on the direction of the trackpad/trackball.
+- **Auto activate on layer** - turn the mode on when that layer is active
+- **DPI** - sensitivity while that mode is active
+- **Invert X axis** / **Invert Y axis**
+- **Left / Right / Up / Down** - only for custom modes: the key sent for each direction (Edit / Delete)
+
+Full behavior and keycodes: [Charybdis features]({{site.baseurl}}/fw/charybdis-features.html).
 
 ## Keyboard settings
 

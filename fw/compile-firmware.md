@@ -20,7 +20,7 @@ The QMK repository repository is used as primary source of truth for Bastard Key
 The maintainers aim at upstreaming all those changes to the official [QMK repository](https://github.com/qmk/qmk_firmware).
 
 This page details how to build your own firmware. 
-Building from source is useful to people who want to customize their keyboard and keymaps beyond what Via offers. 
+Building from source is useful to people who want to customize their keyboard and keymaps beyond what Argos offers. 
 You will have to modify the keymap `C` code, and from there compile your firmware either using Github actions or the local command line.
 
 If that seems too complicated, you can also use one of the [release firmware](https://github.com/Bastardkb/qmk_userspace/releases/latest) builds.
@@ -179,6 +179,53 @@ qmk compile -c -kb bastardkb/{keyboard} -km {keymap}
 
 If you followed the instructions until now, it would be `my-keymap`.
 
+
+# Pointing (custom firmware)
+
+Everyday pointing behavior is documented on the [Charybdis features]({{site.baseurl}}/fw/charybdis-features.html) page. Stock keymaps use the [pointing device community module](https://github.com/Bastardkb/qmk_modules) (`modules/bastardkb` in userspace).
+
+Mode IDs:
+
+```c
+enum {
+    MODE_NORMAL = 0,
+    MODE_SNIPING = 1,
+    MODE_DRAGSCROLL = 2,
+    MODE_CURSOR = 3,
+    MODE_BRIGHTNESS = 4,
+    MODE_ZOOM = 5,
+    MODE_VOLUME = 6,
+    MODE_TAB_SWITCH = 7,
+    MODE_HISTORY = 8,
+    MODE_CUSTOM1 = 9,
+    MODE_CUSTOM2 = 10,
+    MODE_CUSTOM3 = 11,
+    MODE_CUSTOM4 = 12,
+    MODE_CUSTOM5 = 13,
+    MODE_LAST = 14
+};
+```
+
+Helpers (they also write configuration to EEPROM):
+
+```c
+void bkpd_mode_cycle_dpi(uint8_t mode_id, bool forward);
+void bkpd_mode_toggle_active(uint8_t mode_id);
+void bkpd_mode_set_active(uint8_t id);
+void bkpd_mode_set_invert(uint8_t mode_id, uint8_t axis_index, bool invert); // X = 0, Y = 1
+```
+
+Do not use removed names such as `bkpd_set_pointer_sniping_enabled`. Auto mouse layer and auto precision from keymap C:
+
+```c
+bkpd_set_auto_precision_on_mouse_layer_enabled(bool enable);
+bkpd_set_auto_mouse_layer_enabled(bool enabled);
+
+#undef AUTO_MOUSE_DEFAULT_LAYER
+#define AUTO_MOUSE_DEFAULT_LAYER 4
+```
+
+Change `AUTO_MOUSE_DEFAULT_LAYER` only if your mouse layer is not the default.
 
 # Flashing your keyboard
 

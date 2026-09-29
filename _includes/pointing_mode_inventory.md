@@ -1,0 +1,9 @@
+- **Precision** - slows the pointer for fine movement
+- **Drag-scroll** - scrolls instead of moving the cursor
+- **Cursor** - motion sends arrow keys
+- **Brightness** - vertical motion changes keyboard RGB brightness (not the OS)
+- **Zoom** - vertical motion zooms (Ctrl + / −)
+- **Volume** - vertical motion changes system volume
+- **Tab switch** - horizontal motion switches tabs (Ctrl+Tab)
+- **History** - horizontal motion undo/redo (Ctrl+Z / Ctrl+Shift+Z)
+- **Custom** - motion taps four keys you assign in Argos
