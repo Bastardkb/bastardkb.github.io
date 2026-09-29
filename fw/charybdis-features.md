@@ -33,15 +33,7 @@ DPI (i.e. dots per linear inch), a.k.a. mouse sensitivity, can be controlled by 
 
 For each mode, the firmware allows cycling through multiple pre-defined values. The firmware _cycles_ through these values, which means that, for example, incrementing the Precision mode DPI of `500` by 1 step will loop back to `200`.
 
-You can change the DPI of the precision mode directly through Argos, or the functions below.
-
-Custom functions:
-
-```c
-bkpd_cycle_pointer_default_dpi(bool forward) // cycle forward or backward the possible values
-bkpd_cycle_pointer_default_dpi_noeeprom(bool forward) // cycle forward or backward the possible values without persisting the change to EEPROM
-bkpd_get_pointer_default_dpi() // returns the current DPI value
-```
+You can change the DPI of the precision mode directly through Argos, or QMK.
 
 ## Pointing module
 
