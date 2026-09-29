@@ -95,22 +95,6 @@ Custom keycodes:
 | `DRGSCRL`  | enable drag-scroll mode as long as the key is pressed |
 | `DRG_TOG` | toggle drag-scroll mode on and off                    |
 
-Custom defines:
-
-```c
-#define BK_POINTING_DEVICE_DRAGSCROLL_REVERSE_X // inverts horizontal scrolling 
-#define BK_POINTING_DEVICE_DRAGSCROLL_REVERSE_Y // inverts vertical scrolling 
-```
-
-Custom functions:   
-
-```c
-bkpd_set_pointer_dragscroll_enabled(bool enable) // enable/disable drag-scroll
-bkpd_get_pointer_dragscroll_enabled() // returns whether drag-scroll mode is currently enabled
-bkpd_set_dragscroll_axis_invert_x(bool invert) // inverts (or not) dragscroll on X axis
-bkpd_set_dragscroll_axis_invert_y(bool invert) // inverts (or not) dragscroll on Y axis
-```
-
 ### Cursor
 
 When **Cursor mode** is enabled, your trackball transforms into a cursor.
