@@ -95,7 +95,7 @@ Depending on your kit, the bottom housing might look slightly different. The pro
 
 ![](../assets/pics/guides/charybdis/57.jpg)
 
-Push in the other side. It will scrap a little bit against the case.
+Push in the other side. It will scrape a little against the case.
 
 ![](../assets/pics/guides/charybdis/58.jpg)
 
@@ -107,7 +107,7 @@ Depending on your kit, the bottom housing might look slightly different. Install
 
 - Insert the bottom part of the assembly from under the case
 - Screw in the 3 screws
-- Make sure it's tight, but do not overtighten - you might damage the print
+- Make sure it's tight, but do not overtighten - you might damage the print
 - The whole assembly should not move at all
 
 ![](../assets/pics/guides/charybdis/50.jpg)
@@ -115,7 +115,7 @@ Depending on your kit, the bottom housing might look slightly different. Install
 # Soldering the sensor PCB to the Splinky Shield
 
 {: .warning }
-In the following steps, you will install the sensor PCB. It comes with a lens, **which should stay installed**. The lens is required for the sensor to function properly.
+The sensor PCB comes with a lens. Leave the lens on - the sensor will not work without it.
 
 ![](../assets/pics/guides/charybdis/69.jpg)
 
@@ -127,7 +127,7 @@ In the following steps, you will install the sensor PCB. It comes with a lens, *
 {: .note }
 On the pictures, we use a Charybdis Nano case. Installing the sensor PCB into the Charybdis works exactly the same.
 
-Inspect the Splinktegrated: there is a `SPI` header, that we need to connect to the sensor PCB.
+Inspect the controller: there is an `SPI` header to connect to the sensor PCB.
 - match the 3v3 with the 5V
 - the rest of the pins will align
 

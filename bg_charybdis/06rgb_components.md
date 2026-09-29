@@ -57,21 +57,14 @@ Use the below pictures for guidance - note **the resistors and capacitors are in
 
 
 {: .warning }
-The LEDs need to be installed in a very specific way. Read the following instructions carefully **first**, and then install them. **If you don't, they will not work!** 
+LEDs only work if the ground pin matches the marked pad. Match the chamfered pin (and the indent in the plastic) with the white line on the PCB before you solder.
 
 ![](../assets/pics/guides/charybdis/27.jpg)
 
-Inspect the LED: there is one of the pins that has a slight chamfer in it. The plastic casing also has an indent. This is the GROUND pin. 
-
 ![](../assets/pics/guides/charybdis/28.jpg)
 
-Inspect the PCBs: for each LED footprint, there is one pin that has a white line next to it.
-
-**We need to match the chamfered pin of the LED, with the marked pin on the PCB.**
-
-
 {: .warning }
-The LEDs are sensitive to heat. Stay at most 2 seconds on each pad. If that doesn't work, try slowly increasing the temperature of your soldering iron.
+The LEDs are heat-sensitive. Stay on each pad for at most 2 seconds. If a joint does not take, raise the iron temperature a little and try again.
 
 ![](../assets/pics/guides/charybdis/29.jpg)
 

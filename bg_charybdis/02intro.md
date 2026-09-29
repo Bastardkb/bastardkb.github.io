@@ -7,15 +7,13 @@ parent: Build guide - Charybdis
 
 # Introduction
 
-In this online guide you will find how to build your Charybdis keyboard.
+This guide walks you through building your Charybdis.
 
-We recommend you start by reading the **required tools** section.
+Start with the **required tools** section. The written steps are here; if you prefer to follow along on video, there is a **video guides** section as well.
 
-There are written guides, and there are also video guides in the **video guides** section.
+The Charybdis is a demanding build: flexible PCBs, a lot of small parts, and a few steps that are easy to get backwards. Take it one section at a time, and read each step before you solder.
 
-The Charybdis keyboard is amongst the hardest keyboards to build out there, so we recommend carefully reading the instructions before building it.
-
-If you have any issues or questions during the build, you can create a thread in the [discord][discord]'s #help forum.
+If something is unclear, or a step does not go as expected, open a thread in the [discord][discord] #help forum.
 
 ----
 

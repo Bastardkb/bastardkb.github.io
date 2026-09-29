@@ -12,9 +12,9 @@ parent: Build guide - Charybdis
 
 # Introduction
 
-Now that we finished preparing the Splinky and the flexible PCBs, it's time to connect all of them together. 
+The Splinky and the flexible PCBs are ready. Next we join them.
 
-Be careful, because the Splinky shield assemblies are not reversible! We will start with the left side, and then proceed to the right side.
+The shield assemblies are not reversible. We will do the left side first, then the right.
 
 # Left side
 
@@ -29,13 +29,12 @@ Inspect the shield assembly: there is a `MATRIX` label, with a 5-pin and a 6-pin
 ![](../assets/pics/guides/charybdis/45.jpg)
 
 {: .warning }
-The cables need to be soldered on a specific side of the shield - otherwise, they will be difficult to route properly. Make sure to inspect the pictures carefully before soldering!
+Solder the cables on the side shown in the pictures - the other side is much harder to route into the case. The ribbon cables are fragile; once they are soldered, avoid bending them.
 
 Install the cables coming out of the flexible PCB assembly into those connectors, and solder them.
 
 {: .warning }
 Once installed, avoid bending the cables. They're fragile and can break.
-
 ![](../assets/pics/guides/charybdis/59.jpg)
 ![](../assets/pics/guides/charybdis/62.jpg)
 
@@ -59,10 +58,8 @@ Inspect the shield assembly: there is a `MATRIX` label, with a 5-pin and a 6-pin
 
 ![](../assets/pics/guides/charybdis/47.jpg)
 
-Install the cables coming out of the flexible PCB assembly into those connectors, and solder them:
-
 {: .warning }
-The cables need to be soldered on a specific side of the shield - otherwise, they will be difficult to route properly. Make sure to inspect the pictures carefully before soldering!
+Solder the cables on the side shown in the pictures - the other side is much harder to route into the case. The ribbon cables are fragile; once they are soldered, avoid bending them.
 
 Install the cables coming out of the flexible PCB assembly into those connectors, and solder them.
 

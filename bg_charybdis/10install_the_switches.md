@@ -14,20 +14,19 @@ parent: Build guide - Charybdis
 
 # Introduction
 
-Now that everything is connected together, the next step is to install the switches and the PCBs into the case. The process is exactly the same for both sides, so we will detail only the Scylla side (without trackball).
+Now that everything is connected, we will install the switches and seat the PCBs in the case. The process is the same on both sides, so we show the side without the trackball.
 
 {: .note }
-You may have noticed that we still haven't done anything with the sensor PCB. This is normal, we will connect it after installing the switches. This is so that it doesn't get in the way when soldering the switches.
+We have not touched the sensor PCB yet. That is on purpose: it is easier to solder the switches without it in the way. We will connect it in the next section.
 
-While in theory you can install the switches in any order you like, we outline below what we found out works best.
-
+You can install the switches in any order. The sequence below is what we found works best.
 
 {: .warning }
-The case is made of plastic, and will melt if you touch it with your soldering iron. Be careful!
+The case is plastic. It will melt if the iron touches it.
 
 # Installing the switches
 
-We will start by detailing a technique to install the switches, and then in which order they should be installed. **Please read this whole section first to familiarize yourself, and then proceed to the installation.** Otherwise, the process might be more complicated.
+We will describe the technique first, then the order. Read this section once before you start - it is easier that way.
 
 When installing the switches, use the following technique:
 - press the PCB against the case, and try to align it as much as possible
@@ -37,7 +36,7 @@ When installing the switches, use the following technique:
 - solder the two pins of the switch
 
 {: .warning }
-Make sure to install the left-side PCB assembly (5 keys on the thumb cluster) into the left case, and the right-side assembly (3 keys on the thumb cluster) into the right case.
+Left assembly (5 thumb keys) goes in the left case. Right assembly (3 thumb keys) goes in the right case.
 
 ![](../assets/pics/guides/charybdis/48.jpg)
 

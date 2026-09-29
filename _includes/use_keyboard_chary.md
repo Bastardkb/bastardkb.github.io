@@ -5,9 +5,9 @@
 
 # Introduction
 
-Congratulations on successfully building your keyboard!
+The hard part is done, congratulations!
 
-The Bastard Keyboards come with a range of features, and it's also easy to customize them. On this page you will find additional information on how to use them and make them your own.
+This page covers daily use, then where to customize if you want to change anything later.
 
 {: .note }
 The default firmware requires the USB cable be connected to the right side of the keyboard.
@@ -24,8 +24,7 @@ Alternatively, you can also plug in your keyboard and visualize the keymap using
 
 If you prefer a video, how to use your trackball/trackpad keyboard is detailed here: [video](https://www.youtube.com/watch?v=XjFAvW-78bE).
 
-Holding down the `MOUSE` key (lower left, see picture) activates the mouse layer.
-On it, you will find a lot of useful features.
+Holding down the `MOUSE` key (lower left, see picture) activates the mouse layer. The features you will use most often live there.
 
 ![](../assets/pics/guides/generic/5.jpg)
 
@@ -66,7 +65,7 @@ You can open the [Argos Web Interface through argos.bastardkb.com](https://argos
 
 ## Using QMK
 
-This is for advanced users. 
+QMK is for advanced users, if you want to compile your own firmware. 
 
 - how to compile a custom hardware for your keyboard: [how to compile your own firmware][compile-firmware].
 - advanced customization of the Charybdis (and smaller variants): [customize your Charybdis][customize-chary].

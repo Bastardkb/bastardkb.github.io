@@ -17,7 +17,7 @@ For the keyboard to work, we need to install some components on the PCBs.
 {: .tip }
 We will start by installing the diodes. If you have per-key RGB the components for that came in a separate bag - you can set them aside, we will install them in the next section.
 
-There are 2 sides of the keyboard: left, and right. **All the PCBs are reversible, so make sure to follow the steps carefully** to make sure you're installing the components correctly.
+There are two sides: left and right. **All the PCBs are reversible**, so install the components on the side with the matching `LEFT` or `RIGHT` label.
 
 
 # Right side - Plate
@@ -83,7 +83,7 @@ If you are preparing a left-handed Charybdis, use the 5-key thumb cluster PCB in
 
 ## Right side - thumb cluster - placing the PCB
 
--   Place the plate PCB on your working surface, and make sure the "RIGHT" label is visible
+-   Place the 3-key thumb PCB on your working surface, and make sure the "RIGHT" label is visible
 -   Use the picture below for reference.
 
 ![](../assets/pics/guides/charybdis/15.jpg)
@@ -93,11 +93,7 @@ If you are preparing a left-handed Charybdis, use the 5-key thumb cluster PCB in
 On the thumb cluster PCB, we need to install a total of 3 diodes. They go on the footprints with 2 pads (see pictures below).
 
 {: .warning }
-These diodes need to be installed in a specific way, or they will not work! **Read the following carefully.**
-
--   Inspect the 2-legged diodes: there is a horizontal line on them
--   This line needs to be aligned with the white markers on the PCBs
--   **If you do not align them, the keys will not work**
+These 2-leg diodes are polarized. Align the line on the diode with the white marker on the PCB, or those keys will not work.
 
 ![](../assets/pics/guides/charybdis/16.jpg)
 
@@ -146,7 +142,7 @@ If you are preparing a left-handed Charybdis, use the 3-key thumb cluster PCB in
 
 ## Left side - thumb cluster - placing the PCB
 
--   Place the plate PCB on your working surface, and make sure the "LEFT" label is visible
+-   Place the 5-key thumb PCB on your working surface, and make sure the "LEFT" label is visible
 -   Use the picture below for reference.
 
 ![](../assets/pics/guides/charybdis/21.jpg)

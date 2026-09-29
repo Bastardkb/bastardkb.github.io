@@ -34,7 +34,7 @@ First, we will install the screw inserts on the outer edges of the case. There a
 ![](../assets/pics/guides/charybdis/2.png)
 
 {: .warning }
-Be careful when installing the screw inserts, you can damage the case. Read all the instructions first, then proceed to the installation.
+The case is plastic. If you force a hot insert, you can melt the hole. Read this section first, then install.
 
 -   Set your soldering iron temperature to 250 degrees Celsius
 -   Using the soldering iron, place the heated insert inside the hole
@@ -65,10 +65,10 @@ We will now install the screw inserts that will later hold the controller. There
 {: .tip }
 There is **a third inner hole at the bottom** (in blue). If you are building a **left-handed Charybdis**, install a screw insert there. Otherwise, you can ignore it.
 
-Follow the same procedure as previously, except:
+Follow the same procedure as before, except:
 
 -   with the soldering iron, push the insert all the way in
--   **be careful not to push the insert too far!**
+-   stop as soon as it sits flush - if it goes through, it is hard to recover
 -   this time, you don't need to flip the case.
 
 ![](../assets/pics/guides/charybdis/8.jpg)

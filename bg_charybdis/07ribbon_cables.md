@@ -17,7 +17,7 @@ In this section, we will connect the PCB plates to the Splinky shields using the
 
 
 
-There is the right side and left side, with plate and thumb cluster PCBs. It can get a bit confusing, but not to worry! We detailed everything, so just read the instructions carefully.
+There is a right side and a left side, with plate and thumb cluster PCBs. It can get a bit confusing. The pictures below show each orientation, so match the labels before you solder.
 
 
 {: .tip }
@@ -70,7 +70,7 @@ Remember: by "left plate", we mean the one with the diodes visible when the "lef
 - Flip the PCB, and solder on the other side
 
 {: .warning }
-Once installed, avoid bending the cables. They're fragile and can break.
+The ribbon cables are fragile. Once they are soldered, avoid bending them.
 
 ![](../assets/pics/guides/charybdis/33.jpg)
 
@@ -120,7 +120,7 @@ Remember: by "right plate", we mean the one with the diodes visible when the "ri
 - Flip the PCB, and solder on the other side
 
 {: .warning }
-Once installed, avoid bending the cables. They're fragile and can break.
+The ribbon cables are fragile. Once they are soldered, avoid bending them.
 
 ![](../assets/pics/guides/charybdis/39.jpg)
 
@@ -175,7 +175,7 @@ Cut the ribbon cables into pieces of 3-wires:
 - 3-wires short ribbon cable (x1)
 - Left-side PCB assembly
 
-{: .warning }
+{: .tip }
 Use the **short** cable for this step.
 
 On the left side PCB assembly, identify the 3-pin connectors, there are:
@@ -196,7 +196,7 @@ Solder the **short** ribbon cable to those 2 connectors, just like we did with t
 - 3-wires long ribbon cable (x1)
 - Left-side PCB assembly
 
-{: .warning }
+{: .tip }
 Use the **long** cable for this step.
 
 On the left side PCB assembly, 
@@ -205,7 +205,7 @@ On the left side PCB assembly,
 
 ![](../assets/pics/guides/charybdis/66.jpg)
 
-Solder the **long** ribbon cable to this connectors, just like we did with the previous ones.
+Solder the **long** ribbon cable to this connector, just like we did with the previous ones.
 
 ## Soldering the thumb cluster cables - Right side
 
@@ -214,10 +214,10 @@ Solder the **long** ribbon cable to this connectors, just like we did with the p
 - 3-wires **short** ribbon cable (x1)
 - Right-side PCB assembly
 
-{: .warning }
-Use the **short** cables for this step.
+{: .tip }
+Use the **short** cable for this step.
 
-On the left side PCB assembly, identify the 3-pin connectors, there are:
+On the right side PCB assembly, identify the 3-pin connectors, there are:
 - one at the bottom of the plate
 - one on the thumb cluster PCB
 - they are labeled VCC, GND, and Din/Dout
@@ -238,16 +238,16 @@ Depending on your version of the PCB, some labels might be missing. Just make su
 - 3-wires long ribbon cable (x1)
 - Right-side PCB assembly
 
-{: .warning }
+{: .tip }
 Use the **long** cable for this step.
 
-On the left side PCB assembly, 
+On the right side PCB assembly,
 - identify the 3-pin connector at the top
 - use the picture below for reference
 
 ![](../assets/pics/guides/charybdis/67.jpg)
 
-Solder the **long** ribbon cable to this connectors, just like we did with the previous ones.
+Solder the **long** ribbon cable to this connector, just like we did with the previous ones.
 
 # Trimming the cables
 

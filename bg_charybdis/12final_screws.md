@@ -13,20 +13,20 @@ parent: Build guide - Charybdis
 # Installing the splinky shield
 
 {: .note }
-We will detail only one side, as the other side is the same, but symmetric. 
+The two sides are the same, just mirrored. We will show one.
 
 **For the following step, please prepare:**
 - keyboard assembly (x2)
 - M4 screw (x2)
 
-Install the splinky shield using 2 screws. Solder the audio jack.
+Seat the controller in the case and fasten it with two screws. Then solder the remaining pins of the audio jack - you already tacked the 5V pin so you could align it in the case.
 
-Do this for both sides.
+Do the same on the other side.
 
 # Installing the plates
 
 {: .note }
-If you have tents, skip to the next section "Installing the tents".
+If you have tents, skip to the next section, "Installing the tents".
 
 ## Screws
 
@@ -35,7 +35,7 @@ If you have tents, skip to the next section "Installing the tents".
 - M4 screw (x8)
 - plates (x2)
 
-Secure the plates on the keyboard using the screws.
+Screw the plates on until they sit flat. Snug is enough - don't use too much force.
 
 ## Anti-slip pads
 
@@ -44,7 +44,7 @@ Secure the plates on the keyboard using the screws.
 **For the following step, please prepare:**
 - anti-slip pads (x10)
 
-Install the anti-slip pads.
+Stick the anti-slip pads onto the plates.
 
 # Installing the tents
 
@@ -59,9 +59,9 @@ This step is optional, if you have tents.
 - plates (x2)
 - tents (x2)
 
-Secure the plates on the keyboard using two screws, at the bottom and top.
+Fasten the plates with two screws, at the bottom and the top.
 
-Install the tents with the rest of the screws.
+Install the tents with the remaining screws.
 
 ## Anti-slip pads
 
@@ -70,4 +70,6 @@ Install the tents with the rest of the screws.
 **For the following step, please prepare:**
 - anti-slip pads (x10)
 
-Install the anti-slip pads.
+Stick the anti-slip pads onto the tents.
+
+The case is closed. The next page covers daily use and how to customize the keyboard.
