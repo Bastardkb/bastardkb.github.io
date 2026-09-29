@@ -20,7 +20,7 @@ The `vendor` keymap aims at providing a consistent experience out of the box. Be
 
 ## Charybdis stock keymap
 
-- the stock keymaps are built off the `vendor` keymaps, and come with [Argos][argos] enabled
+- the stock keymaps are built off the `vendor` keymaps, and come with [Argos][argos] enabled. [You can read more about argos here][argosdocs].
 - you can find a visual reference of those keymaps on the [default keymaps page][keymaps]
 - you can find instructions on how to compile your own firmware on the [how to compile your firmware page][compile]
 
@@ -48,7 +48,7 @@ Each pointing mode can be customized through Argos and QMK:
 
 ![](../assets/pics/argos/15.png)
 
-You can read more about the pointing modes below.
+You can read more about the pointing modes below. [You can read more about how to customize pointing modes through argos here][argosdocs]
 
 ### Precision mode
 
@@ -227,3 +227,4 @@ Please note that you will need to reflash both sides when enabling this. A the m
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [compile]: {{site.baseurl}}/fw/compile-firmware.html
 [argos]: https://argos.bastardkb.com/
+[argosdocs]: {{site.baseurl}}/fw/argos.html

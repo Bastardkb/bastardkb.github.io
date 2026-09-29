@@ -18,7 +18,7 @@ The default firmware requires the USB cable be connected to the right side of th
 
 You can find pictures of the default keymaps on the [default keymaps page][keymaps].
 
-Alternatively, you can also plug in your keyboard and visualize the keymap using VIA (see VIA section).
+Alternatively, you can also plug in your keyboard and visualize the keymap using Argos (see Argos section).
 
 ## Using the trackball / trackpad
 
@@ -42,26 +42,38 @@ Sniping **slows down the trackball/trackpad**. This way, you can move the cursor
 By default, Sniping mode is activated when you hold the `MOUSE + SNIP` keys at the same time.
 You can also configure qmk to have it activated automatically.
 
+### Dragscroll
+
+Drag-scroll **enables scrolling with the trackball**. When drag-scroll is enabled, the trackball's `x` and `y` movements are converted into `h` (horizontal) and `v` (vertical) movement, effectively sending scroll instructions to the host system.
+
+### Additional Pointer modes
+
+Pointer modes transform the trackball/trackpad to control history, volume, zoom, brightness, tabs, cursor, etc. [You can read more about pointer modes here.][customize-chary].
+
+![](../assets/pics/argos/15.png)
+
 # Customization
 
-For customizing your keyboard, you can:
+To customize your keyboard, you can use either Argos or QMK.
 
-- use VIA
-- use QMK
+## Using Argos
 
-## Using VIA
+![](../assets/pics/argos/16.png)
 
-All Bastard Keyboards come flashed with VIA. VIA is an additional layer that comes on top of QMK, and comes with a handy graphical interface. While it's limited in features, it removes the need to manage a git repository, the console and a QMK installation.
+All Bastard Keyboards come flashed with Argos. Argos is an additional layer that comes on top of QMK, and comes with a handy graphical interface. It enables customization without having to compile any code. 
 
-You can open the [VIA Web Interface through usevia.app](https://usevia.app/). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
+It supports:
+- macros
+- combos
+- pointing device configuration
+- multiple languages
+- pointer modes configuration
+- tap dances
+- per-key and per-layer RGB configuration
 
-You can check the following tutorial on how to use it:
-{% include youtube.html id="cYICAlliJfU" %}
+You can open the [Argos Web Interface through argos.bastardkb.com](argos.bastardkb.com). At the moment, only WebHID-enabled browsers work (eg. Chrome and Chromium-based).
 
-Through VIA, you can customize:
-- the keymap
-- macros, layers
-- RGB
+[You can read more about Argos here][argosdocs].
 
 ## Using QMK
 
@@ -78,3 +90,4 @@ This is for advanced users.
 [keymaps]: {{site.baseurl}}/fw/default-keymaps.html
 [flashing]: {{site.baseurl}}/fw/flashing.html
 [compile-firmware]: {{site.baseurl}}/fw/compile-firmware.html
+[argosdocs]: {{site.baseurl}}/fw/argos.html
