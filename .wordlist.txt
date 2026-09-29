@@ -147,6 +147,7 @@ nano
 nanov
 
 behaviours
+behaviour
 bkpd
 
 PBRIGHT
