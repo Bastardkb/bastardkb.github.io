@@ -52,6 +52,26 @@ In the *Keyboard settings* view, you can modify different options about your tra
 
 You can also enable auto precision on mouse layer, and automatic mouse layer switch when you move your trackball / trackpad. 
 
+## Pointer mode settings
+
+Argos supports pointing modes. Hold a key to transform your trackball/trackpad.
+
+- Precision — Moves the mouse pointer more slowly for fine control
+- Dragscroll — Scrolls instead of moving the mouse pointer
+- Cursor — Moves the text cursor
+- Brightness — Adjusts keyboard RGB brightness
+- Zoom — Zooms in and out
+- Volume — Adjusts system volume
+- Tab switch — Switches between tabs
+- History — Goes back and forward in history
+- Custom 1-5 — Sends a custom keycode for each trackball/trackpad direction
+
+![](../assets/pics/argos/15.png)
+
+You can customize for each pointing mode an automatic activation per-layer, as well as precision and axis invert.
+
+There are also custom modes where keys can be triggered based on the direction of the trackpad/trackball.
+
 ## Keyboard settings
 
 ![](../assets/pics/argos/13.png)
