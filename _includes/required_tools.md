@@ -60,4 +60,8 @@ Switches, keycaps, the trackball, screws and cut leads are small and can be a ch
 3. Connect the keyboard directly to your computer's USB port. Don't plug in a board that looks damaged, smells hot or has any exposed solder bridges
 4. If anything gets unusually hot, smells, smokes or sparks, unplug it immediately and contact us
 
+## In case of injury
+
+If you're injured, seek medical help. For serious injuries, call your local emergency number.
+
 Safety information v1.0, October 2026.
