@@ -159,3 +159,10 @@ PCUSTOM
 INVX
 INVY
 trackpads
+
+bklm
+Equaliser
+BKLM
+isqrt
+Ying
+Zhan
