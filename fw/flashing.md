@@ -50,18 +50,6 @@ The first step is to put your keyboard into bootloader mode. During this time it
 
 There are several ways of initiating bootloader mode:
 
-## QK_BOOT keycode
-
-There exists a dedicated key code that will immediately reboot into the bootloader. This key is present on all default keymaps.
-
-Please refer to the [keymap guide][keymaps] to find the default location of this key for your keyboard.
-
-For example, on the Charybdis the keycode is on the `Nav/Sym` layer:
-
-![](../assets/pics/help/flashing/5.jpg)
-
-Once you've put the keyboard in bootloader mode, you can skip to the [usb drive section](#usb-drive). 
-
 ## Bootmagic
 
 {: .warning }
