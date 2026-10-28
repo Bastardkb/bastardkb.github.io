@@ -3,4 +3,9 @@
 $btn-primary-color: #181818;
 $link-color: #2986cc;
 
-$body-font-family: 'open sans', $body-font-family;
+@font-face {
+    font-family: 'Titillium Web';
+    src: url(/assets/fonts/TitilliumWeb-Regular.ttf) format('truetype')
+}
+
+$body-font-family: 'Titillium Web', $body-font-family;
