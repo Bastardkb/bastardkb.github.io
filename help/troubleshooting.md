@@ -15,13 +15,10 @@ This page offers remedies to common problems after completing your build. If you
 
 ## Using the matrix tester
 
-VIA has a handy built-in matrix tester, to check that all the keys of your keyboard work.
+Argos has a handy built-in matrix tester, to check that all the keys of your keyboard work.
 
-- access VIA at [https://usevia.app/](https://usevia.app/)
-- click on the **Key tester** tab
-- enable the **Test matrix** toggle
-
-![](../assets/pics/help/5.jpg)
+- access VIA at [https://argos.bastardk.com](https://argos.bastardk.com)
+- click on the **Test keyboard** tab
 
 ## One or more keys don't work
 
