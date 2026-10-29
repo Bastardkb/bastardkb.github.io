@@ -1,12 +1,25 @@
 @import "./color_schemes/dark";
 
-$btn-primary-color: #181818;
-$link-color: #2986cc;
-//$link-color: #ff0000;
+// BastardKB docs: dark scheme
+$body-background-color: #1a1a1a;
+$body-heading-color: #f5f5f5;
+$body-text-color: #d4d4d4;
+$link-color: #6fbf4a;
+$btn-primary-color: #2a7a37;
+$base-button-color: #262626;
+$sidebar-color: #1f1f1f;
+$search-background-color: #262626;
+$table-background-color: #1a1a1a;
+$border-color: #333333;
+$code-background-color: #262626;
+$code-linenumber-color: #808080;
+$nav-child-link-color: #b3b3b3;
+$search-result-preview-color: #b3b3b3;
+$feedback-color: #262626;
 
-@font-face {
-    font-family: 'Titillium Web';
-    src: url(/assets/fonts/TitilliumWeb-Regular.ttf) format('truetype')
-}
+// BastardKB brand accents
+$bkb-link-hover: #8fd06a;
+$bkb-surface: #262626;
+$bkb-rule: #f5f5f5;
 
-$body-font-family: 'Titillium Web', $body-font-family;
+$body-font-family: 'DM Sans', $body-font-family;

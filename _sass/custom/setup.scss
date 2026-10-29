@@ -1,0 +1,8 @@
+// BastardKB shared variables.
+// The theme imports this before the color scheme, for every scheme
+// (including the theme's own light/dark assets), so these must always
+// have a value; the bkb-light / bkb-dark schemes override them.
+
+$bkb-rule: #111111 !default;
+$bkb-surface: #f7f7f6 !default;
+$bkb-link-hover: #1f5c29 !default;

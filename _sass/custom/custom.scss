@@ -1,3 +1,60 @@
+// ── Base ─────────────────────────────────────────────
+body {
+  font-family: "DM Sans", system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  border-top: 3px solid $bkb-rule;          // brand top rule
+}
+::selection { background: $body-heading-color; color: $body-background-color; }
+
+// ── Headings ─────────────────────────────────────────
+h1, h2, h3, h4, h5, h6, .site-title {
+  font-family: "Manrope", system-ui, sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+h1 { letter-spacing: -0.04em; }
+h2 { color: $body-heading-color; }          // keep headings neutral; green is for links/CTAs only
+.text-delta { font-family: "DM Sans", system-ui, sans-serif; font-weight: 600; letter-spacing: 0.14em; }
+
+// ── Sidebar / nav ────────────────────────────────────
+.side-bar { border-right: 1px solid $border-color; }
+.site-header { border-bottom: 1px solid $border-color; }
+.nav-list .nav-list-link { font-weight: 500; }
+.nav-list .nav-list-link.active { color: $link-color; font-weight: 700; }
+.nav-list .nav-list-link:hover { color: $bkb-link-hover; background-image: none; }
+
+// ── Search ───────────────────────────────────────────
+.search-input:focus { outline: 2px solid $link-color; outline-offset: -2px; }
+.search-result.active, .search-result:hover { background: $bkb-surface; }
+
+// ── Links in body copy ───────────────────────────────
+a:not([class]) { text-decoration-thickness: 2px; }
+.main-content a:not([class]) { color: $link-color; font-weight: 500; }
+.main-content a:not([class]):hover { color: $bkb-link-hover; }
+
+// ── Buttons and labels ───────────────────────────────
+.btn { font-family: "DM Sans", system-ui, sans-serif; font-weight: 600; box-shadow: none; }
+.btn-primary { background: $btn-primary-color; border: 1px solid $btn-primary-color; color: #fff; }
+.btn-primary:hover { background: $bkb-link-hover; border-color: $bkb-link-hover; }
+.btn-green { background: $link-color; border: 1px solid $link-color; box-shadow: none; color: #000; }
+.btn-green:hover { background: $bkb-link-hover; border-color: $bkb-link-hover; color: #000; }
+.btn-outline { background: transparent; border: 1px solid $body-heading-color; color: $body-heading-color; }
+.label { font-weight: 600; letter-spacing: 0.08em; background: $body-heading-color; color: $body-background-color; }
+
+// ── Code, tables, callouts ───────────────────────────
+div.highlighter-rouge, pre.highlight, code { border: 1px solid $border-color; box-shadow: none; }
+table, th, td { border-color: $border-color; }
+th { font-family: "Manrope", system-ui, sans-serif; font-weight: 800; background: $bkb-surface; }
+blockquote { border-left: 3px solid $bkb-rule; color: $nav-child-link-color; }
+.callout { border-left: 3px solid $bkb-rule; box-shadow: none; }
+
+// ── Brand rule: zero border-radius ───────────────────
+.btn, .label, .search-input, .search-results, div.highlighter-rouge,
+pre.highlight, code, .callout, img, .site-button, .nav-list-expander {
+  border-radius: 0;
+}
+
 @media (min-width: 50rem) {
   .main-content-wrap {
     padding-bottom: 10rem;
