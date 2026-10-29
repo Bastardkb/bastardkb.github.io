@@ -37,8 +37,8 @@ a:not([class]) { text-decoration-thickness: 2px; }
 .btn { font-family: "DM Sans", system-ui, sans-serif; font-weight: 600; box-shadow: none; }
 .btn-primary { background: $btn-primary-color; border: 1px solid $btn-primary-color; color: #fff; }
 .btn-primary:hover { background: $bkb-link-hover; border-color: $bkb-link-hover; }
-.btn-green { background: $link-color; border: 1px solid $link-color; box-shadow: none; color: #000; }
-.btn-green:hover { background: $bkb-link-hover; border-color: $bkb-link-hover; color: #000; }
+.btn-green { background: $link-color; border: 1px solid $link-color; box-shadow: none; color: $bkb-btn-text; }
+.btn-green:hover { background: $bkb-link-hover; border-color: $bkb-link-hover; color: $bkb-btn-text; }
 .btn-outline { background: transparent; border: 1px solid $body-heading-color; color: $body-heading-color; }
 .label { font-weight: 600; letter-spacing: 0.08em; background: $body-heading-color; color: $body-background-color; }
 
