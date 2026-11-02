@@ -22,18 +22,18 @@ If not, reflowing the pads of the LEDs not working should do the trick. Please s
 
 ## Testing the switches
 
-To test the switches, we are going to use the VIA interface. All Bastard Keyboards come pre-flashed with VIA, so you don't have to flash anything.
+To test the switches, we are going to use the Argos interface. All Bastard Keyboards come pre-flashed with Argos, so you don't have to flash anything.
 
 {: .warning }
 The default firmware requires the USB cable be connected to the right side of the keyboard. This means that when testing the left side, the keys will be reversed.
 
-Open [VIA](https://usevia.app/) - please note this only works on chromium-based browsers like chromium, edge, chrome.
+Open [Argos](https://argos.bastardkb.com/) - please note this only works on chromium-based browsers like chromium, edge, chrome.
 
 ![](../assets/pics/guides/generic/7.jpg)
 
-After connecting to your device, switch to the key tester page using the stethoscope pictogram, then activate the "Test Matrix" option. Now, you can connect each pair of switch pads in turn, using your tweezers, a wire, or a switch inclined enough.
+After connecting to your device, switch to the `test keyboard` section. Now, you can connect each pair of switch pads in turn, using your tweezers, a wire, or a switch inclined enough.
 
 
 ![](../assets/pics/guides/generic/8.jpg)
 
-Did all the keys light up in VIA? Great, proceed to case installation! Not quite perfect yet? Don't worry, proceed to the [Troubleshooting]({{site.baseurl}}/help/troubleshooting.html) section!
+Did all the keys light up in Argos? Great, proceed to case installation! Not quite perfect yet? Don't worry, proceed to the [Troubleshooting]({{site.baseurl}}/help/troubleshooting.html) section!

@@ -13,7 +13,7 @@ parent: Firmware
 # Introduction
 
 There are 2 ways of customizing your Bastard Keyboard:
-- using VIA through a web interface
+- using Argos through a web interface
 - flashing your own firmware
 
 *Flashing* refers to writing a new firmware binary onto a controller. This article will describe the process and the various ways of initiating it.
@@ -53,7 +53,7 @@ There are several ways of initiating bootloader mode:
 ## Bootmagic
 
 {: .warning }
-Using Bootmagic will clear the memory of the chip. This means you will lose all changes you have made in via, as well as your chosen RGB effect and color, and your chosen DPI on a board with a pointing device. If you wish to retain your settings, please use a different method.
+Using Bootmagic will clear the memory of the chip. This means you will lose all changes you have made in Argos, as well as your chosen RGB effect and color, and your chosen DPI on a board with a pointing device. If you wish to retain your settings, please use a different method.
 
 To initiate bootmagic:
 

@@ -17,7 +17,7 @@ This page offers remedies to common problems after completing your build. If you
 
 Argos has a handy built-in matrix tester, to check that all the keys of your keyboard work.
 
-- access VIA at [https://argos.bastardk.com](https://argos.bastardk.com)
+- access Argos at [https://argos.bastardk.com](https://argos.bastardk.com)
 - click on the **Test keyboard** tab
 
 ## One or more keys don't work
@@ -79,9 +79,9 @@ Please refer to the [diagnosing a broken trace](./diagnose_broken_trace.html#ins
 
 # Flashing/Using Troubleshooting
 
-## Keyboard not recognized by VIA
+## Keyboard not recognized by Argos
 
-If your keyboard is not recognized by VIA, might be getting the following error:
+If your keyboard is not recognized by Argos, might be getting the following error:
 
 ```
 Received invalid protocol version from device
