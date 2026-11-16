@@ -10,18 +10,7 @@ parent: Build guide - Charybdis
 1. TOC
 {:toc}
 
-# Installing the splinky shield
-
-{: .note }
-The two sides are the same, just mirrored. We will show one.
-
-**For the following step, please prepare:**
-- keyboard assembly (x2)
-- M4 screw (x2)
-
-Seat the controller in the case and fasten it with two screws. Then solder the remaining pins of the audio jack - you already tacked the 5V pin so you could align it in the case.
-
-Do the same on the other side.
+{% include splinky_adapters.md %}
 
 # Installing the plates
 

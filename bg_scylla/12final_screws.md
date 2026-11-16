@@ -10,18 +10,7 @@ parent: Build guide - Scylla
 1. TOC
 {:toc}
 
-# Installing the splinky shield
-
-{: .note }
-We will detail only one side, as the other side is the same, but symmetric. 
-
-**For the following step, please prepare:**
-- keyboard assembly (x2)
-- M4 screw (x2)
-
-Install the splinky shield using 2 screws. Solder the audio jack.
-
-Do this for both sides.
+{% include splinky_adapters.md %}
 
 # Installing the plates
 
